@@ -1,0 +1,23 @@
+- test_id: comment_add_01
+  description: 添加有效评论
+  data:
+    body: This is a test comment for automated testing!
+    postId: 3
+    userId: 5
+  expected_status: 200
+
+- test_id: comment_by_post_01
+  description: 获取帖子6的评论
+  post_id: 6
+  expected_min_results: 1
+
+- test_id: comment_pagination_01
+  description: 分页获取评论
+  limit: 5
+  skip: 10
+  expected_limit: 5
+
+- test_id: comment_not_found
+  description: 查询不存在的评论ID
+  comment_id: 99999
+  expected_status: 404

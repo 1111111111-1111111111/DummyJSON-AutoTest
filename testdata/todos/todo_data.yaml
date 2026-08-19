@@ -1,0 +1,32 @@
+- test_id: todo_get_by_id_01
+  description: 获取ID为1的待办
+  todo_id: 1
+  expected_status: 200
+
+- test_id: todo_random_01
+  description: 获取随机待办
+  expected_fields: [id, todo, completed, userId]
+
+- test_id: todo_add_01
+  description: 添加有效待办
+  data:
+    todo: Use DummyJSON in the project
+    completed: false
+    userId: 5
+  expected_status: 200
+
+- test_id: todo_user_01
+  description: 获取用户5的待办
+  user_id: 5
+  expected_min_results: 1
+
+- test_id: todo_pagination_01
+  description: 分页获取待办
+  limit: 5
+  skip: 10
+  expected_limit: 5
+
+- test_id: todo_not_found
+  description: 查询不存在的待办ID
+  todo_id: 99999
+  expected_status: 404

@@ -1,0 +1,44 @@
+- test_id: post_add_01
+  description: 添加有效帖子
+  data:
+    title: Test Post Automated
+    body: This is a test post body for automated testing.
+    userId: 1
+    tags: ["test", "automated"]
+  expected_status: 200
+
+- test_id: post_search_01
+  description: 搜索关键词love
+  query: love
+  expected_min_results: 1
+
+- test_id: post_tag_life
+  description: 按life标签获取帖子
+  tag: life
+  expected_min_results: 1
+
+- test_id: post_user_01
+  description: 获取用户5的帖子
+  user_id: 5
+  expected_min_results: 1
+
+- test_id: post_comments_01
+  description: 获取帖子1的评论
+  post_id: 1
+  expected_min_results: 1
+
+- test_id: post_pagination_01
+  description: 分页获取帖子
+  limit: 5
+  skip: 0
+  expected_limit: 5
+
+- test_id: post_sort_title_asc
+  description: 按title升序排序
+  sort_by: title
+  order: asc
+
+- test_id: post_not_found
+  description: 查询不存在的帖子ID
+  post_id: 99999
+  expected_status: 404

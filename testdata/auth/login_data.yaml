@@ -1,0 +1,32 @@
+- test_id: auth_login_valid_01
+  description: 使用有效凭据登录
+  username: emilys
+  password: emilyspass
+  expected_status: 200
+  expected_fields: [id, username, accessToken, refreshToken]
+
+- test_id: auth_login_invalid_01
+  description: 使用错误密码登录
+  username: emilys
+  password: wrongpassword
+  expected_status: 400
+  expected_error: invalidCredentials
+
+- test_id: auth_login_invalid_02
+  description: 使用不存在的用户登录
+  username: nonexistentuser123
+  password: somepassword
+  expected_status: 400
+  expected_error: invalidCredentials
+
+- test_id: auth_login_empty_username
+  description: 用户名为空
+  username: ""
+  password: emilyspass
+  expected_status: 400
+
+- test_id: auth_login_empty_password
+  description: 密码为空
+  username: emilys
+  password: ""
+  expected_status: 400

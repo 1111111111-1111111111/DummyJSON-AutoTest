@@ -1,0 +1,24 @@
+- test_id: quote_get_by_id_01
+  description: 获取ID为1的名言
+  quote_id: 1
+  expected_status: 200
+
+- test_id: quote_random_01
+  description: 获取随机名言
+  expected_fields: [id, quote, author]
+
+- test_id: quote_search_01
+  description: 搜索关键词success
+  query: success
+  expected_min_results: 1
+
+- test_id: quote_pagination_01
+  description: 分页获取名言
+  limit: 5
+  skip: 0
+  expected_limit: 5
+
+- test_id: quote_not_found
+  description: 查询不存在的名言ID
+  quote_id: 99999
+  expected_status: 404

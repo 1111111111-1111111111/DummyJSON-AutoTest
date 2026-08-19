@@ -1,0 +1,30 @@
+# 构建产物与缓存（不需要进入镜像）
+.git
+.gitignore
+.github
+.pytest_cache
+__pycache__
+**/__pycache__
+*.pyc
+*.pyo
+
+# 报告与日志（CI 内重新生成）
+reports/allure-results
+reports/allure-report
+logs
+*.log
+
+# IDE
+.idea
+.vscode
+*.swp
+.DS_Store
+
+# Docker 自身
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# 文档
+*.md
+docs

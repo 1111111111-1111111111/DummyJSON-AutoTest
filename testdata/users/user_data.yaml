@@ -1,0 +1,44 @@
+- test_id: user_add_01
+  description: 添加有效用户
+  data:
+    firstName: TestUser
+    lastName: Automation
+    age: 28
+    gender: male
+    email: testauto@example.com
+    username: testauto001
+    password: TestPass123
+  expected_status: 200
+
+- test_id: user_search_01
+  description: 搜索关键词John
+  query: John
+  expected_min_results: 1
+
+- test_id: user_filter_hair_color
+  description: 过滤hair.color=Brown
+  key: hair.color
+  value: Brown
+  expected_min_results: 1
+
+- test_id: user_filter_gender
+  description: 过滤gender=female
+  key: gender
+  value: female
+  expected_min_results: 1
+
+- test_id: user_pagination_01
+  description: 分页获取用户
+  limit: 5
+  skip: 5
+  expected_limit: 5
+
+- test_id: user_sort_firstname_asc
+  description: 按firstName升序排序
+  sort_by: firstName
+  order: asc
+
+- test_id: user_not_found
+  description: 查询不存在的用户ID
+  user_id: 99999
+  expected_status: 404

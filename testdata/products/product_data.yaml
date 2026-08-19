@@ -1,0 +1,55 @@
+- test_id: product_add_01
+  description: 添加有效产品
+  data:
+    title: BMW Pencil Test
+    description: A high quality test pencil
+    category: beauty
+    price: 9.99
+    discountPercentage: 5.0
+    rating: 4.5
+    stock: 100
+    tags: ["test", "pencil"]
+    brand: BMW
+  expected_status: 200
+
+- test_id: product_add_minimal
+  description: 仅传title字段添加产品
+  data:
+    title: Minimal Product
+  expected_status: 200
+
+- test_id: product_search_01
+  description: 搜索关键词phone
+  query: phone
+  expected_min_results: 1
+
+- test_id: product_search_empty
+  description: 搜索空关键词
+  query: ""
+  expected_min_results: 0
+
+- test_id: product_category_smartphones
+  description: 按smartphones分类获取
+  category: smartphones
+  expected_min_results: 1
+
+- test_id: product_pagination_01
+  description: 分页参数 limit=5 skip=0
+  limit: 5
+  skip: 0
+  expected_limit: 5
+
+- test_id: product_sort_title_asc
+  description: 按title升序排序
+  sort_by: title
+  order: asc
+
+- test_id: product_select_fields
+  description: 仅选择title和price字段
+  select: title,price
+  expected_fields: [title, price]
+
+- test_id: product_not_found
+  description: 查询不存在的产品ID
+  product_id: 99999
+  expected_status: 404

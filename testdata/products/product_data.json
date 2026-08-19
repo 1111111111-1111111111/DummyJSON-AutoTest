@@ -1,0 +1,18 @@
+[
+  {
+    "test_id": "product_json_01",
+    "description": "JSON数据驱动-添加产品",
+    "data": {
+      "title": "JSON Test Product",
+      "price": 29.99,
+      "category": "laptops"
+    },
+    "expected_status": 200
+  },
+  {
+    "test_id": "product_json_02",
+    "description": "JSON数据驱动-搜索laptop",
+    "query": "laptop",
+    "expected_min_results": 1
+  }
+]

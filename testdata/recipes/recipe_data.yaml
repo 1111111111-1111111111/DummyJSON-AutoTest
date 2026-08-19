@@ -1,0 +1,35 @@
+- test_id: recipe_get_by_id_01
+  description: 获取ID为1的食谱
+  recipe_id: 1
+  expected_status: 200
+
+- test_id: recipe_search_01
+  description: 搜索关键词Margherita
+  query: Margherita
+  expected_min_results: 1
+
+- test_id: recipe_tag_pakistani
+  description: 按Pakistani标签获取食谱
+  tag: Pakistani
+  expected_min_results: 1
+
+- test_id: recipe_meal_snack
+  description: 按Snack餐类获取食谱
+  meal_type: Snack
+  expected_min_results: 1
+
+- test_id: recipe_pagination_01
+  description: 分页获取食谱
+  limit: 5
+  skip: 0
+  expected_limit: 5
+
+- test_id: recipe_sort_name_asc
+  description: 按name升序排序
+  sort_by: name
+  order: asc
+
+- test_id: recipe_not_found
+  description: 查询不存在的食谱ID
+  recipe_id: 99999
+  expected_status: 404

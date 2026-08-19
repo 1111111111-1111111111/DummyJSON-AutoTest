@@ -1,0 +1,22 @@
+{
+  "global": {
+    "base_url": "https://dummyjson.com",
+    "timeout": 30,
+    "retry_count": 3
+  },
+  "dev": {
+    "base_url": "https://dummyjson.com",
+    "timeout": 30,
+    "retry_count": 3
+  },
+  "staging": {
+    "base_url": "https://dummyjson.com",
+    "timeout": 15,
+    "retry_count": 5
+  },
+  "prod": {
+    "base_url": "https://dummyjson.com",
+    "timeout": 10,
+    "retry_count": 2
+  }
+}

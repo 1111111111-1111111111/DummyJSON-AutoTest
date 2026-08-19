@@ -1,0 +1,33 @@
+- test_id: cart_add_01
+  description: 添加有效购物车
+  data:
+    userId: 1
+    products:
+      - id: 1
+        quantity: 2
+      - id: 2
+        quantity: 1
+  expected_status: 200
+
+- test_id: cart_add_empty_products
+  description: 添加空产品列表的购物车
+  data:
+    userId: 1
+    products: []
+  expected_status: 200
+
+- test_id: cart_user_01
+  description: 获取用户1的购物车
+  user_id: 1
+  expected_status: 200
+
+- test_id: cart_pagination_01
+  description: 分页获取购物车
+  limit: 5
+  skip: 0
+  expected_limit: 5
+
+- test_id: cart_not_found
+  description: 查询不存在的购物车ID
+  cart_id: 99999
+  expected_status: 404
