@@ -14,6 +14,14 @@ reports/allure-report
 logs
 *.log
 
+# 截图证据（CI 内重新生成）
+screenshots
+
+# 虚拟环境
+.venv
+venv
+env
+
 # IDE
 .idea
 .vscode
@@ -28,3 +36,9 @@ docker-compose.yml
 # 文档
 *.md
 docs
+
+# 测试用例 Excel（不需要进入镜像）
+*.xlsx
+
+# 参考目录
+*.ref

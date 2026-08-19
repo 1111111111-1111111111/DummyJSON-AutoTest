@@ -4,8 +4,11 @@ Pytest 全局配置和 Fixtures
 提供全局可用的测试fixtures，包括 HTTP客户端、各模块API实例、
 认证Token、关键字驱动等。
 
-同时在测试失败时自动调用截图工具留存证据。
+同时在测试失败时自动调用截图工具留存证据，
+并集成超时重试机制（TimeoutException 自动重试 3 次，间隔 5 秒）。
 """
+import time
+import functools
 import json as json_module
 import pytest
 import allure
@@ -26,6 +29,113 @@ from src.api.todos_api import TodosAPI
 from src.api.test_api import TestAPI
 from src.core.logger import logger
 from src.utils.screenshot import ScreenshotUtil
+from src.utils.retry import TimeoutException, retry_tracker
+
+
+# ============================================================
+# Pytest 配置：注册自定义标记
+# ============================================================
+def pytest_configure(config):
+    """注册自定义 pytest 标记。"""
+    config.addinivalue_line(
+        "markers",
+        "retry(max_attempts=3, delay=5): 超时自动重试标记，"
+        "可自定义最大重试次数和重试间隔（秒）",
+    )
+    config.addinivalue_line(
+        "markers",
+        "timeout(seconds): 单个测试超时限制标记（秒）",
+    )
+
+
+# ============================================================
+# 超时重试机制：在 collection 阶段包装所有测试函数
+# 当测试抛出 TimeoutException 时自动重试（默认 3 次，间隔 5 秒）
+# ============================================================
+def _make_retry_wrapper(original_func, test_name, max_attempts, delay):
+    """
+    创建带有超时重试逻辑的测试函数包装器。
+
+    使用工厂函数确保闭包正确捕获变量（避免循环变量延迟绑定问题）。
+    """
+
+    @functools.wraps(original_func)
+    def retry_wrapper(*args, **kwargs):
+        for attempt in range(1, max_attempts + 1):
+            try:
+                result = original_func(*args, **kwargs)
+                if attempt > 1:
+                    logger.info(
+                        f"[重试] {test_name} 第 {attempt} 次执行成功 "
+                        f"(之前失败 {attempt - 1} 次)"
+                    )
+                    retry_tracker.record(test_name, attempt, max_attempts, None, True)
+                return result
+            except TimeoutException as e:
+                is_last = attempt >= max_attempts
+                retry_tracker.record(test_name, attempt, max_attempts, e, False)
+
+                if is_last:
+                    logger.error(
+                        f"[重试] {test_name} 超时重试已达上限({max_attempts}次)，最终失败 | "
+                        f"异常: {e}"
+                    )
+                    raise
+                else:
+                    logger.warning(
+                        f"[重试] {test_name} 超时(TimeoutException) | "
+                        f"第 {attempt}/{max_attempts} 次 | "
+                        f"{delay}s 后重试... | 异常: {e}"
+                    )
+                    time.sleep(delay)
+            except Exception:
+                # 非超时异常，不重试，直接抛出
+                raise
+
+    retry_wrapper._retry_wrapped = True
+    return retry_wrapper
+
+
+def pytest_collection_modifyitems(items):
+    """
+    在测试收集完成后，为每个测试函数添加超时重试包装。
+
+    默认策略：所有测试在抛出 TimeoutException 时自动重试 3 次，间隔 5 秒。
+    可通过 @pytest.mark.retry(max_attempts=N, delay=M) 自定义单个测试的重试参数。
+
+    注意：对于 class-based 测试，需替换 class 上的方法（而非 item.obj），
+    以确保 pytest 的描述符协议正确处理 self 绑定。
+    """
+    for item in items:
+        if not isinstance(item, pytest.Function):
+            continue
+
+        # 跳过已包装的函数
+        original_func = getattr(item, "function", None)
+        if original_func is None or getattr(original_func, "_retry_wrapped", False):
+            continue
+
+        # 获取重试参数：优先使用 @pytest.mark.retry 标记，否则使用默认值
+        retry_marker = item.get_closest_marker("retry")
+        if retry_marker:
+            max_attempts = retry_marker.kwargs.get("max_attempts", 3)
+            delay = retry_marker.kwargs.get("delay", 5.0)
+        else:
+            max_attempts = 3
+            delay = 5.0
+
+        test_name = item.name
+        wrapped = _make_retry_wrapper(original_func, test_name, max_attempts, delay)
+
+        # class-based 测试：替换 class 上的方法，让 pytest 描述符协议处理 self 绑定
+        if hasattr(item, "cls") and item.cls is not None and hasattr(item, "originalname"):
+            setattr(item.cls, item.originalname, wrapped)
+        else:
+            # function-based 测试：直接替换 item.obj
+            try:
+                item.obj = wrapped
+            except (AttributeError, TypeError):
+                pass
 
 
 @pytest.fixture(scope="session")
@@ -249,3 +359,27 @@ def pytest_runtest_makereport(item, call):
             )
         except Exception as e:
             logger.warning(f"截图工具执行异常（不影响测试结果）: {e}")
+
+
+# ============================================================
+# Pytest Hook: 测试结束后输出重试统计
+# ============================================================
+def pytest_sessionfinish(session, exitstatus):
+    """
+    测试会话结束时输出超时重试统计摘要。
+
+    在 CI/CD 中可用于判断测试稳定性，辅助分析不稳定用例。
+    """
+    summary = retry_tracker.get_summary()
+    if summary["total_retry_events"] > 0:
+        logger.info("=" * 60)
+        logger.info("超时重试统计摘要")
+        logger.info("=" * 60)
+        logger.info(f"  总重试事件: {summary['total_retry_events']}")
+        logger.info(f"  重试后成功: {summary['successful_after_retry']}")
+        logger.info(f"  重试后仍失败: {summary['failed_after_retry']}")
+        logger.info(f"  涉及测试数: {summary['tests_with_retries']}")
+        logger.info(f"  重试率: {summary['retry_rate']}")
+        logger.info("=" * 60)
+    else:
+        logger.debug("[重试统计] 本次测试无超时重试事件")
