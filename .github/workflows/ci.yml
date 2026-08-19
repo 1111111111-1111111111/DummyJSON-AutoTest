@@ -1,15 +1,6 @@
 # ============================================================
 # SauceDemo 自动化测试 — 企业级 CI/CD Pipeline
 # ============================================================
-# 流程：
-#   1. Lint → 代码风格检查
-#   2. Build → Docker 镜像构建（缓存复用）
-#   3. Smoke → 容器内执行冒烟测试（强制门禁）
-#   4. Regression → 容器内执行全量回归（允许失败）
-#   5. Report → Allure 报告生成与部署
-#   6. Notify → 测试结果通知（飞书/钉钉/企业微信）
-#   7. Push → 镜像推送 GHCR（仅在 main 分支）
-# ============================================================
 name: CI/CD Pipeline
 
 on:
@@ -32,7 +23,6 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
   ALLURE_VERSION: 2.27.0
 
 concurrency:
@@ -47,7 +37,7 @@ permissions:
 
 jobs:
   # ============================================================
-  # Stage 1: 代码质量检查（快速反馈）
+  # Stage 1: 代码质量检查（快速反馈，不在 Docker 中执行）
   # ============================================================
   lint:
     name: 🔍 代码风格检查
@@ -70,13 +60,13 @@ jobs:
           flake8 src/ tests/ --max-line-length=120 --extend-ignore=E203,W503 || \
           echo "::warning::代码风格问题（不阻断）"
 
-      - name: 运行 black（格式化检查）
+      - name: 运行 black
         run: |
           pip install black
           black --check src/ tests/ || echo "::warning::格式化问题（不阻断）"
 
   # ============================================================
-  # Stage 2: Docker 镜像构建（带缓存）
+  # Stage 2: 检测镜像是否存在 + Docker 镜像构建
   # ============================================================
   build:
     name: 🐳 构建 Docker 镜像
@@ -85,19 +75,10 @@ jobs:
     needs: lint
     outputs:
       image-tag: ${{ steps.meta.outputs.tags }}
-      cache-hit: ${{ steps.cache.outputs.cache-hit }}
+      image-exists: ${{ steps.check-image.outputs.exists }}
+      image-name: ${{ steps.image_name.outputs.image }}
     steps:
       - uses: actions/checkout@v4
-
-      - name: 设置 Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: 登录 GHCR
-        uses: docker/login-action@v3
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 转换为小写镜像名
         id: image_name
@@ -105,7 +86,32 @@ jobs:
           REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
           echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
 
+      - name: 检查镜像是否存在
+        id: check-image
+        run: |
+          IMAGE="${{ steps.image_name.outputs.image }}:latest"
+          if docker manifest inspect "$IMAGE" > /dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "✅ 镜像 $IMAGE 已存在，将复用"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "⚠️ 镜像 $IMAGE 不存在，需要构建"
+          fi
+
+      - name: 设置 Docker Buildx
+        if: steps.check-image.outputs.exists == 'false'
+        uses: docker/setup-buildx-action@v3
+
+      - name: 登录 GHCR
+        if: steps.check-image.outputs.exists == 'false'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
       - name: 提取元数据
+        if: steps.check-image.outputs.exists == 'false'
         id: meta
         uses: docker/metadata-action@v5
         with:
@@ -117,6 +123,7 @@ jobs:
             type=ref,event=branch
 
       - name: 构建并推送
+        if: steps.check-image.outputs.exists == 'false'
         uses: docker/build-push-action@v5
         with:
           context: .
@@ -130,7 +137,7 @@ jobs:
             ALLURE_VERSION=${{ env.ALLURE_VERSION }}
 
   # ============================================================
-  # Stage 3: 冒烟测试（容器内执行，强制门禁）
+  # Stage 3: 冒烟测试（复用镜像或使用最新构建）
   # ============================================================
   smoke:
     name: 🔥 冒烟测试
@@ -149,10 +156,27 @@ jobs:
       - name: 确保 reports 目录存在
         run: mkdir -p reports
 
-      - name: 拉取镜像
+      - name: 拉取镜像（优先 latest，如果不存在则尝试当前 commit）
         run: |
-          docker pull ${{ steps.image_name.outputs.image }}:latest || \
-          docker pull ${{ steps.image_name.outputs.image }}:${{ github.sha }}
+          IMAGE="${{ steps.image_name.outputs.image }}"
+          echo "尝试拉取镜像: ${IMAGE}:latest"
+          if docker pull "${IMAGE}:latest" 2>/dev/null; then
+            echo "✅ 使用 latest 镜像"
+            echo "IMAGE_TAG=${IMAGE}:latest" >> $GITHUB_ENV
+          else
+            echo "⚠️ latest 镜像不存在，尝试当前 commit: ${IMAGE}:${{ github.sha }}"
+            if docker pull "${IMAGE}:${{ github.sha }}" 2>/dev/null; then
+              echo "✅ 使用 commit SHA 镜像"
+              echo "IMAGE_TAG=${IMAGE}:${{ github.sha }}" >> $GITHUB_ENV
+            else
+              echo "❌ 没有可用的镜像，请检查构建步骤"
+              exit 1
+            fi
+          fi
+
+      - name: 验证镜像可运行
+        run: |
+          docker run --rm "${{ env.IMAGE_TAG }}" python --version
 
       - name: 执行冒烟测试
         id: smoke
@@ -160,11 +184,7 @@ jobs:
           docker run --rm \
             -e TEST_MODE=smoke \
             -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ steps.image_name.outputs.image }}:latest || \
-          docker run --rm \
-            -e TEST_MODE=smoke \
-            -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ steps.image_name.outputs.image }}:${{ github.sha }}
+            ${{ env.IMAGE_TAG }}
 
       - name: 上传结果
         if: always()
@@ -175,7 +195,7 @@ jobs:
           retention-days: 14
 
   # ============================================================
-  # Stage 4: 全量回归测试（容器内执行，允许失败）
+  # Stage 4: 全量回归测试
   # ============================================================
   regression:
     name: 📊 全量回归测试
@@ -199,21 +219,27 @@ jobs:
           REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
           echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
 
+      - name: 确保 reports 目录存在
+        run: mkdir -p reports
+
       - name: 拉取镜像
         run: |
-          docker pull ${{ steps.image_name.outputs.image }}:latest || \
-          docker pull ${{ steps.image_name.outputs.image }}:${{ github.sha }}
+          IMAGE="${{ steps.image_name.outputs.image }}"
+          if docker pull "${IMAGE}:latest" 2>/dev/null; then
+            echo "IMAGE_TAG=${IMAGE}:latest" >> $GITHUB_ENV
+          elif docker pull "${IMAGE}:${{ github.sha }}" 2>/dev/null; then
+            echo "IMAGE_TAG=${IMAGE}:${{ github.sha }}" >> $GITHUB_ENV
+          else
+            echo "❌ 没有可用的镜像"
+            exit 1
+          fi
 
       - name: 执行全量回归
         run: |
           docker run --rm \
             -e TEST_MODE=all \
             -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ steps.image_name.outputs.image }}:latest || \
-          docker run --rm \
-            -e TEST_MODE=all \
-            -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ steps.image_name.outputs.image }}:${{ github.sha }} || \
+            ${{ env.IMAGE_TAG }} || \
           echo "::warning::回归测试存在失败用例"
 
       - name: 上传结果
@@ -285,7 +311,7 @@ jobs:
           commit_message: '📊 Allure Report #${{ github.run_number }}'
 
   # ============================================================
-  # Stage 6: 结果通知（飞书/钉钉/企业微信）
+  # Stage 6: 结果通知
   # ============================================================
   notify:
     name: 📢 测试结果通知
@@ -321,7 +347,7 @@ jobs:
             "content": {
               "post": {
                 "zh_cn": {
-                  "title": "${EMOJI} SauceDemo 测试报告",
+                  "title": "${EMOJI} 测试报告",
                   "content": [
                     [
                       {"tag": "text", "text": "📦 仓库: "},
