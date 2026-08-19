@@ -74,7 +74,10 @@ jobs:
           black --check src/ tests/ || echo "::warning::格式化问题（不阻断）"
 
   # ============================================================
-  # Stage 2: 检测镜像是否存在 + Docker 镜像构建
+  # Stage 2: Docker 镜像构建（始终构建，通过 GHA 层缓存加速）
+  # 说明：不做"镜像存在即跳过"，否则 Dockerfile 变更后
+  #       仍会复用旧镜像（曾导致 ENTRYPOINT 指向已删除的脚本）。
+  #       依赖未变时层缓存命中，重新构建耗时与跳过基本一致。
   # ============================================================
   build:
     name: 🐳 构建 Docker 镜像
@@ -83,7 +86,6 @@ jobs:
     needs: lint
     outputs:
       image-tag: ${{ steps.meta.outputs.tags }}
-      image-exists: ${{ steps.check-image.outputs.exists }}
       image-name: ${{ steps.image_name.outputs.image }}
     steps:
       - uses: actions/checkout@v4
@@ -94,24 +96,10 @@ jobs:
           REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
           echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
 
-      - name: 检查镜像是否存在
-        id: check-image
-        run: |
-          IMAGE="${{ steps.image_name.outputs.image }}:latest"
-          if docker manifest inspect "$IMAGE" > /dev/null 2>&1; then
-            echo "exists=true" >> $GITHUB_OUTPUT
-            echo "✅ 镜像 $IMAGE 已存在，将复用"
-          else
-            echo "exists=false" >> $GITHUB_OUTPUT
-            echo "⚠️ 镜像 $IMAGE 不存在，需要构建"
-          fi
-
       - name: 设置 Docker Buildx
-        if: steps.check-image.outputs.exists == 'false'
         uses: docker/setup-buildx-action@v3
 
       - name: 登录 GHCR
-        if: steps.check-image.outputs.exists == 'false'
         uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
@@ -119,7 +107,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 提取元数据
-        if: steps.check-image.outputs.exists == 'false'
         id: meta
         uses: docker/metadata-action@v5
         with:
@@ -131,7 +118,6 @@ jobs:
             type=ref,event=branch
 
       - name: 构建并推送
-        if: steps.check-image.outputs.exists == 'false'
         uses: docker/build-push-action@v5
         with:
           context: .
@@ -167,12 +153,14 @@ jobs:
       - name: 拉取镜像
         run: |
           IMAGE="${{ steps.image_name.outputs.image }}"
-          if docker pull "${IMAGE}:latest" 2>/dev/null; then
+          # metadata-action 的 sha 标签为短 SHA（7 位），需与之一致
+          SHORT_SHA="${GITHUB_SHA::7}"
+          if docker pull "${IMAGE}:${SHORT_SHA}" 2>/dev/null; then
+            echo "IMAGE_TAG=${IMAGE}:${SHORT_SHA}" >> $GITHUB_ENV
+            echo "✅ 使用本次构建的 SHA 镜像: ${SHORT_SHA}"
+          elif docker pull "${IMAGE}:latest" 2>/dev/null; then
             echo "IMAGE_TAG=${IMAGE}:latest" >> $GITHUB_ENV
             echo "✅ 使用 latest 镜像"
-          elif docker pull "${IMAGE}:${{ github.sha }}" 2>/dev/null; then
-            echo "IMAGE_TAG=${IMAGE}:${{ github.sha }}" >> $GITHUB_ENV
-            echo "✅ 使用 commit SHA 镜像"
           else
             echo "❌ 没有可用的镜像"
             exit 1
@@ -237,12 +225,14 @@ jobs:
       - name: 拉取镜像
         run: |
           IMAGE="${{ steps.image_name.outputs.image }}"
-          if docker pull "${IMAGE}:latest" 2>/dev/null; then
+          # metadata-action 的 sha 标签为短 SHA（7 位），需与之一致
+          SHORT_SHA="${GITHUB_SHA::7}"
+          if docker pull "${IMAGE}:${SHORT_SHA}" 2>/dev/null; then
+            echo "IMAGE_TAG=${IMAGE}:${SHORT_SHA}" >> $GITHUB_ENV
+            echo "✅ 使用本次构建的 SHA 镜像: ${SHORT_SHA}"
+          elif docker pull "${IMAGE}:latest" 2>/dev/null; then
             echo "IMAGE_TAG=${IMAGE}:latest" >> $GITHUB_ENV
             echo "✅ 使用 latest 镜像"
-          elif docker pull "${IMAGE}:${{ github.sha }}" 2>/dev/null; then
-            echo "IMAGE_TAG=${IMAGE}:${{ github.sha }}" >> $GITHUB_ENV
-            echo "✅ 使用 commit SHA 镜像"
           else
             echo "❌ 没有可用的镜像"
             exit 1
