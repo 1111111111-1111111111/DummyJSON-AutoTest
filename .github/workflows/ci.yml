@@ -32,7 +32,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: $(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')  # 强制转换为小写 
+  IMAGE_NAME: ${{ github.repository }}  # 强制转换为小写 
   ALLURE_VERSION: 2.27.0
 
 concurrency:
@@ -99,11 +99,17 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 转换为小写镜像名
+         id: image_name
+         run: |
+   	      REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
+   	      echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
+
       - name: 提取元数据
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          images: ${{ steps.image_name.outputs.image }}
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=sha,prefix=,format=short
@@ -136,8 +142,8 @@ jobs:
 
       - name: 拉取镜像
         run: |
-          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
-          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+          docker pull ${{ steps.image_name.outputs.image }}:latest || \
+          docker pull ${{ steps.image_name.outputs.image }}:${{ github.sha }}
 
       - name: 执行冒烟测试
         id: smoke
@@ -145,11 +151,11 @@ jobs:
           docker run --rm \
             -e TEST_MODE=smoke \
             -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
+            ${{ steps.image_name.outputs.image }}:latest || \
           docker run --rm \
             -e TEST_MODE=smoke \
             -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ${{ steps.image_name.outputs.image }}:${{ github.sha }}
 
       - name: 上传结果
         if: always()
@@ -180,19 +186,19 @@ jobs:
 
       - name: 拉取镜像
         run: |
-          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
-          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+          docker pull ${{ steps.image_name.outputs.image }}:latest || \
+          docker pull ${{ steps.image_name.outputs.image }}:${{ github.sha }}
 
       - name: 执行全量回归
         run: |
           docker run --rm \
             -e TEST_MODE=all \
             -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
+            ${{ steps.image_name.outputs.image }}:latest || \
           docker run --rm \
             -e TEST_MODE=all \
             -v ${{ github.workspace }}/reports:/app/reports \
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} || \
+            ${{ steps.image_name.outputs.image }}:${{ github.sha }} || \
           echo "::warning::回归测试存在失败用例"
 
       - name: 上传结果
