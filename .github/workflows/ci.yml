@@ -32,7 +32,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}  # 强制转换为小写 
+  IMAGE_NAME: ${{ github.repository }}
   ALLURE_VERSION: 2.27.0
 
 concurrency:
@@ -99,11 +99,11 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-       - name: 转换为小写镜像名
+      - name: 转换为小写镜像名
         id: image_name
         run: |
-   	      REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
-   	      echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
+          REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
+          echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
 
       - name: 提取元数据
         id: meta
@@ -139,6 +139,12 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v4
+
+      - name: 转换为小写镜像名
+        id: image_name
+        run: |
+          REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
+          echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
 
       - name: 拉取镜像
         run: |
@@ -183,6 +189,12 @@ jobs:
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
+
+      - name: 转换为小写镜像名
+        id: image_name
+        run: |
+          REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
+          echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
 
       - name: 拉取镜像
         run: |
