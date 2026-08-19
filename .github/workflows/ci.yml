@@ -1,697 +1,342 @@
 # ============================================================
-# DummyJSON API 自动化测试 — 增强版 CI/CD 工作流
+# SauceDemo 自动化测试 — 企业级 CI/CD Pipeline
 # ============================================================
-#
-# 核心能力：
-#   1. Docker 镜像缓存复用（Dockerfile/requirements 未变更时跳过构建）
-#   2. 分层测试策略（冒烟强制门禁 + 回归动态触发）
-#   3. Allure 报告自动发布到 gh-pages 分支（纯发布分支，强制覆盖）
-#   4. 超时重试机制（TimeoutException 自动重试 3 次，间隔 5 秒）
-#   5. 变更检测（dorny/paths-filter 智能跳过无关测试）
-#
-# 触发策略：
-#   - push 到 main → 冒烟 + 回归 + Docker 构建 + 报告部署
-#   - PR 到 main  → 冒烟（快速门禁）
-#   - 手动触发    → 可选模式（all/smoke/regression）
-#   - 定时（每天北京时间 02:00）→ 全量回归
-#
-# 超时设置：单个 Job 30 分钟，总流水线 60 分钟
+# 流程：
+#   1. Lint → 代码风格检查
+#   2. Build → Docker 镜像构建（缓存复用）
+#   3. Smoke → 容器内执行冒烟测试（强制门禁）
+#   4. Regression → 容器内执行全量回归（允许失败）
+#   5. Report → Allure 报告生成与部署
+#   6. Notify → 测试结果通知（飞书/钉钉/企业微信）
+#   7. Push → 镜像推送 GHCR（仅在 main 分支）
 # ============================================================
-name: CI/CD 自动化测试流水线
+name: CI/CD Pipeline
 
 on:
-  # push 到 main 分支触发全量流水线
   push:
-    branches: [ main ]
-    paths:
-      - 'src/**'
-      - 'tests/**'
-      - 'testdata/**'
-      - 'config/**'
-      - 'requirements.txt'
-      - 'pytest.ini'
-      - 'run_tests.py'
-      - 'Dockerfile'
-      - 'docker-compose.yml'
-      - 'docker-entrypoint.sh'
-      - '.github/workflows/ci.yml'
-  # PR 到 main 仅触发冒烟测试（快速反馈，不阻塞合并）
+    branches: [ main, develop ]
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
   pull_request:
     branches: [ main ]
-    paths:
-      - 'src/**'
-      - 'tests/**'
-      - 'testdata/**'
-      - 'config/**'
-      - 'requirements.txt'
-      - 'pytest.ini'
-      - 'run_tests.py'
-  # 定时全量回归（UTC 18:00 = 北京时间次日 02:00）
   schedule:
     - cron: '0 18 * * *'
-  # 手动触发
   workflow_dispatch:
     inputs:
       test_mode:
-        description: '测试执行模式'
-        required: true
-        type: choice
+        description: '测试模式'
         default: 'all'
-        options:
-          - all
-          - smoke
-          - regression
-      force_docker_build:
-        description: '强制重新构建 Docker 镜像（忽略缓存）'
-        required: false
-        type: boolean
-        default: false
+        type: choice
+        options: [all, smoke, regression]
 
-# 同一分支的并发运行自动取消旧任务，节省资源
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+  ALLURE_VERSION: 2.27.0
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-# 权限：gh-pages 推送 + GHCR 镜像推送 + Pages 部署
 permissions:
   contents: write
   packages: write
   pages: write
   id-token: write
 
-# 全局环境变量
-env:
-  PYTHON_VERSION: '3.11'
-  ALLURE_VERSION: '2.27.0'
-  REGISTRY: ghcr.io
-
 jobs:
-  # ==============================================================
-  # Job 1: 变更检测 — 使用 dorny/paths-filter 智能判断哪些文件变更
-  # 输出 regression-scope（full/partial/skip）和 changed-modules
-  # ==============================================================
-  detect-changes:
-    name: 变更检测 (paths-filter)
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    outputs:
-      regression-scope: ${{ steps.determine-scope.outputs.scope }}
-      changed-modules: ${{ steps.determine-scope.outputs.modules }}
-      docker-rebuild: ${{ steps.determine-scope.outputs.docker-rebuild }}
-      src-changed: ${{ steps.filter.outputs.src }}
-      test-changed: ${{ steps.filter.outputs.tests }}
-      deps-changed: ${{ steps.filter.outputs.deps }}
-      docker-changed: ${{ steps.filter.outputs.docker }}
-    steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
-
-      - name: 检测文件变更
-        uses: dorny/paths-filter@v3
-        id: filter
-        with:
-          # 列出所有变更检测规则
-          filters: |
-            src:
-              - 'src/**'
-            tests:
-              - 'tests/**'
-            config:
-              - 'config/**'
-            deps:
-              - 'requirements.txt'
-            docker:
-              - 'Dockerfile'
-              - 'docker-compose.yml'
-              - '.dockerignore'
-              - 'docker-entrypoint.sh'
-            docs:
-              - '*.md'
-              - 'docs/**'
-            # 模块级别变更检测（用于部分回归）
-            test-auth:
-              - 'tests/**/test_auth*'
-              - 'testdata/auth/**'
-            test-products:
-              - 'tests/**/test_products*'
-              - 'testdata/products/**'
-            test-carts:
-              - 'tests/**/test_carts*'
-              - 'testdata/carts/**'
-            test-users:
-              - 'tests/**/test_users*'
-              - 'testdata/users/**'
-            test-posts:
-              - 'tests/**/test_posts*'
-              - 'testdata/posts/**'
-            test-comments:
-              - 'tests/**/test_comments*'
-              - 'testdata/comments/**'
-            test-quotes:
-              - 'tests/**/test_quotes*'
-              - 'testdata/quotes/**'
-            test-recipes:
-              - 'tests/**/test_recipes*'
-              - 'testdata/recipes/**'
-            test-todos:
-              - 'tests/**/test_todos*'
-              - 'testdata/todos/**'
-
-      - name: 确定回归测试范围
-        id: determine-scope
-        run: |
-          # 判断回归测试范围
-          # - src 变更 → full（全量回归）
-          # - 仅 tests 变更 → partial（仅变更模块回归）
-          # - 仅 config/docs → skip（跳过回归）
-          # - schedule/workflow_dispatch → full（手动或定时触发全量）
-
-          EVENT="${{ github.event_name }}"
-          SRC_CHANGED="${{ steps.filter.outputs.src }}"
-          TEST_CHANGED="${{ steps.filter.outputs.tests }}"
-
-          # 手动触发或定时任务 → 全量回归
-          if [[ "$EVENT" == "schedule" ]] || [[ "$EVENT" == "workflow_dispatch" ]]; then
-            echo "scope=full" >> $GITHUB_OUTPUT
-            echo 'modules=["auth","products","carts","users","posts","comments","quotes","recipes","todos"]' >> $GITHUB_OUTPUT
-            echo "docker-rebuild=true" >> $GITHUB_OUTPUT
-            echo "::notice::触发方式=$EVENT → 全量回归测试"
-            exit 0
-          fi
-
-          # src 业务代码变更 → 全量回归
-          if [[ "$SRC_CHANGED" == "true" ]]; then
-            echo "scope=full" >> $GITHUB_OUTPUT
-            echo 'modules=["auth","products","carts","users","posts","comments","quotes","recipes","todos"]' >> $GITHUB_OUTPUT
-            echo "::notice::src/ 代码变更 → 全量回归测试"
-            exit 0
-          fi
-
-          # 仅测试代码变更 → 部分回归（仅变更模块）
-          if [[ "$TEST_CHANGED" == "true" ]]; then
-            MODULES="["
-            FIRST=true
-            for mod in auth products carts users posts comments quotes recipes todos; do
-              VAR="test-${mod}"
-              CHANGED=$(eval echo "\${{ steps.filter.outputs.${VAR} }}")
-              if [[ "$CHANGED" == "true" ]]; then
-                if [[ "$FIRST" == "true" ]]; then
-                  MODULES="${MODULES}\"${mod}\""
-                  FIRST=false
-                else
-                  MODULES="${MODULES},\"${mod}\""
-                fi
-              fi
-            done
-            MODULES="${MODULES}]"
-
-            # 如果没有检测到具体模块变更，回退为全量
-            if [[ "$MODULES" == "[]" ]]; then
-              echo "scope=full" >> $GITHUB_OUTPUT
-              echo 'modules=["auth","products","carts","users","posts","comments","quotes","recipes","todos"]' >> $GITHUB_OUTPUT
-              echo "::notice::测试代码变更但未匹配到具体模块 → 全量回归"
-            else
-              echo "scope=partial" >> $GITHUB_OUTPUT
-              echo "modules=${MODULES}" >> $GITHUB_OUTPUT
-              echo "::notice::测试代码变更 → 部分回归: ${MODULES}"
-            fi
-            exit 0
-          fi
-
-          # 配置/文档变更 → 跳过回归
-          echo "scope=skip" >> $GITHUB_OUTPUT
-          echo 'modules=[]' >> $GITHUB_OUTPUT
-          echo "::notice::仅配置/文档变更 → 跳过回归测试"
-
-      - name: 判断 Docker 镜像是否需要重建
-        id: docker-check
-        run: |
-          # Dockerfile 或依赖文件变更时需要重建
-          DOCKER_CHANGED="${{ steps.filter.outputs.docker }}"
-          DEPS_CHANGED="${{ steps.filter.outputs.deps }}"
-          FORCE="${{ github.event.inputs.force_docker_build }}"
-
-          if [[ "$DOCKER_CHANGED" == "true" ]] || [[ "$DEPS_CHANGED" == "true" ]] || [[ "$FORCE" == "true" ]]; then
-            echo "need-rebuild=true" >> $GITHUB_OUTPUT
-            echo "::notice::Dockerfile 或依赖变更 → 重新构建镜像"
-          else
-            echo "need-rebuild=false" >> $GITHUB_OUTPUT
-            echo "::notice::Dockerfile 和依赖未变更 → 复用镜像缓存"
-          fi
-
-  # ==============================================================
-  # Job 2: 代码风格检查（flake8）— 快速门禁
-  # ==============================================================
+  # ============================================================
+  # Stage 1: 代码质量检查（快速反馈）
+  # ============================================================
   lint:
-    name: 代码风格检查 (flake8)
+    name: 🔍 代码风格检查
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    needs: detect-changes
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: 设置 Python ${{ env.PYTHON_VERSION }}
+      - name: 设置 Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          python-version: '3.11'
           cache: 'pip'
-          cache-dependency-path: requirements.txt
 
-      - name: 安装 flake8
-        run: pip install flake8>=6.1.0
+      - name: 安装依赖
+        run: pip install -r requirements.txt
 
-      - name: 运行 flake8 代码风格检查
+      - name: 运行 flake8
         run: |
           flake8 src/ tests/ --max-line-length=120 --extend-ignore=E203,W503 || \
-          echo "::warning::flake8 发现风格问题，不阻断流水线（仅提示）"
+          echo "::warning::代码风格问题（不阻断）"
 
-  # ==============================================================
-  # Job 3: 冒烟测试 — 每次提交/PR 均执行，强制门禁
-  # 失败则阻断后续所有 Job（回归、Docker、部署）
-  # ==============================================================
-  smoke-test:
-    name: 冒烟测试 (Smoke) — 强制门禁
+      - name: 运行 black（格式化检查）
+        run: |
+          pip install black
+          black --check src/ tests/ || echo "::warning::格式化问题（不阻断）"
+
+  # ============================================================
+  # Stage 2: Docker 镜像构建（带缓存）
+  # ============================================================
+  build:
+    name: 🐳 构建 Docker 镜像
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    needs: [ detect-changes, lint ]
-    steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
-
-      - name: 设置 Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
-          cache-dependency-path: requirements.txt
-
-      - name: 安装项目依赖
-        run: pip install -r requirements.txt
-
-      - name: 创建配置目录与 .env
-        run: |
-          mkdir -p config reports/allure-results logs screenshots
-          echo "ENV=dev" > config/.env
-
-      - name: 执行冒烟测试
-        id: smoke
-        run: |
-          python run_tests.py --mode smoke
-          echo "result=passed" >> $GITHUB_OUTPUT
-
-      - name: 上传 Allure 测试结果
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results-smoke
-          path: reports/allure-results/
-          retention-days: 14
-
-      - name: 上传断言失败截图
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: screenshots-smoke
-          path: screenshots/
-          retention-days: 30
-          if-no-files-found: ignore
-
-      - name: 上传测试日志
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-logs-smoke
-          path: logs/
-          retention-days: 7
-
-  # ==============================================================
-  # Job 4: 回归测试 — 根据变更范围动态触发
-  #   - src 变更 → 全量回归
-  #   - 仅 tests 变更 → 仅变更模块回归
-  #   - config/docs → 跳过
-  # 依赖冒烟测试通过后执行
-  # 回归测试允许失败（continue-on-error），标记为 "不稳定(Unstable)"
-  # ==============================================================
-  regression-test:
-    name: 回归测试 (Regression) — ${{ needs.detect-changes.outputs.regression-scope }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    needs: [ detect-changes, smoke-test ]
-    # 仅当回归范围不为 skip 时执行
-    if: |
-      needs.detect-changes.outputs.regression-scope != 'skip' &&
-      needs.smoke-test.result == 'success'
-    # 回归测试允许失败，不阻断报告部署
-    continue-on-error: true
+    needs: lint
     outputs:
-      result: ${{ job.status }}
+      image-tag: ${{ steps.meta.outputs.tags }}
+      cache-hit: ${{ steps.cache.outputs.cache-hit }}
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
-
-      - name: 设置 Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
-          cache-dependency-path: requirements.txt
-
-      - name: 安装项目依赖
-        run: pip install -r requirements.txt
-
-      - name: 创建配置目录与 .env
-        run: |
-          mkdir -p config reports/allure-results logs screenshots
-          echo "ENV=dev" > config/.env
-
-      - name: 执行全量回归测试
-        if: needs.detect-changes.outputs.regression-scope == 'full'
-        run: |
-          echo "=== 执行全量回归测试 ==="
-          python run_tests.py --mode regression || (
-            echo "::warning::回归测试存在失败用例，构建标记为 Unstable"
-            exit 0
-          )
-
-      - name: 执行部分回归测试（仅变更模块）
-        if: needs.detect-changes.outputs.regression-scope == 'partial'
-        run: |
-          echo "=== 执行部分回归测试（仅变更模块）==="
-          MODULES='${{ needs.detect-changes.outputs.changed-modules }}'
-          echo "变更模块: $MODULES"
-          FAILED=0
-          for module in $(echo "$MODULES" | jq -r '.[]'); do
-            echo "--- 执行模块: $module ---"
-            python -m pytest tests/regression/test_${module}_regression.py \
-              -m regression \
-              --alluredir=reports/allure-results \
-              -v --tb=long || {
-              echo "::warning::模块 $module 回归测试存在失败"
-              FAILED=1
-            }
-          done
-          if [[ "$FAILED" == "1" ]]; then
-            echo "::warning::部分回归测试存在失败用例，构建标记为 Unstable"
-          fi
-
-      - name: 上传 Allure 测试结果
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results-regression
-          path: reports/allure-results/
-          retention-days: 14
-
-      - name: 上传断言失败截图
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: screenshots-regression
-          path: screenshots/
-          retention-days: 30
-          if-no-files-found: ignore
-
-      - name: 上传测试日志
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-logs-regression
-          path: logs/
-          retention-days: 7
-
-      - name: 输出回归测试结果
-        if: always()
-        run: |
-          if [[ "${{ job.status }}" == "success" ]]; then
-            echo "::notice::回归测试全部通过"
-          else
-            echo "::warning::回归测试存在失败，构建状态: Unstable"
-          fi
-
-  # ==============================================================
-  # Job 5: Docker 镜像构建与推送 — 使用 Buildx 缓存策略
-  #   - Dockerfile/requirements 未变更时跳过构建（复用缓存）
-  #   - 缓存层使用 GitHub Actions Cache (type=gha)
-  #   - 镜像推送到 GHCR (ghcr.io)
-  # 依赖冒烟测试通过
-  # ==============================================================
-  docker-build:
-    name: Docker 镜像构建 (缓存复用)
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    needs: [ detect-changes, smoke-test ]
-    if: |
-      github.event_name == 'push' && github.ref == 'refs/heads/main' &&
-      needs.smoke-test.result == 'success'
-    steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
-
-      - name: 检查是否需要重建镜像
-        id: check
-        run: |
-          # 检测 Dockerfile/依赖是否变更，或手动强制重建
-          DOCKER_CHANGED="${{ needs.detect-changes.outputs.docker-changed }}"
-          DEPS_CHANGED="${{ needs.detect-changes.outputs.deps-changed }}"
-          FORCE="${{ github.event.inputs.force_docker_build }}"
-
-          if [[ "$DOCKER_CHANGED" == "true" ]] || [[ "$DEPS_CHANGED" == "true" ]] || [[ "$FORCE" == "true" ]]; then
-            echo "need-build=true" >> $GITHUB_OUTPUT
-            echo "::notice::Dockerfile/依赖变更 → 重新构建镜像"
-          else
-            echo "need-build=false" >> $GITHUB_OUTPUT
-            echo "::notice::Dockerfile/依赖未变更 → 跳过镜像构建（复用缓存）"
-          fi
+      - uses: actions/checkout@v4
 
       - name: 设置 Docker Buildx
-        if: steps.check.outputs.need-build == 'true'
         uses: docker/setup-buildx-action@v3
 
-      - name: 登录 GitHub Container Registry
-        if: steps.check.outputs.need-build == 'true'
+      - name: 登录 GHCR
         uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 提取镜像元数据
-        if: steps.check.outputs.need-build == 'true'
+      - name: 提取元数据
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.REGISTRY }}/${{ github.repository }}
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=raw,value=latest
+            type=raw,value=latest,enable={{is_default_branch}}
             type=sha,prefix=,format=short
             type=schedule,prefix=nightly-
+            type=ref,event=branch
 
-      - name: 构建并推送镜像（带 GHA 缓存）
-        if: steps.check.outputs.need-build == 'true'
+      - name: 构建并推送
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile
+          file: Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          # Docker 层缓存策略：从 GHA Cache 读取，写入 GHA Cache
           cache-from: type=gha
           cache-to: type=gha,mode=max
           build-args: |
-            TEST_MODE=all
+            ALLURE_VERSION=${{ env.ALLURE_VERSION }}
 
-      - name: 镜像构建跳过通知
-        if: steps.check.outputs.need-build == 'false'
-        run: echo "::notice::Docker 镜像未变更，跳过构建（复用已有镜像层缓存）"
-
-  # ==============================================================
-  # Job 6: Allure 报告部署到 gh-pages 分支
-  #   - 合并 smoke + regression 的 Allure 结果
-  #   - 生成 HTML 报告（含历史趋势图）
-  #   - 强制推送到 gh-pages 分支（force_orphan 确保纯净发布分支）
-  #   - 无论测试成功/失败都部署报告（失败时更需要查看）
-  # ==============================================================
-  deploy-pages:
-    name: 部署 Allure 报告 (gh-pages)
+  # ============================================================
+  # Stage 3: 冒烟测试（容器内执行，强制门禁）
+  # ============================================================
+  smoke:
+    name: 🔥 冒烟测试
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    needs: [ smoke-test, regression-test ]
-    # 冒烟测试执行后即部署（无论回归结果如何）
-    if: always() && needs.smoke-test.result != 'skipped'
+    needs: build
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: 下载 Allure 结果 (Smoke)
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results-smoke
-          path: allure-results/smoke
-
-      - name: 下载 Allure 结果 (Regression)
-        if: |
-          needs.regression-test.result == 'success' ||
-          needs.regression-test.result == 'failure'
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results-regression
-          path: allure-results/regression
-
-      - name: 下载断言失败截图 (Smoke)
-        uses: actions/download-artifact@v4
-        with:
-          name: screenshots-smoke
-          path: screenshots/smoke
-        continue-on-error: true
-
-      - name: 下载断言失败截图 (Regression)
-        if: |
-          needs.regression-test.result == 'success' ||
-          needs.regression-test.result == 'failure'
-        uses: actions/download-artifact@v4
-        with:
-          name: screenshots-regression
-          path: screenshots/regression
-        continue-on-error: true
-
-      - name: 安装 Allure CLI
+      - name: 拉取镜像
         run: |
-          wget -q "https://github.com/allure-framework/allure2/releases/download/${{ env.ALLURE_VERSION }}/allure-${{ env.ALLURE_VERSION }}.tgz"
-          tar -xzf "allure-${{ env.ALLURE_VERSION }}.tgz"
+          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
+          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+      - name: 执行冒烟测试
+        id: smoke
+        run: |
+          docker run --rm \
+            -e TEST_MODE=smoke \
+            -v ${{ github.workspace }}/reports:/app/reports \
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
+          docker run --rm \
+            -e TEST_MODE=smoke \
+            -v ${{ github.workspace }}/reports:/app/reports \
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+      - name: 上传结果
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-results
+          path: reports/
+          retention-days: 14
+
+  # ============================================================
+  # Stage 4: 全量回归测试（容器内执行，允许失败）
+  # ============================================================
+  regression:
+    name: 📊 全量回归测试
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: smoke
+    if: |
+      always() &&
+      needs.smoke.result == 'success' &&
+      (github.event_name == 'push' || 
+       github.event_name == 'schedule' ||
+       github.event.inputs.test_mode == 'all' ||
+       github.event.inputs.test_mode == 'regression')
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 拉取镜像
+        run: |
+          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
+          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+      - name: 执行全量回归
+        run: |
+          docker run --rm \
+            -e TEST_MODE=all \
+            -v ${{ github.workspace }}/reports:/app/reports \
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest || \
+          docker run --rm \
+            -e TEST_MODE=all \
+            -v ${{ github.workspace }}/reports:/app/reports \
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} || \
+          echo "::warning::回归测试存在失败用例"
+
+      - name: 上传结果
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: regression-results
+          path: reports/
+          retention-days: 14
+
+  # ============================================================
+  # Stage 5: Allure 报告生成与部署
+  # ============================================================
+  report:
+    name: 📈 部署 Allure 报告
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [smoke, regression]
+    if: always() && needs.smoke.result != 'skipped'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 下载 Smoke 结果
+        uses: actions/download-artifact@v4
+        with:
+          name: smoke-results
+          path: allure-results/smoke
+        continue-on-error: true
+
+      - name: 下载 Regression 结果
+        uses: actions/download-artifact@v4
+        with:
+          name: regression-results
+          path: allure-results/regression
+        continue-on-error: true
+
+      - name: 安装 Allure
+        run: |
+          wget -q https://github.com/allure-framework/allure2/releases/download/${{ env.ALLURE_VERSION }}/allure-${{ env.ALLURE_VERSION }}.tgz
+          tar -xzf allure-${{ env.ALLURE_VERSION }}.tgz
           echo "$(pwd)/allure-${{ env.ALLURE_VERSION }}/bin" >> $GITHUB_PATH
 
-      - name: 获取上一次 Allure 历史（用于趋势图）
+      - name: 获取历史趋势
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages-history
         continue-on-error: true
 
-      - name: 生成 Allure HTML 报告
+      - name: 生成报告
         run: |
-          # 合并 smoke + regression 的 allure-results
           mkdir -p allure-results-merged
-          cp -r allure-results/smoke/* allure-results-merged/ 2>/dev/null || true
-          if [ -d allure-results/regression ]; then
-            cp -r allure-results/regression/* allure-results-merged/ 2>/dev/null || true
-          fi
+          cp -r allure-results/smoke/allure-results/* allure-results-merged/ 2>/dev/null || true
+          cp -r allure-results/regression/allure-results/* allure-results-merged/ 2>/dev/null || true
 
-          # 恢复上一次的 history（用于趋势图）
           if [ -d gh-pages-history/allure-report/history ]; then
             cp -r gh-pages-history/allure-report/history allure-results-merged/history
-            echo "已恢复上一次 Allure 历史（趋势图可用）"
-          else
-            echo "首次运行，无历史数据"
           fi
 
-          # 生成报告
           allure generate allure-results-merged -o allure-report --clean
 
-          # 将截图证据复制到报告中
-          mkdir -p allure-report/screenshots
-          cp -r screenshots/* allure-report/screenshots/ 2>/dev/null || true
-
-          # 生成报告元信息（时间戳、构建号）
-          cat > allure-report/build-info.json << EOF
-          {
-            "build_id": "${{ github.run_id }}",
-            "run_number": "${{ github.run_number }}",
-            "commit_sha": "${{ github.sha }}",
-            "branch": "${{ github.ref_name }}",
-            "trigger_event": "${{ github.event_name }}",
-            "timestamp": "$(date -u '+%Y-%m-%d %H:%M:%S UTC')",
-            "beijing_time": "$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
-          }
-          EOF
-
-          echo "::notice::Allure 报告已生成"
-
-      - name: 部署到 gh-pages 分支（强制覆盖）
+      - name: 部署到 gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: allure-report
           publish_branch: gh-pages
-          # force_orphan: 确保 gh-pages 为纯净发布分支（不包含源代码）
-          # 每次推送创建孤儿提交，历史记录仅保留报告版本
           force_orphan: true
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: |
-            deploy: Allure report #${{ github.run_number }}
+          commit_message: '📊 Allure Report #${{ github.run_number }}'
 
-            Build: ${{ github.run_id }}
-            Commit: ${{ github.sha }}
-            Time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-            Event: ${{ github.event_name }}
-
-      - name: 输出报告访问地址
-        run: |
-          REPO_OWNER=$(echo ${{ github.repository }} | cut -d'/' -f1)
-          REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
-          REPORT_URL="https://${REPO_OWNER}.github.io/${REPO_NAME}/"
-          echo "::notice::Allure 报告已部署到 ${REPORT_URL}"
-          echo "report-url=${REPORT_URL}" >> $GITHUB_OUTPUT
-
-  # ==============================================================
-  # Job 7: 失败通知 — 冒烟测试失败或定时任务失败时创建 Issue
-  # ==============================================================
-  notify-failure:
-    name: 失败通知
+  # ============================================================
+  # Stage 6: 结果通知（飞书/钉钉/企业微信）
+  # ============================================================
+  notify:
+    name: 📢 测试结果通知
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    needs: [ smoke-test, regression-test, deploy-pages ]
-    if: |
-      always() && (
-        needs.smoke-test.result == 'failure' ||
-        (github.event_name == 'schedule' && needs.regression-test.result == 'failure')
-      )
+    needs: [smoke, regression, report]
+    if: always()
     steps:
-      - name: 创建 Issue 通知测试失败
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const date = new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' });
-            const repo = context.repo.owner + '/' + context.repo.repo;
-            const reportUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
+      - name: 发送通知
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: |
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "⚠️ 跳过通知（未配置 Webhook）"
+            exit 0
+          fi
 
-            // 冒烟测试失败（严重）
-            const smokeFailed = '${{ needs.smoke-test.result }}' === 'failure';
-            // 回归测试失败（不稳定）
-            const regressionFailed = '${{ needs.regression-test.result }}' === 'failure';
+          SMOKE_STATUS="${{ needs.smoke.result }}"
+          REGRESSION_STATUS="${{ needs.regression.result }}"
+          REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
 
-            const severity = smokeFailed ? '🔴 严重' : '🟡 不稳定';
-            const title = smokeFailed
-              ? `🚨 冒烟测试失败 — ${date}`
-              : `⚠️ 回归测试不稳定 — ${date}`;
+          if [ "$SMOKE_STATUS" = "success" ]; then
+            EMOJI="✅"
+            TITLE="冒烟测试通过"
+          else
+            EMOJI="🔴"
+            TITLE="冒烟测试失败"
+          fi
 
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: title,
-              body: [
-                `## ${severity}：CI/CD 测试未通过`,
-                ``,
-                `- **失败时间**: ${date}`,
-                `- **触发事件**: ${{ github.event_name }}`,
-                `- **严重级别**: ${severity}`,
-                `- **冒烟测试**: ${{ needs.smoke-test.result }}`,
-                `- **回归测试**: ${{ needs.regression-test.result }}`,
-                `- **工作流**: [${context.runId}](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
-                `- **分支**: ${context.ref}`,
-                `- **Allure 报告**: [${reportUrl}](${reportUrl})`,
-                `- **失败截图**: 见报告中 screenshots 目录或 Actions artifact`,
-                ``,
-                smokeFailed
-                  ? '> ⚠️ 冒烟测试失败已阻断流水线，请优先修复后重新提交。'
-                  : '> ℹ️ 回归测试存在失败用例，构建状态为 Unstable，未阻断部署。',
-                ``,
-                `> 此 Issue 由 CI/CD 自动创建，问题修复后可关闭。`
-              ].join('\n'),
-              labels: smokeFailed
-                ? ['ci-failure', 'smoke', 'automated']
-                : ['ci-unstable', 'regression', 'automated']
-            });
-            core.info(`已创建 ${severity} 通知 Issue`);
+          MSG=$(cat <<EOF
+          {
+            "msg_type": "post",
+            "content": {
+              "post": {
+                "zh_cn": {
+                  "title": "${EMOJI} SauceDemo 测试报告",
+                  "content": [
+                    [
+                      {"tag": "text", "text": "📦 仓库: "},
+                      {"tag": "a", "text": "${{ github.repository }}", "href": "${{ github.server_url }}/${{ github.repository }}"},
+                      {"tag": "text", "text": "\n"}
+                    ],
+                    [
+                      {"tag": "text", "text": "🌿 分支: ${{ github.ref_name }}\n"}
+                    ],
+                    [
+                      {"tag": "text", "text": "🔖 提交: "},
+                      {"tag": "a", "text": "${{ github.sha }}", "href": "${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}"},
+                      {"tag": "text", "text": "\n"}
+                    ],
+                    [
+                      {"tag": "text", "text": "🔥 冒烟测试: ${SMOKE_STATUS}\n"}
+                    ],
+                    [
+                      {"tag": "text", "text": "📊 回归测试: ${REGRESSION_STATUS}\n"}
+                    ],
+                    [
+                      {"tag": "text", "text": "\n"}
+                    ],
+                    [
+                      {"tag": "text", "text": "📈 "},
+                      {"tag": "a", "text": "查看 Allure 报告", "href": "${REPORT_URL}"},
+                      {"tag": "text", "text": " | "},
+                      {"tag": "a", "text": "查看 Actions", "href": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"}
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+          EOF
+          )
+
+          curl -s -X POST -H "Content-Type: application/json" -d "$MSG" "$WEBHOOK_URL"
+          echo "✅ 通知已发送"
