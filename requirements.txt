@@ -10,6 +10,7 @@ openpyxl>=3.1.0
 jsonschema>=4.20.0
 Faker>=22.0.0
 flake8>=6.1.0
+black>=24.0.0
 Pillow>=10.0.0
 # WebDriver Manager（可选，用于未来 UI 测试扩展）
 # 当前项目为纯 API 测试，此项仅在 Docker --build-arg INSTALL_WEBDRIVER=true 时安装
