@@ -54,56 +54,59 @@ COPY . .
 # 预创建目录
 RUN mkdir -p reports/allure-results reports/allure-report logs screenshots
 
-# --------- 创建入口点脚本（直接写入，避免文件不存在） ---------
-RUN echo '#!/bin/bash' > /docker-entrypoint.sh && \
-    echo 'set -e' >> /docker-entrypoint.sh && \
-    echo '' >> /docker-entrypoint.sh && \
-    echo '# 默认值' >> /docker-entrypoint.sh && \
-    echo 'TEST_MODE=${TEST_MODE:-"smoke"}' >> /docker-entrypoint.sh && \
-    echo 'TEST_MARKER=${TEST_MARKER:-""}' >> /docker-entrypoint.sh && \
-    echo 'EXIT_CODE=0' >> /docker-entrypoint.sh && \
-    echo '' >> /docker-entrypoint.sh && \
-    echo 'echo "========================================="' >> /docker-entrypoint.sh && \
-    echo 'echo "DummyJSON API 测试容器"' >> /docker-entrypoint.sh && \
-    echo 'echo "测试模式: ${TEST_MODE}"' >> /docker-entrypoint.sh && \
-    echo '[ -n "$TEST_MARKER" ] && echo "测试标记: ${TEST_MARKER}"' >> /docker-entrypoint.sh && \
-    echo 'echo "========================================="' >> /docker-entrypoint.sh && \
-    echo '' >> /docker-entrypoint.sh && \
-    echo 'case ${TEST_MODE} in' >> /docker-entrypoint.sh && \
-    echo '  "smoke")' >> /docker-entrypoint.sh && \
-    echo '    echo ">>> 执行冒烟测试"' >> /docker-entrypoint.sh && \
-    echo '    pytest -v -m smoke --alluredir=reports/allure-results "$@" || EXIT_CODE=$?' >> /docker-entrypoint.sh && \
-    echo '    ;;' >> /docker-entrypoint.sh && \
-    echo '  "regression")' >> /docker-entrypoint.sh && \
-    echo '    echo ">>> 执行回归测试"' >> /docker-entrypoint.sh && \
-    echo '    pytest -v -m regression --alluredir=reports/allure-results "$@" || EXIT_CODE=$?' >> /docker-entrypoint.sh && \
-    echo '    ;;' >> /docker-entrypoint.sh && \
-    echo '  "all")' >> /docker-entrypoint.sh && \
-    echo '    echo ">>> 执行全部测试"' >> /docker-entrypoint.sh && \
-    echo '    pytest -v --alluredir=reports/allure-results "$@" || EXIT_CODE=$?' >> /docker-entrypoint.sh && \
-    echo '    ;;' >> /docker-entrypoint.sh && \
-    echo '  "custom")' >> /docker-entrypoint.sh && \
-    echo '    echo ">>> 执行自定义测试: ${TEST_MARKER}"' >> /docker-entrypoint.sh && \
-    echo '    pytest -v -m "${TEST_MARKER}" --alluredir=reports/allure-results "$@" || EXIT_CODE=$?' >> /docker-entrypoint.sh && \
-    echo '    ;;' >> /docker-entrypoint.sh && \
-    echo '  *)' >> /docker-entrypoint.sh && \
-    echo '    echo ">>> 未知模式: ${TEST_MODE}，执行默认冒烟测试"' >> /docker-entrypoint.sh && \
-    echo '    pytest -v -m smoke --alluredir=reports/allure-results "$@" || EXIT_CODE=$?' >> /docker-entrypoint.sh && \
-    echo '    ;;' >> /docker-entrypoint.sh && \
-    echo 'esac' >> /docker-entrypoint.sh && \
-    echo '' >> /docker-entrypoint.sh && \
-    echo '# 生成 Allure 报告' >> /docker-entrypoint.sh && \
-    echo 'echo "========================================="' >> /docker-entrypoint.sh && \
-    echo 'echo "生成 Allure HTML 报告..."' >> /docker-entrypoint.sh && \
-    echo 'echo "========================================="' >> /docker-entrypoint.sh && \
-    echo 'allure generate reports/allure-results -o reports/allure-report --clean || true' >> /docker-entrypoint.sh && \
-    echo '' >> /docker-entrypoint.sh && \
-    echo 'echo "========================================="' >> /docker-entrypoint.sh && \
-    echo 'echo "报告已生成: /app/reports/allure-report/index.html"' >> /docker-entrypoint.sh && \
-    echo 'echo "========================================="' >> /docker-entrypoint.sh && \
-    echo '' >> /docker-entrypoint.sh && \
-    echo 'exit $EXIT_CODE' >> /docker-entrypoint.sh && \
-    chmod +x /docker-entrypoint.sh
+# --------- 创建入口点脚本（直接写入） ---------
+RUN printf '#!/bin/bash\n\
+set -e\n\
+\n\
+# 默认值\n\
+TEST_MODE=${TEST_MODE:-"smoke"}\n\
+TEST_MARKER=${TEST_MARKER:-""}\n\
+EXIT_CODE=0\n\
+\n\
+echo "========================================="\n\
+echo "DummyJSON API 测试容器"\n\
+echo "测试模式: ${TEST_MODE}"\n\
+[ -n "$TEST_MARKER" ] && echo "测试标记: ${TEST_MARKER}"\n\
+echo "========================================="\n\
+\n\
+case ${TEST_MODE} in\n\
+  "smoke")\n\
+    echo ">>> 执行冒烟测试"\n\
+    pytest -v -m smoke --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
+    ;;\n\
+  "regression")\n\
+    echo ">>> 执行回归测试"\n\
+    pytest -v -m regression --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
+    ;;\n\
+  "all")\n\
+    echo ">>> 执行全部测试"\n\
+    pytest -v --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
+    ;;\n\
+  "custom")\n\
+    echo ">>> 执行自定义测试: ${TEST_MARKER}"\n\
+    pytest -v -m "${TEST_MARKER}" --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
+    ;;\n\
+  *)\n\
+    echo ">>> 未知模式: ${TEST_MODE}，执行默认冒烟测试"\n\
+    pytest -v -m smoke --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
+    ;;\n\
+esac\n\
+\n\
+# 生成 Allure 报告\n\
+echo "========================================="\n\
+echo "生成 Allure HTML 报告..."\n\
+echo "========================================="\n\
+allure generate reports/allure-results -o reports/allure-report --clean || true\n\
+\n\
+echo "========================================="\n\
+echo "报告已生成: /app/reports/allure-report/index.html"\n\
+echo "========================================="\n\
+\n\
+exit $EXIT_CODE\n\
+' > /docker-entrypoint.sh && chmod +x /docker-entrypoint.sh
+
+# 验证 entrypoint 文件存在
+RUN ls -la /docker-entrypoint.sh && head -5 /docker-entrypoint.sh
 
 # 健康检查
 HEALTHCHECK --interval=60s --timeout=10s --start-period=10s --retries=3 \
