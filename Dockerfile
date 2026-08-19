@@ -61,6 +61,20 @@ COPY . .
 # 预创建目录
 RUN mkdir -p reports/allure-results reports/allure-report logs screenshots
 
+# 确保入口点脚本存在且可执行
+RUN if [ ! -f /app/docker-entrypoint.sh ]; then \
+        echo '#!/bin/bash' > /app/docker-entrypoint.sh && \
+        echo 'set -e' >> /app/docker-entrypoint.sh && \
+        echo 'echo "========================================="' >> /app/docker-entrypoint.sh && \
+        echo 'echo "DummyJSON API 测试容器"' >> /app/docker-entrypoint.sh && \
+        echo 'echo "测试模式: ${TEST_MODE:-smoke}"' >> /app/docker-entrypoint.sh && \
+        echo 'echo "========================================="' >> /app/docker-entrypoint.sh && \
+        echo 'pytest -v --alluredir=reports/allure-results "$@" || EXIT_CODE=$?' >> /app/docker-entrypoint.sh && \
+        echo 'allure generate reports/allure-results -o reports/allure-report --clean' >> /app/docker-entrypoint.sh && \
+        echo 'exit $EXIT_CODE' >> /app/docker-entrypoint.sh && \
+        chmod +x /app/docker-entrypoint.sh; \
+    fi
+
 # 入口点脚本
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x /docker-entrypoint.sh
