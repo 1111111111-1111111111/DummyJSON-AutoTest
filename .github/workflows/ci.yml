@@ -1,17 +1,6 @@
 # ============================================================
 # DummyJSON 自动化测试 — Docker 优先的 CI/CD Pipeline
 # ============================================================
-# Docker 优势在流水线中的体现：
-#   ① 一次构建、处处运行：Python + 依赖 + JRE + Allure CLI 全部
-#     固化进镜像，下游 lint/smoke/regression/report 全部在镜像内
-#     执行，宿主机零安装（不再 setup-python / pip install / 下载 Allure）
-#   ② 层缓存秒级重建：requirements.txt 未变时，pip 层缓存全命中，
-#     重建镜像仅需数秒，与"跳过构建"耗时相当但永远是最新的
-#   ③ 镜像即制品：带短 SHA 标签推送 GHCR，任意历史版本的环境可
-#     精确回放复现（本地 docker run 同一镜像 = 完全一致的 CI 环境）
-#   ④ 环境零漂移：lint / smoke / regression 跑的是同一个镜像的
-#     同一份代码，结果可比、可追溯
-# ============================================================
 name: CI/CD Pipeline
 
 on:
@@ -47,7 +36,6 @@ permissions:
 jobs:
   # ============================================================
   # Stage 1: 构建测试镜像（唯一需要 checkout 和 Docker 的上游）
-  # 镜像内已 COPY 全部源码，下游 Job 无需再 checkout 源码仓库
   # ============================================================
   build:
     name: 🐳 构建测试镜像
@@ -56,6 +44,7 @@ jobs:
     outputs:
       image: ${{ steps.image_name.outputs.image }}
       short-sha: ${{ steps.sha.outputs.short }}
+      image-tag: ${{ steps.image_name.outputs.image }}:${{ steps.sha.outputs.short }}
     steps:
       - uses: actions/checkout@v4
 
@@ -90,7 +79,6 @@ jobs:
             type=schedule,prefix=nightly-
             type=ref,event=branch
 
-      # 依赖未变 → pip/JRE/Allure 层缓存全命中，重建仅数秒
       - name: 构建并推送（GHA 层缓存）
         uses: docker/build-push-action@v5
         with:
@@ -104,7 +92,6 @@ jobs:
           build-args: |
             ALLURE_VERSION=${{ env.ALLURE_VERSION }}
 
-      # 构建后立即冒烟验证镜像本身可用，坏镜像不流入下游
       - name: 验证镜像可用性
         run: |
           IMAGE="${{ steps.image_name.outputs.image }}:${{ steps.sha.outputs.short }}"
@@ -115,7 +102,6 @@ jobs:
 
   # ============================================================
   # Stage 2: Lint —— 镜像内执行，宿主机零安装
-  # 镜像自带源码与 flake8/black，无需 checkout / setup-python / pip
   # ============================================================
   lint:
     name: 🔍 代码风格检查
@@ -124,11 +110,15 @@ jobs:
     needs: build
     steps:
       - name: 拉取镜像
-        run: docker pull "${{ needs.build.outputs.image }}:${{ needs.build.outputs.short-sha }}"
+        run: |
+          IMAGE_TAG="${{ needs.build.outputs.image }}:${{ needs.build.outputs.short-sha }}"
+          echo "拉取镜像: $IMAGE_TAG"
+          docker pull "$IMAGE_TAG"
 
       - name: flake8 + black（镜像内执行，不阻断）
         run: |
-          docker run --rm "${{ needs.build.outputs.image }}:${{ needs.build.outputs.short-sha }}" sh -c "
+          IMAGE_TAG="${{ needs.build.outputs.image }}:${{ needs.build.outputs.short-sha }}"
+          docker run --rm "$IMAGE_TAG" sh -c "
             flake8 src/ tests/ --max-line-length=120 --extend-ignore=E203,W503 \
               && echo '✅ flake8 通过' || echo '::warning::flake8 存在风格问题（不阻断）'
             black --check -q src/ tests/ \
@@ -138,7 +128,6 @@ jobs:
 
   # ============================================================
   # Stage 3: 冒烟测试（镜像内执行，强制门禁）
-  # 无需 checkout：测试代码已在镜像内，保证与构建时代码完全一致
   # ============================================================
   smoke:
     name: 🔥 冒烟测试
@@ -149,11 +138,20 @@ jobs:
       - name: 拉取镜像
         run: |
           IMAGE="${{ needs.build.outputs.image }}"
-          if ! docker pull "${IMAGE}:${{ needs.build.outputs.short-sha }}"; then
-            echo "❌ 镜像拉取失败: ${IMAGE}:${{ needs.build.outputs.short-sha }}"
+          SHA="${{ needs.build.outputs.short-sha }}"
+          IMAGE_TAG="${IMAGE}:${SHA}"
+
+          if [ -z "$IMAGE" ] || [ -z "$SHA" ]; then
+            echo "❌ 镜像名或 SHA 为空: IMAGE=$IMAGE, SHA=$SHA"
             exit 1
           fi
-          echo "IMAGE_TAG=${IMAGE}:${{ needs.build.outputs.short-sha }}" >> $GITHUB_ENV
+
+          echo "拉取镜像: $IMAGE_TAG"
+          if ! docker pull "$IMAGE_TAG"; then
+            echo "❌ 镜像拉取失败: $IMAGE_TAG"
+            exit 1
+          fi
+          echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
 
       - name: 准备报告目录
         run: mkdir -p reports
@@ -183,13 +181,13 @@ jobs:
           retention-days: 14
 
   # ============================================================
-  # Stage 4: 全量回归测试（镜像内执行，允许失败 → Unstable）
+  # Stage 4: 全量回归测试（镜像内执行，允许失败）
   # ============================================================
   regression:
     name: 📊 全量回归测试
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    needs: smoke
+    needs: [build, smoke]
     if: |
       always() &&
       needs.smoke.result == 'success' &&
@@ -202,11 +200,20 @@ jobs:
       - name: 拉取镜像
         run: |
           IMAGE="${{ needs.build.outputs.image }}"
-          if ! docker pull "${IMAGE}:${{ needs.build.outputs.short-sha }}"; then
-            echo "❌ 镜像拉取失败: ${IMAGE}:${{ needs.build.outputs.short-sha }}"
+          SHA="${{ needs.build.outputs.short-sha }}"
+          IMAGE_TAG="${IMAGE}:${SHA}"
+
+          if [ -z "$IMAGE" ] || [ -z "$SHA" ]; then
+            echo "❌ 镜像名或 SHA 为空: IMAGE=$IMAGE, SHA=$SHA"
             exit 1
           fi
-          echo "IMAGE_TAG=${IMAGE}:${{ needs.build.outputs.short-sha }}" >> $GITHUB_ENV
+
+          echo "拉取镜像: $IMAGE_TAG"
+          if ! docker pull "$IMAGE_TAG"; then
+            echo "❌ 镜像拉取失败: $IMAGE_TAG"
+            exit 1
+          fi
+          echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
 
       - name: 准备报告目录
         run: mkdir -p reports
@@ -237,7 +244,6 @@ jobs:
 
   # ============================================================
   # Stage 5: Allure 报告生成与部署
-  # 报告生成同样在镜像内完成 —— 宿主机不再下载 Allure CLI（省 ~30MB/次）
   # ============================================================
   report:
     name: 📈 部署 Allure 报告
@@ -269,12 +275,20 @@ jobs:
 
       - name: 生成 Allure 报告（镜像内执行）
         run: |
-          IMAGE="${{ needs.build.outputs.image }}:${{ needs.build.outputs.short-sha }}"
-          docker pull "$IMAGE"
+          IMAGE_TAG="${{ needs.build.outputs.image }}:${{ needs.build.outputs.short-sha }}"
+
+          if [ -z "${{ needs.build.outputs.image }}" ] || [ -z "${{ needs.build.outputs.short-sha }}" ]; then
+            echo "❌ 镜像名或 SHA 为空"
+            exit 1
+          fi
+
+          echo "拉取镜像: $IMAGE_TAG"
+          docker pull "$IMAGE_TAG"
+
           mkdir -p allure-results-merged
           docker run --rm \
             -v "${{ github.workspace }}:/work" -w /work \
-            "$IMAGE" sh -c "
+            "$IMAGE_TAG" sh -c "
               cp -r allure-results/smoke/allure-results/. allure-results-merged/ 2>/dev/null || true
               cp -r allure-results/regression/allure-results/. allure-results-merged/ 2>/dev/null || true
               if [ -d gh-pages-history/allure-report/history ]; then
@@ -293,7 +307,7 @@ jobs:
           commit_message: '📊 Allure Report #${{ github.run_number }}'
 
   # ============================================================
-  # Stage 6: 结果通知（飞书/钉钉/企业微信）
+  # Stage 6: 结果通知
   # ============================================================
   notify:
     name: 📢 测试结果通知
