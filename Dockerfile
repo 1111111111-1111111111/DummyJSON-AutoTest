@@ -54,62 +54,6 @@ COPY . .
 # 预创建目录
 RUN mkdir -p reports/allure-results reports/allure-report logs screenshots
 
-# --------- 创建入口点脚本（直接写入） ---------
-RUN printf '#!/bin/bash\n\
-set -e\n\
-\n\
-# 默认值\n\
-TEST_MODE=${TEST_MODE:-"smoke"}\n\
-TEST_MARKER=${TEST_MARKER:-""}\n\
-EXIT_CODE=0\n\
-\n\
-echo "========================================="\n\
-echo "DummyJSON API 测试容器"\n\
-echo "测试模式: ${TEST_MODE}"\n\
-[ -n "$TEST_MARKER" ] && echo "测试标记: ${TEST_MARKER}"\n\
-echo "========================================="\n\
-\n\
-case ${TEST_MODE} in\n\
-  "smoke")\n\
-    echo ">>> 执行冒烟测试"\n\
-    pytest -v -m smoke --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
-    ;;\n\
-  "regression")\n\
-    echo ">>> 执行回归测试"\n\
-    pytest -v -m regression --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
-    ;;\n\
-  "all")\n\
-    echo ">>> 执行全部测试"\n\
-    pytest -v --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
-    ;;\n\
-  "custom")\n\
-    echo ">>> 执行自定义测试: ${TEST_MARKER}"\n\
-    pytest -v -m "${TEST_MARKER}" --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
-    ;;\n\
-  *)\n\
-    echo ">>> 未知模式: ${TEST_MODE}，执行默认冒烟测试"\n\
-    pytest -v -m smoke --alluredir=reports/allure-results "$@" || EXIT_CODE=$?\n\
-    ;;\n\
-esac\n\
-\n\
-# 生成 Allure 报告\n\
-echo "========================================="\n\
-echo "生成 Allure HTML 报告..."\n\
-echo "========================================="\n\
-allure generate reports/allure-results -o reports/allure-report --clean || true\n\
-\n\
-echo "========================================="\n\
-echo "报告已生成: /app/reports/allure-report/index.html"\n\
-echo "========================================="\n\
-\n\
-exit $EXIT_CODE\n\
-' > /docker-entrypoint.sh && chmod +x /docker-entrypoint.sh
-
-# 验证 entrypoint 文件存在
-RUN ls -la /docker-entrypoint.sh && head -5 /docker-entrypoint.sh
-
-# 健康检查
-HEALTHCHECK --interval=60s --timeout=10s --start-period=10s --retries=3 \
-    CMD python -c "import pytest; import allure" || exit 1
-
-ENTRYPOINT ["/docker-entrypoint.sh"]
+# --------- 直接使用 CMD，不依赖外部脚本 ---------
+# 默认执行所有测试
+CMD ["sh", "-c", "pytest -v --alluredir=reports/allure-results && allure generate reports/allure-results -o reports/allure-report --clean || true"]
