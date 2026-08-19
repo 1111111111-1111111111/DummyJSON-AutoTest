@@ -99,9 +99,9 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 转换为小写镜像名
-         id: image_name
-         run: |
+       - name: 转换为小写镜像名
+        id: image_name
+        run: |
    	      REPO_LOWER=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
    	      echo "image=${{ env.REGISTRY }}/$REPO_LOWER" >> $GITHUB_OUTPUT
 
