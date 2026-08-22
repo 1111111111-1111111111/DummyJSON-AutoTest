@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/auth/login",
+  "params": null,
+  "body": {
+    "username": "emilys",
+    "password": "emilyspass",
+    "expiresInMins": 60
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}

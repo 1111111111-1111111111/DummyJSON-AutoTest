@@ -1,0 +1,90 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:42 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"2e5-Zgic+af6ln9ovw0g73ssApoeXCQ\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "61",
+    "x-ratelimit-reset": "1787423325",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=scsZHLhG2yGaBxCADbfQ%2BONXdEP1cd5jyHpuYKFHPLcVjH0qf%2F3vp2xOuEhwZBy0tS%2FcZGJOX2NNQfy4JKH3zEGYowS0Y%2BHrWc88ZVmApWA%2BMx0omlFwMdeze3eRQ9m8\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f055ce3c3020-IAD"
+  },
+  "body": {
+    "comments": [
+      {
+        "id": 11,
+        "body": "It was a pleasure to grade this!",
+        "postId": 156,
+        "likes": 8,
+        "user": {
+          "id": 162,
+          "username": "mateob",
+          "fullName": "Mateo Bennett"
+        }
+      },
+      {
+        "id": 12,
+        "body": "Keep up the incredible work!",
+        "postId": 119,
+        "likes": 10,
+        "user": {
+          "id": 90,
+          "username": "scarlettb",
+          "fullName": "Scarlett Bowman"
+        }
+      },
+      {
+        "id": 13,
+        "body": "My goodness, how impressive!",
+        "postId": 108,
+        "likes": 10,
+        "user": {
+          "id": 87,
+          "username": "hunterg",
+          "fullName": "Hunter Gordon"
+        }
+      },
+      {
+        "id": 14,
+        "body": "You're showing inventive ideas!",
+        "postId": 20,
+        "likes": 8,
+        "user": {
+          "id": 77,
+          "username": "jonathanp",
+          "fullName": "Jonathan Pierce"
+        }
+      },
+      {
+        "id": 15,
+        "body": "You've shown so much growth!",
+        "postId": 6,
+        "likes": 2,
+        "user": {
+          "id": 17,
+          "username": "evelyns",
+          "fullName": "Evelyn Sanchez"
+        }
+      }
+    ],
+    "total": 340,
+    "skip": 10,
+    "limit": 5
+  },
+  "elapsed_ms": 115.205
+}

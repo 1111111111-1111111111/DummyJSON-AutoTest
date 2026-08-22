@@ -1,0 +1,4 @@
+2026-08-23 02:28:39 | INFO     | dummyjson_test | http_client.py:108 | [POST] https://dummyjson.com/auth/login | attempt=1/3
+2026-08-23 02:28:39 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 200 | 耗时: 0.115s
+2026-08-23 02:28:39 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: accessToken 非空
+2026-08-23 02:28:39 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: refreshToken 非空

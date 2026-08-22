@@ -1,0 +1,65 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"30f-Vj4Moc3aDuZO/pKdggSD2U18nGc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "71",
+    "x-ratelimit-reset": "1787423345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=fOBpxRONl66AiFfezNfn1IXOOoGLBbChUo9ybEiBGr1hLj5Y7%2F%2BOpYNtjMYo3JU6eZL9DQcBBaPtRQwaCRKXFfsPOvEf0dxdVCEn71nn4GBAgQ1qfi27bUOb%2FM%2FhHWET\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0b36eb53020-IAD"
+  },
+  "body": {
+    "id": 1,
+    "name": "Classic Margherita Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 475°F (245°C).",
+      "Roll out the pizza dough and spread tomato sauce evenly.",
+      "Top with slices of fresh mozzarella and fresh basil leaves.",
+      "Drizzle with olive oil and season with salt and pepper.",
+      "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
+      "Slice and serve hot."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 300,
+    "tags": [
+      "Pizza",
+      "Italian"
+    ],
+    "userId": 166,
+    "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+    "rating": 4.6,
+    "reviewCount": 98,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  "elapsed_ms": 113.44200000000001
+}

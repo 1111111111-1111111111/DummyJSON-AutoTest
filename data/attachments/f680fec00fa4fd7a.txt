@@ -1,0 +1,21 @@
+DEBUG    dummyjson_test:data_generator.py:137 生成评论数据: postId=1, userId=1
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/comments/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'body': '服务投资地方空间学生质量安全这样状态图片产品这里次数历史应该可是.', 'postId': 1, 'userId': 1}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /comments/add HTTP/1.1" 201 191
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.114s
+INFO     dummyjson_test:keyword_actions.py:154 提取字段: id=341
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: body=服务投资地方空间学生质量安全这样状态图片产品这里次数历史应该可是.
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/comments/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "GET /comments/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.114s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: id=1
+INFO     dummyjson_test:keyword_actions.py:103 字段非空验证通过: body
+INFO     dummyjson_test:http_client.py:108 [PUT] https://dummyjson.com/comments/1 | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'body': 'Updated'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "PUT /comments/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.114s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: body=Updated
+INFO     dummyjson_test:http_client.py:108 [DELETE] https://dummyjson.com/comments/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "DELETE /comments/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.116s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: isDeleted=True

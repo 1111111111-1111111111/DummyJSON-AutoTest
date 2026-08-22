@@ -1,0 +1,5 @@
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/products/category/smartphones | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "GET /products/category/smartphones HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.118s
+INFO     dummyjson_test:assertions.py:42 断言通过: 分页字段完整 (total=16, skip=0, limit=16)
+INFO     dummyjson_test:assertions.py:36 断言通过: 列表 'products' 有 16 个元素

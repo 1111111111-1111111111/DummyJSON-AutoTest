@@ -1,0 +1,5 @@
+2026-08-23 02:28:42 | INFO     | dummyjson_test | base_api.py:86 | POST /comments/add
+2026-08-23 02:28:42 | INFO     | dummyjson_test | http_client.py:108 | [POST] https://dummyjson.com/comments/add | attempt=1/3
+2026-08-23 02:28:42 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 201 | 耗时: 0.115s
+2026-08-23 02:28:42 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: id 非空
+2026-08-23 02:28:42 | INFO     | dummyjson_test | assertions.py:18 | 断言通过: body=你的包括手机可是自己名称记者软件组织这些软件文化.

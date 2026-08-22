@@ -1,0 +1,6 @@
+INFO     dummyjson_test:base_api.py:71 GET /products/search?q=laptop
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/products/search | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:110 请求参数: {'q': 'laptop'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "GET /products/search?q=laptop HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.116s
+INFO     dummyjson_test:assertions.py:36 断言通过: 列表 'products' 有 5 个元素

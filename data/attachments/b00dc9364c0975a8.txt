@@ -1,0 +1,5 @@
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/users/filter | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:110 请求参数: {'key': 'hair.color', 'value': 'Brown'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "GET /users/filter?key=hair.color&value=Brown HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.120s
+INFO     dummyjson_test:assertions.py:36 断言通过: 列表 'users' 有 23 个元素

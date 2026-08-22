@@ -1,0 +1,42 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "她的 Special Recipe",
+    "ingredients": [
+      "注意",
+      "人民",
+      "支持",
+      "查看",
+      "比较",
+      "开始"
+    ],
+    "instructions": [
+      "工程那些发展环境朋友软件的话.",
+      "专业电子我们公司解决运行能力.",
+      "一切时候中心这是加入汽车或者.",
+      "通过下载一些两个决定.",
+      "喜欢得到城市你的地方基本."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Asian",
+    "caloriesPerServing": 428,
+    "tags": [
+      "一起",
+      "所有",
+      "系列"
+    ],
+    "userId": 67,
+    "mealType": [
+      "Breakfast"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODc0MjMzMTksImV4cCI6MTc4NzQyNTExOX0.K0divERPz6h809wGvm5HLVrY7esIVFjL6VzNN4AVrgk"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:48 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "278",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"116-tRie9BjagsWvAI2MIt23q+6P8TU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=eiBpvL9hHz2Kwhn59Y9zldoB2KjB5XGzGqUkzpJ86wxWaCZXpTn76YuYGowwFLXlTBJbb0rTvDBSoE4gq2ShnfwPsCYosE8zmTggwACplgkThJZ7Mn9Rz%2FhXprik6Wt7\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f07769893020-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 科技",
+    "price": 93.02,
+    "discountPercentage": 23.99,
+    "stock": 43,
+    "rating": 4.14,
+    "description": "时间问题虽然登录中文北京加入威望销售标准加入任何下载不是成功.",
+    "brand": "网新恒天信息有限公司",
+    "category": "furniture"
+  },
+  "elapsed_ms": 113.342
+}

@@ -1,0 +1,9 @@
+DEBUG    dummyjson_test:data_generator.py:62 生成产品数据: Test Product 作者
+INFO     dummyjson_test:base_api.py:86 POST /products/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/products/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Test Product 作者', 'description': '登录以上选择完成搜索生活东西无法欢迎大学.', 'category': 'beauty', 'price': 443.2, 'discountPercentage': 0.82, 'rating': 4.87, 'stock': 51, 'tags': ['资料', '非常', '广告'], 'brand': '易动力科技有限公司', 'sku': 'WPUAQEG4'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /products/add HTTP/1.1" 201 241
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.114s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: title=Test Product 作者
+INFO     dummyjson_test:assertions.py:18 断言通过: price=443.2

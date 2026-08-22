@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:21 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"81-0GYHU/oRXocGrSnKgl8Rt5RMxf8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1787423308",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4mpDw0x0YxwgR2P1r7q9JDkhfmxVy3yGAUqztlW8%2F8eDfweiHdB99CYR88ONUGAnTjTXbjmaE1EEt6Q%2FaqppcaU7%2Fg%2F4Gdmq9vAzIdx1DP%2FEoq8kqj0JZk4toAA5VS%2BR\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3efd12fa23f01-IAD"
+  },
+  "body": {
+    "id": 894,
+    "quote": "I Was Not Created To Be Occupied By Eating Delicious Foods Like Tied Up Cattle.",
+    "author": "Ali Ibn Abi Talib"
+  },
+  "elapsed_ms": 113.101
+}

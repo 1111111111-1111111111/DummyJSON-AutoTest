@@ -1,0 +1,78 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:41 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"3ef-6k4fnrxrsE+S69Ue56dZUSOEL0Y\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "69",
+    "x-ratelimit-reset": "1787423325",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=W9CmO15ZOnj3Q2%2FwuKQ1bPPGdteqWvw1ktoWEDPviEZWRiftbwEsp5Ra7KKG%2Bx9ekW86AdSk%2FFLJ23s9gVGhtSMWS2wegga4hC2SCfOjG1iM05XkH%2BriK5GRckxT2s%2FK\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f04f9aaa3020-IAD"
+  },
+  "body": {
+    "id": 1,
+    "products": [
+      {
+        "id": 162,
+        "title": "Blue Frock",
+        "price": 29.99,
+        "quantity": 4,
+        "total": 119.96,
+        "discountPercentage": 12.13,
+        "discountedTotal": 105.41,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/tops/blue-frock/thumbnail.webp"
+      },
+      {
+        "id": 113,
+        "title": "Generic Motorcycle",
+        "price": 3999.99,
+        "quantity": 3,
+        "total": 11999.97,
+        "discountPercentage": 12.1,
+        "discountedTotal": 10547.97,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/motorcycle/generic-motorcycle/thumbnail.webp"
+      },
+      {
+        "id": 122,
+        "title": "iPhone 6",
+        "price": 299.99,
+        "quantity": 3,
+        "total": 899.97,
+        "discountPercentage": 6.69,
+        "discountedTotal": 839.76,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
+      },
+      {
+        "id": 138,
+        "title": "Baseball Ball",
+        "price": 8.99,
+        "quantity": 2,
+        "total": 17.98,
+        "discountPercentage": 1.71,
+        "discountedTotal": 17.67,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/thumbnail.webp"
+      }
+    ],
+    "total": 13037.88,
+    "discountedTotal": 11510.81,
+    "userId": 1,
+    "totalProducts": 4,
+    "totalQuantity": 12
+  },
+  "elapsed_ms": 114.541
+}

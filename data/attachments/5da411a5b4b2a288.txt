@@ -1,0 +1,10 @@
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/auth/login | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'username': 'emilys', 'password': 'emilyspass', 'expiresInMins': 60}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /auth/login HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.116s
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/auth/refresh | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'refreshToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODc0MjMzMTksImV4cCI6MTc5MDAxNTMxOX0.wza8z1WxCzjKUErrtQmenUiAFrCmUHc5rHCo_TenWmc', 'expiresInMins': 30}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /auth/refresh HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.117s
+INFO     dummyjson_test:assertions.py:24 断言通过: accessToken 非空
+INFO     dummyjson_test:assertions.py:24 断言通过: refreshToken 非空

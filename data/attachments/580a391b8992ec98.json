@@ -1,0 +1,60 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:51 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"210-+2cTmhR2EuSGpcRAKgsfFUK166o\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "43",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QvxldLsX6t52bN%2BBiEIvjaO5JsK8mWKTIS7BYgivVUZpGYM6kANvV%2Bk1ct%2FRpbPbe1TKwOSbNrRL9UV%2FgU9Ckau0LOaoS7RmFrnODP0eBxtqd3NSc%2F40Tyca%2BmNwf2Ls\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f08db8b53020-IAD"
+  },
+  "body": {
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Classic Margherita Pizza",
+        "image": "https://cdn.dummyjson.com/recipe-images/1.webp"
+      },
+      {
+        "id": 2,
+        "name": "Vegetarian Stir-Fry",
+        "image": "https://cdn.dummyjson.com/recipe-images/2.webp"
+      },
+      {
+        "id": 3,
+        "name": "Chocolate Chip Cookies",
+        "image": "https://cdn.dummyjson.com/recipe-images/3.webp"
+      },
+      {
+        "id": 4,
+        "name": "Chicken Alfredo Pasta",
+        "image": "https://cdn.dummyjson.com/recipe-images/4.webp"
+      },
+      {
+        "id": 5,
+        "name": "Mango Salsa Chicken",
+        "image": "https://cdn.dummyjson.com/recipe-images/5.webp"
+      }
+    ],
+    "total": 50,
+    "skip": 0,
+    "limit": 5
+  },
+  "elapsed_ms": 114.78399999999999
+}

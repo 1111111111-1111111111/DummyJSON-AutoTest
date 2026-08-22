@@ -1,0 +1,72 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:52 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"33a-ElSmNdcpYtrbx0QmeSF3e6yPTtw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "39",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5uV9uv7B2eQd9LSElulXqKz7ohPgbBiLvM%2BUZkZKzjja4nQsHnrGgbI6SLLI59hknpNYIdZx5VRNwyDTA2c%2BecWl5sI46t7vkpoIBtjuCuH%2B%2FaR01r24wUGq5hKyFV42\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f090bb8d3020-IAD"
+  },
+  "body": {
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Classic Margherita Pizza",
+        "ingredients": [
+          "Pizza dough",
+          "Tomato sauce",
+          "Fresh mozzarella cheese",
+          "Fresh basil leaves",
+          "Olive oil",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Preheat the oven to 475°F (245°C).",
+          "Roll out the pizza dough and spread tomato sauce evenly.",
+          "Top with slices of fresh mozzarella and fresh basil leaves.",
+          "Drizzle with olive oil and season with salt and pepper.",
+          "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
+          "Slice and serve hot."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 15,
+        "servings": 4,
+        "difficulty": "Easy",
+        "cuisine": "Italian",
+        "caloriesPerServing": 300,
+        "tags": [
+          "Pizza",
+          "Italian"
+        ],
+        "userId": 166,
+        "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+        "rating": 4.6,
+        "reviewCount": 98,
+        "mealType": [
+          "Dinner"
+        ]
+      }
+    ],
+    "total": 1,
+    "skip": 0,
+    "limit": 1
+  },
+  "elapsed_ms": 115.19
+}

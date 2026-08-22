@@ -1,0 +1,77 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:41 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "993",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"3e1-0ZuGnR3nF7WTB4gKnyBd5EN5pVo\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1787423325",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wBj%2FjLNLd51Ad3ALlE5NbZN78t1De4p6LlPY3ixcB3cVAccDFLQELyLORjGNBqPmvnlImqeSHEI0gv7m3L%2FGOLXOAdmGQIbiAtx0yHtaJcDFJrzLffWX2VBgwB8h%2BC2d\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f04ed8303020-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 19,
+        "title": "Chicken Meat",
+        "price": 9.99,
+        "quantity": 5,
+        "total": 49.95,
+        "discountPercentage": 13.7,
+        "discountedPrice": 43,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp"
+      },
+      {
+        "id": 21,
+        "title": "Cucumber",
+        "price": 1.49,
+        "quantity": 5,
+        "total": 7.45,
+        "discountPercentage": 0.16,
+        "discountedPrice": 7,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp"
+      },
+      {
+        "id": 76,
+        "title": "Wooden Rolling Pin",
+        "price": 11.99,
+        "quantity": 2,
+        "total": 23.98,
+        "discountPercentage": 9.75,
+        "discountedPrice": 22,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/thumbnail.webp"
+      },
+      {
+        "id": 187,
+        "title": "Golden Shoes Woman",
+        "price": 49.99,
+        "quantity": 7,
+        "total": 349.93,
+        "discountPercentage": 13.93,
+        "discountedPrice": 301,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/thumbnail.webp"
+      }
+    ],
+    "total": 431.31,
+    "discountedTotal": 373,
+    "userId": 1,
+    "totalProducts": 4,
+    "totalQuantity": 19
+  },
+  "elapsed_ms": 116.388
+}

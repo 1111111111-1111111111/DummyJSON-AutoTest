@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"75-IqsRnWMQtTsK4pR4nu7t4au0tMM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "73",
+    "x-ratelimit-reset": "1787423345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=saXPji5vYRT8kCILaBisnfsfG6cT%2FgcuddMFpQzD%2BXZ6EkFfQxIs4KcX%2FVO99KzkrAP2KM5ztUXAP6HC8MPqKIr%2F%2FAhA4xR89UEzCN5C7RegAlRw%2FheVAt3tjSM68uNH\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0b1e9e53020-IAD"
+  },
+  "body": {
+    "id": 993,
+    "quote": "The Best Way To Find Out If You Can Trust Somebody Is To Trust Them.",
+    "author": "Ernest Hemingway"
+  },
+  "elapsed_ms": 114.729
+}

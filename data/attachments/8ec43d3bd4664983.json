@@ -1,0 +1,34 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/carts/add",
+  "params": null,
+  "body": {
+    "userId": 1,
+    "products": [
+      {
+        "id": 76,
+        "quantity": 5
+      },
+      {
+        "id": 21,
+        "quantity": 5
+      },
+      {
+        "id": 19,
+        "quantity": 2
+      },
+      {
+        "id": 21,
+        "quantity": 7
+      },
+      {
+        "id": 187,
+        "quantity": 6
+      }
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODc0MjMzMTksImV4cCI6MTc4NzQyNTExOX0.K0divERPz6h809wGvm5HLVrY7esIVFjL6VzNN4AVrgk"
+  }
+}

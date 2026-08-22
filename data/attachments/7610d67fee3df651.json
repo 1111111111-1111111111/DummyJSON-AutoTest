@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:48 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"48-wIg9xQQmP6psPvYRLOQo1dKSl8Q\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "65",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0cxp%2FE3nKG2eNU19rArEimsE3uWZiSMtTG1olrUG9ZxXlo2xrQlwu3eCcy9N9XrgVGnYbVP2ntweA3LMdBwDSbQ%2Bl1qiKXBT%2BvzEZMRDlxZmci%2B4PxW9%2B3frm85dVmET\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f07cfcad3020-IAD"
+  },
+  "body": {
+    "id": 252,
+    "quote": "Life Loves The Liver Of It.",
+    "author": "Maya Angelou"
+  },
+  "elapsed_ms": 114.229
+}

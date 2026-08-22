@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 作者",
+    "description": "登录以上选择完成搜索生活东西无法欢迎大学.",
+    "category": "beauty",
+    "price": 443.2,
+    "discountPercentage": 0.82,
+    "rating": 4.87,
+    "stock": 51,
+    "tags": [
+      "资料",
+      "非常",
+      "广告"
+    ],
+    "brand": "易动力科技有限公司",
+    "sku": "WPUAQEG4"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODc0MjMzMTksImV4cCI6MTc4NzQyNTExOX0.K0divERPz6h809wGvm5HLVrY7esIVFjL6VzNN4AVrgk"
+  }
+}

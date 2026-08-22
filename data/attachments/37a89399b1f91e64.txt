@@ -1,0 +1,4 @@
+2026-08-23 02:28:41 | INFO     | dummyjson_test | base_api.py:41 | GET /carts params={'sortBy': 'total', 'order': 'asc'}
+2026-08-23 02:28:41 | INFO     | dummyjson_test | http_client.py:108 | [GET] https://dummyjson.com/carts | attempt=1/3
+2026-08-23 02:28:41 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 200 | 耗时: 0.118s
+2026-08-23 02:28:41 | INFO     | dummyjson_test | assertions.py:36 | 断言通过: 列表 'carts' 有 30 个元素

@@ -1,0 +1,385 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:55 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lwweiPTNJ%2F1bJnihI5W6ZwnM5Rv3qo1XtGMDaFFaTAlWUQ7IB3b20uGRlt5oY24zpFC7x1upMmyGKrnmHvllotUpvqFuHtM4FQzCeb9jrh6gzxJmQ3S3yloUnmR0516J\"}]}",
+    "etag": "W/\"1bb7-P7f01N7nGYnDvoj7TehkxB+I6EY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "89",
+    "x-ratelimit-reset": "1787423345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0a5887a3020-IAD"
+  },
+  "body": {
+    "users": [
+      {
+        "id": 6,
+        "firstName": "Olivia",
+        "lastName": "Wilson",
+        "maidenName": "",
+        "age": 23,
+        "gender": "female",
+        "email": "olivia.wilson@x.dummyjson.com",
+        "phone": "+91 607-295-6448",
+        "username": "oliviaw",
+        "password": "oliviawpass",
+        "birthDate": "2002-4-20",
+        "image": "https://dummyjson.com/icon/oliviaw/128",
+        "bloodGroup": "B+",
+        "height": 182.61,
+        "weight": 58,
+        "eyeColor": "Hazel",
+        "hair": {
+          "color": "Gray",
+          "type": "Curly"
+        },
+        "ip": "249.178.112.207",
+        "address": {
+          "address": "547 First Street",
+          "city": "Fort Worth",
+          "state": "Tennessee",
+          "stateCode": "TN",
+          "postalCode": "83843",
+          "coordinates": {
+            "lat": 75.32627,
+            "lng": -26.15285
+          },
+          "country": "United States"
+        },
+        "macAddress": "9c:7f:ea:34:18:19",
+        "university": "University of North Carolina--Chapel Hill",
+        "bank": {
+          "cardExpire": "06/30",
+          "cardNumber": "376320072452632",
+          "cardType": "American Express",
+          "currency": "NZD",
+          "iban": "DE21153814367894194071"
+        },
+        "company": {
+          "department": "Product Management",
+          "name": "Pfannerstill Inc",
+          "title": "Research Analyst",
+          "address": {
+            "address": "425 Sixth Street",
+            "city": "Indianapolis",
+            "state": "Oklahoma",
+            "stateCode": "OK",
+            "postalCode": "74263",
+            "coordinates": {
+              "lat": 74.986644,
+              "lng": -132.916888
+            },
+            "country": "United States"
+          }
+        },
+        "ein": "921-709",
+        "ssn": "836-772-168",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15",
+        "crypto": {
+          "coin": "Bitcoin",
+          "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+          "network": "Ethereum (ERC20)"
+        },
+        "role": "moderator"
+      },
+      {
+        "id": 7,
+        "firstName": "Alexander",
+        "lastName": "Jones",
+        "maidenName": "",
+        "age": 39,
+        "gender": "male",
+        "email": "alexander.jones@x.dummyjson.com",
+        "phone": "+61 260-824-4986",
+        "username": "alexanderj",
+        "password": "alexanderjpass",
+        "birthDate": "1986-10-20",
+        "image": "https://dummyjson.com/icon/alexanderj/128",
+        "bloodGroup": "AB-",
+        "height": 153.89,
+        "weight": 77.42,
+        "eyeColor": "Blue",
+        "hair": {
+          "color": "White",
+          "type": "Straight"
+        },
+        "ip": "166.204.84.32",
+        "address": {
+          "address": "664 Maple Street",
+          "city": "Indianapolis",
+          "state": "Delaware",
+          "stateCode": "DE",
+          "postalCode": "86684",
+          "coordinates": {
+            "lat": 35.289664,
+            "lng": 7.063255
+          },
+          "country": "United States"
+        },
+        "macAddress": "d2:64:58:2d:1c:46",
+        "university": "University of Illinois--Urbana-Champaign",
+        "bank": {
+          "cardExpire": "12/29",
+          "cardNumber": "5189302549548693",
+          "cardType": "Mastercard",
+          "currency": "PKR",
+          "iban": "DE67517655968963441488"
+        },
+        "company": {
+          "department": "Engineering",
+          "name": "Dickens - Beahan",
+          "title": "Web Developer",
+          "address": {
+            "address": "996 Eighth Street",
+            "city": "Washington",
+            "state": "Kansas",
+            "stateCode": "KS",
+            "postalCode": "27858",
+            "coordinates": {
+              "lat": -75.462366,
+              "lng": -128.025697
+            },
+            "country": "United States"
+          }
+        },
+        "ein": "638-127",
+        "ssn": "722-993-925",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+        "crypto": {
+          "coin": "Bitcoin",
+          "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+          "network": "Ethereum (ERC20)"
+        },
+        "role": "moderator"
+      },
+      {
+        "id": 8,
+        "firstName": "Ava",
+        "lastName": "Taylor",
+        "maidenName": "",
+        "age": 28,
+        "gender": "female",
+        "email": "ava.taylor@x.dummyjson.com",
+        "phone": "+1 458-853-7877",
+        "username": "avat",
+        "password": "avatpass",
+        "birthDate": "1997-8-25",
+        "image": "https://dummyjson.com/icon/avat/128",
+        "bloodGroup": "AB-",
+        "height": 168.47,
+        "weight": 57.08,
+        "eyeColor": "Hazel",
+        "hair": {
+          "color": "Red",
+          "type": "Kinky"
+        },
+        "ip": "150.73.197.233",
+        "address": {
+          "address": "1197 First Street",
+          "city": "Fort Worth",
+          "state": "Rhode Island",
+          "stateCode": "RI",
+          "postalCode": "24771",
+          "coordinates": {
+            "lat": -81.194833,
+            "lng": -87.948158
+          },
+          "country": "United States"
+        },
+        "macAddress": "8d:2e:c2:d6:e7:a8",
+        "university": "University of Wisconsin--Madison",
+        "bank": {
+          "cardExpire": "08/30",
+          "cardNumber": "5349974103330333",
+          "cardType": "Mastercard",
+          "currency": "EUR",
+          "iban": "FR94ZM2MMGL1EVYQE1ZLCVCFH83"
+        },
+        "company": {
+          "department": "Marketing",
+          "name": "Nikolaus Inc",
+          "title": "Chief Executive Officer",
+          "address": {
+            "address": "930 Lincoln Street",
+            "city": "Austin",
+            "state": "Colorado",
+            "stateCode": "CO",
+            "postalCode": "47592",
+            "coordinates": {
+              "lat": 87.970083,
+              "lng": -42.769351
+            },
+            "country": "United States"
+          }
+        },
+        "ein": "297-762",
+        "ssn": "257-419-109",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+        "crypto": {
+          "coin": "Bitcoin",
+          "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+          "network": "Ethereum (ERC20)"
+        },
+        "role": "moderator"
+      },
+      {
+        "id": 9,
+        "firstName": "Ethan",
+        "lastName": "Martinez",
+        "maidenName": "",
+        "age": 34,
+        "gender": "male",
+        "email": "ethan.martinez@x.dummyjson.com",
+        "phone": "+92 933-608-5081",
+        "username": "ethanm",
+        "password": "ethanmpass",
+        "birthDate": "1991-2-12",
+        "image": "https://dummyjson.com/icon/ethanm/128",
+        "bloodGroup": "AB+",
+        "height": 159.19,
+        "weight": 68.81,
+        "eyeColor": "Hazel",
+        "hair": {
+          "color": "Purple",
+          "type": "Curly"
+        },
+        "ip": "63.191.127.71",
+        "address": {
+          "address": "466 Pine Street",
+          "city": "San Antonio",
+          "state": "Louisiana",
+          "stateCode": "LA",
+          "postalCode": "72360",
+          "coordinates": {
+            "lat": 74.074918,
+            "lng": -25.312703
+          },
+          "country": "United States"
+        },
+        "macAddress": "59:e:9e:e3:29:da",
+        "university": "Syracuse University",
+        "bank": {
+          "cardExpire": "10/27",
+          "cardNumber": "3598603288061479",
+          "cardType": "JCB",
+          "currency": "GBP",
+          "iban": "GB26PND7D83JTW4HL6LZ71"
+        },
+        "company": {
+          "department": "Support",
+          "name": "Gorczany - Gottlieb",
+          "title": "Legal Counsel",
+          "address": {
+            "address": "1597 Oak Street",
+            "city": "Chicago",
+            "state": "Florida",
+            "stateCode": "FL",
+            "postalCode": "28100",
+            "coordinates": {
+              "lat": -67.45208,
+              "lng": -23.209886
+            },
+            "country": "United States"
+          }
+        },
+        "ein": "790-434",
+        "ssn": "569-650-348",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+        "crypto": {
+          "coin": "Bitcoin",
+          "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+          "network": "Ethereum (ERC20)"
+        },
+        "role": "moderator"
+      },
+      {
+        "id": 10,
+        "firstName": "Isabella",
+        "lastName": "Anderson",
+        "maidenName": "Davis",
+        "age": 32,
+        "gender": "female",
+        "email": "isabella.anderson@x.dummyjson.com",
+        "phone": "+49 770-658-4885",
+        "username": "isabellad",
+        "password": "isabelladpass",
+        "birthDate": "1993-6-10",
+        "image": "https://dummyjson.com/icon/isabellad/128",
+        "bloodGroup": "A-",
+        "height": 150.56,
+        "weight": 50.1,
+        "eyeColor": "Brown",
+        "hair": {
+          "color": "Blonde",
+          "type": "Curly"
+        },
+        "ip": "114.9.114.205",
+        "address": {
+          "address": "1964 Oak Street",
+          "city": "New York",
+          "state": "Utah",
+          "stateCode": "UT",
+          "postalCode": "89352",
+          "coordinates": {
+            "lat": 41.331324,
+            "lng": 151.782727
+          },
+          "country": "United States"
+        },
+        "macAddress": "b1:b0:d0:a2:82:80",
+        "university": "California Institute of Technology (Caltech)",
+        "bank": {
+          "cardExpire": "03/30",
+          "cardNumber": "3602093733952858",
+          "cardType": "Diners Club International",
+          "currency": "USD",
+          "iban": "DE12934874962442340025"
+        },
+        "company": {
+          "department": "Marketing",
+          "name": "Pollich - Hilpert",
+          "title": "Chief Financial Officer",
+          "address": {
+            "address": "1029 Adams Street",
+            "city": "San Diego",
+            "state": "Maryland",
+            "stateCode": "MD",
+            "postalCode": "63847",
+            "coordinates": {
+              "lat": -25.843393,
+              "lng": -62.692681
+            },
+            "country": "United States"
+          }
+        },
+        "ein": "127-297",
+        "ssn": "902-438-728",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36",
+        "crypto": {
+          "coin": "Bitcoin",
+          "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+          "network": "Ethereum (ERC20)"
+        },
+        "role": "moderator"
+      }
+    ],
+    "total": 208,
+    "skip": 5,
+    "limit": 5
+  },
+  "elapsed_ms": 117.188
+}

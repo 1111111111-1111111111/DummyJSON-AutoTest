@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "运行国家影响地区登录程序分析首页新闻这样法律.",
+    "body": "她的希望只是实现公司应用.社区设备比较电脑作为经济今年.浏览一点不能她的其实大学介绍结果.工作法律上海孩子建设基本点击已经.大家这个过程下载.",
+    "userId": 1,
+    "tags": [
+      "或者",
+      "空间",
+      "设备"
+    ],
+    "reactions": {
+      "likes": 209,
+      "dislikes": 39
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODc0MjMzMTksImV4cCI6MTc4NzQyNTExOX0.K0divERPz6h809wGvm5HLVrY7esIVFjL6VzNN4AVrgk"
+  }
+}

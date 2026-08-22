@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:42 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "191",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"bf-nVVIkig5/dTtUoXuNyAD/szCNIA\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "58",
+    "x-ratelimit-reset": "1787423325",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3G%2FftRhUYXS%2B9sH7FJcVb28eeelnpVn9pStfVDVBdgvze4iQZKmBwLiKdg6jlas7svb%2BQx5Y1NZlY6yI5DXrBbWZYccXLPUTIjP9HyH73vNNAxxa0qoMGRyidbaV9eWr\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0580d283020-IAD"
+  },
+  "body": {
+    "id": 341,
+    "body": "服务投资地方空间学生质量安全这样状态图片产品这里次数历史应该可是.",
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "username": "emilys",
+      "fullName": "Emily Johnson"
+    }
+  },
+  "elapsed_ms": 113.748
+}

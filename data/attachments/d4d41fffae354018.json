@@ -1,0 +1,33 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:52 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "85",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"55-3Q3pGRzVjl7Hz54bLZBt3jXiqhQ\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "34",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=J7Gi9nZ1pe9ZS4eYvLdLoQCGomdKBVSeZ9re%2Fm2kVQ0CmvjlzrJniF6740herEaKb6z1KOHb6YKuBl9psz3MjeI2a680w0xp2crcaTfm%2FgJt17RT0BivLyv6WIEzuj%2Bj\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f094a9363020-IAD"
+  },
+  "body": {
+    "id": 255,
+    "todo": "当然规定游戏生活服务这样.",
+    "completed": true,
+    "userId": 5
+  },
+  "elapsed_ms": 114.479
+}

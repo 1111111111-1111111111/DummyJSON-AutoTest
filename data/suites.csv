@@ -1,0 +1,184 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 23 02:28:49 CST 2026","Sun Aug 23 02:28:49 CST 2026","117","tests.regression","test_quotes_regression","TestQuotesRegression","","","分页获取名言",""
+"passed","Sun Aug 23 02:28:51 CST 2026","Sun Aug 23 02:28:51 CST 2026","119","tests.regression","test_recipes_regression","TestRecipesRegression","","","删除食谱",""
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","123","tests.smoke","test_recipes_smoke","TestRecipesSmoke","","","获取食谱列表应返回分页数据","验证获取食谱列表返回分页结构。"
+"passed","Sun Aug 23 02:28:47 CST 2026","Sun Aug 23 02:28:47 CST 2026","119","tests.regression","test_products_regression","TestProductsRegression","","","JSON数据驱动 - {test_id}","使用JSON数据驱动测试产品场景。"
+"passed","Sun Aug 23 02:28:58 CST 2026","Sun Aug 23 02:28:58 CST 2026","117","tests.smoke","test_utility_smoke","TestUtilitySmoke","","","/test 端点应返回状态ok","验证 /test 端点返回状态ok。"
+"passed","Sun Aug 23 02:28:45 CST 2026","Sun Aug 23 02:28:45 CST 2026","470","tests.regression","test_posts_regression","TestPostsRegression","","","关键字组合 - 添加+查询+更新+删除帖子","使用关键字组合完成帖子CRUD流程。
+
+        注意: DummyJSON 的 POST 是模拟操作，不会真正持久化数据，
+        因此 GET/PUT/DELETE 步骤使用已存在的帖子ID=1进行验证。
+        "
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","119","tests.smoke","test_users_smoke","TestUsersSmoke","","","获取单个用户应返回正确用户","验证获取单个用户返回正确的用户信息。"
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:46 CST 2026","121","tests.regression","test_products_regression","TestProductsRegression","","","分页参数 limit=5 skip=0","验证商品分页参数。"
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:50 CST 2026","117","tests.regression","test_recipes_regression","TestRecipesRegression","","","获取ID为1的食谱",""
+"passed","Sun Aug 23 02:28:55 CST 2026","Sun Aug 23 02:28:55 CST 2026","121","tests.regression","test_users_regression","TestUsersRegression","","","删除用户",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","117","tests.regression","test_posts_regression","TestPostsRegression","","","删除帖子",""
+"passed","Sun Aug 23 02:28:51 CST 2026","Sun Aug 23 02:28:51 CST 2026","117","tests.regression","test_recipes_regression","TestRecipesRegression","","","仅选择name和image字段",""
+"passed","Sun Aug 23 02:28:39 CST 2026","Sun Aug 23 02:28:39 CST 2026","119","tests.regression","test_auth_regression","TestAuthRegression","","","/user/login 端点登录","验证 /user/login 端点登录功能。"
+"passed","Sun Aug 23 02:28:41 CST 2026","Sun Aug 23 02:28:41 CST 2026","148","tests.regression","test_comments_regression","TestCommentsRegression","","","获取评论列表并验证Schema",""
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","120","tests.smoke","test_todos_smoke","TestTodosSmoke","","","获取待办列表应返回分页数据","验证获取待办列表返回分页结构。"
+"passed","Sun Aug 23 02:28:43 CST 2026","Sun Aug 23 02:28:43 CST 2026","43","tests.regression","test_posts_regression","TestPostsRegression","","","获取帖子列表并验证Schema",""
+"passed","Sun Aug 23 02:28:55 CST 2026","Sun Aug 23 02:28:55 CST 2026","119","tests.regression","test_users_regression","TestUsersRegression","","","仅选择firstName和age字段",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","118","tests.regression","test_posts_regression","TestPostsRegression","","","获取用户5的帖子",""
+"passed","Sun Aug 23 02:28:40 CST 2026","Sun Aug 23 02:28:40 CST 2026","153","tests.regression","test_carts_regression","TestCartsRegression","","","获取购物车列表并验证Schema",""
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","16","tests.smoke","test_users_smoke","TestUsersSmoke","","","获取用户列表应返回分页数据","验证获取用户列表返回分页结构。"
+"passed","Sun Aug 23 02:28:45 CST 2026","Sun Aug 23 02:28:45 CST 2026","124","tests.regression","test_products_regression","TestProductsRegression","","","搜索关键词phone","验证搜索商品功能。"
+"passed","Sun Aug 23 02:28:38 CST 2026","Sun Aug 23 02:28:38 CST 2026","121","tests.regression","test_auth_regression","TestAuthRegression","","","数据驱动登录场景 - {test_id}","使用YAML数据驱动测试多种登录场景。"
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:54 CST 2026","118","tests.regression","test_users_regression","TestUsersRegression","","","获取用户1的购物车",""
+"passed","Sun Aug 23 02:28:47 CST 2026","Sun Aug 23 02:28:47 CST 2026","116","tests.regression","test_products_regression","TestProductsRegression","","","PATCH部分更新商品","验证PATCH部分更新商品功能。"
+"passed","Sun Aug 23 02:28:51 CST 2026","Sun Aug 23 02:28:52 CST 2026","360","tests.regression","test_recipes_regression","TestRecipesRegression","","","关键字组合 - 获取+搜索+按标签",""
+"passed","Sun Aug 23 02:28:41 CST 2026","Sun Aug 23 02:28:41 CST 2026","123","tests.regression","test_carts_regression","TestCartsRegression","","","按total排序购物车","验证购物车排序功能。
+
+        注意: DummyJSON 的 sort 参数对 carts 模块排序不够稳定，
+        因此验证返回数据有效并可客户端排序。
+        "
+"passed","Sun Aug 23 02:28:45 CST 2026","Sun Aug 23 02:28:45 CST 2026","16","tests.regression","test_products_regression","TestProductsRegression","","","获取ID为1的商品","验证获取单个商品的详细信息。"
+"passed","Sun Aug 23 02:28:41 CST 2026","Sun Aug 23 02:28:41 CST 2026","237","tests.regression","test_carts_regression","TestCartsRegression","","","关键字组合 - 添加+查询购物车","使用关键字组合完成购物车流程。
+
+        注意: DummyJSON 的 POST 是模拟操作，不会真正持久化数据，
+        因此 GET 步骤使用已存在的购物车ID=1进行验证。
+        "
+"passed","Sun Aug 23 02:28:48 CST 2026","Sun Aug 23 02:28:48 CST 2026","117","tests.regression","test_quotes_regression","TestQuotesRegression","","","获取ID为1的名言",""
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:54 CST 2026","116","tests.regression","test_users_regression","TestUsersRegression","","","获取用户5的帖子",""
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:42 CST 2026","117","tests.regression","test_comments_regression","TestCommentsRegression","","","PUT更新评论",""
+"passed","Sun Aug 23 02:28:49 CST 2026","Sun Aug 23 02:28:49 CST 2026","117","tests.regression","test_quotes_regression","TestQuotesRegression","","","查询不存在的名言ID返回404",""
+"passed","Sun Aug 23 02:28:43 CST 2026","Sun Aug 23 02:28:43 CST 2026","117","tests.regression","test_posts_regression","TestPostsRegression","","","获取ID为1的帖子",""
+"passed","Sun Aug 23 02:28:41 CST 2026","Sun Aug 23 02:28:41 CST 2026","118","tests.regression","test_comments_regression","TestCommentsRegression","","","获取ID为1的评论",""
+"passed","Sun Aug 23 02:28:58 CST 2026","Sun Aug 23 02:28:58 CST 2026","116","tests.smoke","test_utility_smoke","TestUtilitySmoke","","","/ip 端点应返回IP地址","验证 /ip 端点返回IP地址。"
+"passed","Sun Aug 23 02:28:47 CST 2026","Sun Aug 23 02:28:47 CST 2026","116","tests.regression","test_products_regression","TestProductsRegression","","","JSON数据驱动 - {test_id}","使用JSON数据驱动测试产品场景。"
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:46 CST 2026","117","tests.regression","test_products_regression","TestProductsRegression","","","添加新产品","验证添加新商品功能。"
+"passed","Sun Aug 23 02:28:39 CST 2026","Sun Aug 23 02:28:39 CST 2026","238","tests.regression","test_auth_regression","TestAuthRegression","","","刷新Token应返回新的accessToken","验证刷新Token返回新的accessToken和refreshToken。"
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:52 CST 2026","117","tests.regression","test_todos_regression","TestTodosRegression","","","获取用户1的待办","验证获取用户待办列表。"
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:56 CST 2026","13","tests.smoke","test_posts_smoke","TestPostsSmoke","","","获取帖子列表应返回分页数据","验证获取帖子列表返回分页结构。"
+"passed","Sun Aug 23 02:28:41 CST 2026","Sun Aug 23 02:28:41 CST 2026","118","tests.regression","test_carts_regression","TestCartsRegression","","","分页获取购物车",""
+"passed","Sun Aug 23 02:28:53 CST 2026","Sun Aug 23 02:28:53 CST 2026","119","tests.regression","test_todos_regression","TestTodosRegression","","","仅选择todo和completed字段",""
+"passed","Sun Aug 23 02:28:55 CST 2026","Sun Aug 23 02:28:55 CST 2026","126","tests.regression","test_users_regression","TestUsersRegression","","","按firstName排序用户",""
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:52 CST 2026","119","tests.regression","test_todos_regression","TestTodosRegression","","","获取ID为1的待办",""
+"passed","Sun Aug 23 02:28:38 CST 2026","Sun Aug 23 02:28:39 CST 2026","119","tests.regression","test_auth_regression","TestAuthRegression","","","数据驱动登录场景 - {test_id}","使用YAML数据驱动测试多种登录场景。"
+"passed","Sun Aug 23 02:28:40 CST 2026","Sun Aug 23 02:28:40 CST 2026","120","tests.regression","test_carts_regression","TestCartsRegression","","","获取ID为1的购物车",""
+"passed","Sun Aug 23 02:28:40 CST 2026","Sun Aug 23 02:28:40 CST 2026","117","tests.regression","test_carts_regression","TestCartsRegression","","","PATCH部分更新购物车",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","122","tests.regression","test_posts_regression","TestPostsRegression","","","按title排序帖子",""
+"passed","Sun Aug 23 02:28:55 CST 2026","Sun Aug 23 02:28:55 CST 2026","119","tests.regression","test_users_regression","TestUsersRegression","","","PATCH部分更新用户",""
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:54 CST 2026","118","tests.regression","test_users_regression","TestUsersRegression","","","获取用户1的待办","验证获取用户待办列表。"
+"passed","Sun Aug 23 02:28:40 CST 2026","Sun Aug 23 02:28:40 CST 2026","121","tests.regression","test_carts_regression","TestCartsRegression","","","添加新购物车",""
+"passed","Sun Aug 23 02:28:48 CST 2026","Sun Aug 23 02:28:48 CST 2026","117","tests.regression","test_quotes_regression","TestQuotesRegression","","","获取随机名言应返回有效数据",""
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:42 CST 2026","118","tests.regression","test_comments_regression","TestCommentsRegression","","","添加新评论",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","117","tests.regression","test_posts_regression","TestPostsRegression","","","获取帖子1的评论",""
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:54 CST 2026","125","tests.regression","test_users_regression","TestUsersRegression","","","过滤gender=female",""
+"passed","Sun Aug 23 02:28:51 CST 2026","Sun Aug 23 02:28:51 CST 2026","122","tests.regression","test_recipes_regression","TestRecipesRegression","","","按name排序食谱",""
+"passed","Sun Aug 23 02:28:43 CST 2026","Sun Aug 23 02:28:43 CST 2026","119","tests.regression","test_posts_regression","TestPostsRegression","","","获取所有帖子标签",""
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","116","tests.smoke","test_recipes_smoke","TestRecipesSmoke","","","获取单个食谱应返回正确食谱","验证获取单个食谱返回正确的食谱信息。"
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:52 CST 2026","117","tests.regression","test_todos_regression","TestTodosRegression","","","添加新待办",""
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:50 CST 2026","116","tests.regression","test_recipes_regression","TestRecipesRegression","","","获取所有食谱标签",""
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:56 CST 2026","117","tests.smoke","test_comments_smoke","TestCommentsSmoke","","","获取单个评论应返回正确评论","验证获取单个评论返回正确的评论信息。"
+"passed","Sun Aug 23 02:28:39 CST 2026","Sun Aug 23 02:28:39 CST 2026","122","tests.regression","test_auth_regression","TestAuthRegression","","","获取当前用户应返回完整用户信息","验证获取当前用户返回完整的用户信息。"
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","117","tests.smoke","test_quotes_smoke","TestQuotesSmoke","","","获取随机名言应返回有效数据","验证获取随机名言返回有效的名言数据。"
+"passed","Sun Aug 23 02:28:43 CST 2026","Sun Aug 23 02:28:43 CST 2026","120","tests.regression","test_posts_regression","TestPostsRegression","","","搜索关键词love",""
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:56 CST 2026","119","tests.smoke","test_comments_smoke","TestCommentsSmoke","","","获取评论列表应返回分页数据","验证获取评论列表返回分页结构。"
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:46 CST 2026","118","tests.regression","test_products_regression","TestProductsRegression","","","仅选择title和price字段","验证选择特定字段功能。"
+"passed","Sun Aug 23 02:28:47 CST 2026","Sun Aug 23 02:28:47 CST 2026","118","tests.regression","test_products_regression","TestProductsRegression","","","查询不存在的产品ID返回404","验证查询不存在的产品ID返回404。"
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:55 CST 2026","119","tests.regression","test_users_regression","TestUsersRegression","","","PUT更新用户",""
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:54 CST 2026","118","tests.regression","test_users_regression","TestUsersRegression","","","添加新用户",""
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:46 CST 2026","117","tests.regression","test_products_regression","TestProductsRegression","","","获取商品分类slug列表","验证获取商品分类slug列表。"
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:50 CST 2026","119","tests.regression","test_recipes_regression","TestRecipesRegression","","","搜索关键词Margherita",""
+"passed","Sun Aug 23 02:28:41 CST 2026","Sun Aug 23 02:28:41 CST 2026","116","tests.regression","test_carts_regression","TestCartsRegression","","","查询不存在的购物车ID返回404",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","117","tests.regression","test_posts_regression","TestPostsRegression","","","PUT更新帖子",""
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:56 CST 2026","119","tests.smoke","test_carts_smoke","TestCartsSmoke","","","获取单个购物车应返回正确数据","验证获取单个购物车返回正确的购物车信息。"
+"passed","Sun Aug 23 02:28:45 CST 2026","Sun Aug 23 02:28:45 CST 2026","42","tests.regression","test_products_regression","TestProductsRegression","","","获取商品列表并验证Schema","验证获取商品列表的Schema正确性。"
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:56 CST 2026","124","tests.smoke","test_carts_smoke","TestCartsSmoke","","","获取购物车列表应返回分页数据","验证获取购物车列表返回分页结构。"
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","119","tests.smoke","test_quotes_smoke","TestQuotesSmoke","","","获取名言列表应返回分页数据","验证获取名言列表返回分页结构。"
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:42 CST 2026","118","tests.regression","test_comments_regression","TestCommentsRegression","","","分页获取评论",""
+"passed","Sun Aug 23 02:28:43 CST 2026","Sun Aug 23 02:28:43 CST 2026","121","tests.regression","test_posts_regression","TestPostsRegression","","","获取帖子标签slug列表",""
+"passed","Sun Aug 23 02:28:49 CST 2026","Sun Aug 23 02:28:49 CST 2026","355","tests.regression","test_quotes_regression","TestQuotesRegression","","","limit=0获取全部名言","验证limit=0获取所有名言。
+
+        注意: DummyJSON 在 limit=0 时返回全部数据，且响应中的 limit 字段
+        返回的是总数而非0，因此只验证返回的数据量大于默认分页大小。
+        "
+"passed","Sun Aug 23 02:28:53 CST 2026","Sun Aug 23 02:28:53 CST 2026","470","tests.regression","test_todos_regression","TestTodosRegression","","","关键字组合 - 添加+查询+更新+删除待办","使用关键字组合完成待办CRUD流程。
+
+        注意: DummyJSON 的 POST 是模拟操作，不会真正持久化数据，
+        因此 GET/PUT/DELETE 步骤使用已存在的待办ID=1进行验证。
+        "
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","119","tests.regression","test_posts_regression","TestPostsRegression","","","添加新帖子",""
+"passed","Sun Aug 23 02:28:40 CST 2026","Sun Aug 23 02:28:40 CST 2026","122","tests.regression","test_carts_regression","TestCartsRegression","","","获取用户1的购物车",""
+"passed","Sun Aug 23 02:28:45 CST 2026","Sun Aug 23 02:28:45 CST 2026","116","tests.regression","test_posts_regression","TestPostsRegression","","","查询不存在的帖子ID返回404",""
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:54 CST 2026","125","tests.regression","test_users_regression","TestUsersRegression","","","过滤hair.color=Brown",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","117","tests.regression","test_posts_regression","TestPostsRegression","","","PATCH部分更新帖子",""
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","117","tests.smoke","test_todos_smoke","TestTodosSmoke","","","获取随机待办应返回有效数据","验证获取随机待办返回有效的待办数据。"
+"passed","Sun Aug 23 02:28:53 CST 2026","Sun Aug 23 02:28:53 CST 2026","44","tests.regression","test_users_regression","TestUsersRegression","","","获取用户列表并验证Schema",""
+"passed","Sun Aug 23 02:28:43 CST 2026","Sun Aug 23 02:28:44 CST 2026","122","tests.regression","test_posts_regression","TestPostsRegression","","","按life标签获取帖子",""
+"passed","Sun Aug 23 02:28:51 CST 2026","Sun Aug 23 02:28:51 CST 2026","117","tests.regression","test_recipes_regression","TestRecipesRegression","","","查询不存在的食谱ID返回404",""
+"passed","Sun Aug 23 02:28:40 CST 2026","Sun Aug 23 02:28:41 CST 2026","119","tests.regression","test_carts_regression","TestCartsRegression","","","删除购物车",""
+"passed","Sun Aug 23 02:28:45 CST 2026","Sun Aug 23 02:28:46 CST 2026","118","tests.regression","test_products_regression","TestProductsRegression","","","获取商品分类列表","验证获取商品分类列表。"
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:46 CST 2026","122","tests.regression","test_products_regression","TestProductsRegression","","","按smartphones分类获取商品","验证按分类获取商品。"
+"passed","Sun Aug 23 02:28:49 CST 2026","Sun Aug 23 02:28:49 CST 2026","117","tests.regression","test_quotes_regression","TestQuotesRegression","","","仅选择quote和author字段",""
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:53 CST 2026","118","tests.regression","test_todos_regression","TestTodosRegression","","","删除待办",""
+"passed","Sun Aug 23 02:28:38 CST 2026","Sun Aug 23 02:28:38 CST 2026","117","tests.regression","test_auth_regression","TestAuthRegression","","","数据驱动登录场景 - {test_id}","使用YAML数据驱动测试多种登录场景。"
+"passed","Sun Aug 23 02:28:55 CST 2026","Sun Aug 23 02:28:56 CST 2026","474","tests.regression","test_users_regression","TestUsersRegression","","","关键字组合 - 添加+查询+更新+删除用户","使用关键字组合完成用户CRUD流程。
+
+        注意: DummyJSON 的 POST 是模拟操作，不会真正持久化数据，
+        因此 GET/PUT/DELETE 步骤使用已存在的用户ID=1进行验证。
+        "
+"passed","Sun Aug 23 02:28:39 CST 2026","Sun Aug 23 02:28:39 CST 2026","155","tests.regression","test_auth_regression","TestAuthRegression","","","无Token访问/auth/me应返回401","验证无Token访问需要鉴权的端点返回401。"
+"passed","Sun Aug 23 02:28:38 CST 2026","Sun Aug 23 02:28:38 CST 2026","118","tests.regression","test_auth_regression","TestAuthRegression","","","数据驱动登录场景 - {test_id}","使用YAML数据驱动测试多种登录场景。"
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:46 CST 2026","125","tests.regression","test_products_regression","TestProductsRegression","","","按price升序排序","验证商品排序功能。"
+"passed","Sun Aug 23 02:28:47 CST 2026","Sun Aug 23 02:28:48 CST 2026","360","tests.regression","test_products_regression","TestProductsRegression","","","关键字组合 - 添加+查询+更新+删除","使用关键字组合完成完整CRUD流程。
+
+        注意: DummyJSON 的 POST 是模拟操作，不会真正持久化数据，
+        因此 GET/PUT/DELETE 步骤使用已存在的资源ID=1进行验证。
+        "
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:52 CST 2026","118","tests.regression","test_todos_regression","TestTodosRegression","","","PUT更新待办",""
+"passed","Sun Aug 23 02:28:48 CST 2026","Sun Aug 23 02:28:48 CST 2026","260","tests.regression","test_products_regression","TestProductsRegression","","","limit=0获取全部商品","验证limit=0获取所有商品。
+
+        注意: DummyJSON 在 limit=0 时返回全部数据，且响应中的 limit 字段
+        返回的是总数而非0，因此只验证返回的数据量大于默认分页大小。
+        "
+"passed","Sun Aug 23 02:28:48 CST 2026","Sun Aug 23 02:28:49 CST 2026","120","tests.regression","test_quotes_regression","TestQuotesRegression","","","按author排序获取名言","验证按author排序获取名言。
+
+        注意: DummyJSON quotes 模块不支持 /quotes/search 搜索端点，
+        使用排序端点替代搜索测试。
+        "
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","12","tests.smoke","test_products_smoke","TestProductsSmoke","","","获取单个商品应返回正确商品","验证获取单个商品返回正确的商品信息。"
+"passed","Sun Aug 23 02:28:53 CST 2026","Sun Aug 23 02:28:54 CST 2026","119","tests.regression","test_users_regression","TestUsersRegression","","","获取ID为1的用户",""
+"passed","Sun Aug 23 02:28:38 CST 2026","Sun Aug 23 02:28:38 CST 2026","118","tests.regression","test_auth_regression","TestAuthRegression","","","数据驱动登录场景 - {test_id}","使用YAML数据驱动测试多种登录场景。"
+"passed","Sun Aug 23 02:28:54 CST 2026","Sun Aug 23 02:28:54 CST 2026","118","tests.regression","test_users_regression","TestUsersRegression","","","搜索关键词John",""
+"passed","Sun Aug 23 02:28:39 CST 2026","Sun Aug 23 02:28:39 CST 2026","121","tests.regression","test_auth_regression","TestAuthRegression","","","/user/me 端点获取当前用户","验证 /user/me 端点获取当前用户功能。"
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:43 CST 2026","469","tests.regression","test_comments_regression","TestCommentsRegression","","","关键字组合 - 添加+查询+更新+删除评论","使用关键字组合完成评论CRUD流程。
+
+        注意: DummyJSON 的 POST 是模拟操作，不会真正持久化数据，
+        因此 GET/PUT/DELETE 步骤使用已存在的评论ID=1进行验证。
+        "
+"passed","Sun Aug 23 02:28:49 CST 2026","Sun Aug 23 02:28:49 CST 2026","236","tests.regression","test_quotes_regression","TestQuotesRegression","","","关键字组合 - 获取列表+随机名言+搜索",""
+"passed","Sun Aug 23 02:28:53 CST 2026","Sun Aug 23 02:28:53 CST 2026","117","tests.regression","test_todos_regression","TestTodosRegression","","","查询不存在的待办ID返回404",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:45 CST 2026","119","tests.regression","test_posts_regression","TestPostsRegression","","","仅选择title和reactions字段",""
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:56 CST 2026","120","tests.smoke","test_auth_smoke","TestAuthSmoke","","","使用Token获取当前用户信息","验证使用Token获取当前用户信息返回200和正确用户。"
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:42 CST 2026","118","tests.regression","test_comments_regression","TestCommentsRegression","","","仅选择body和postId字段",""
+"passed","Sun Aug 23 02:28:39 CST 2026","Sun Aug 23 02:28:40 CST 2026","242","tests.regression","test_auth_regression","TestAuthRegression","","","关键字组合 - 登录并验证用户","使用关键字组合：登录获取Token -> 验证获取当前用户。"
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:56 CST 2026","119","tests.smoke","test_auth_smoke","TestAuthSmoke","","","使用有效凭据登录应成功","验证使用有效凭据登录返回200和Token。"
+"passed","Sun Aug 23 02:28:41 CST 2026","Sun Aug 23 02:28:42 CST 2026","116","tests.regression","test_comments_regression","TestCommentsRegression","","","获取帖子6的评论",""
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:52 CST 2026","117","tests.regression","test_todos_regression","TestTodosRegression","","","PATCH部分更新待办",""
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:47 CST 2026","442","tests.regression","test_products_regression","TestProductsRegression","","","PUT更新商品","验证PUT更新商品功能。"
+"passed","Sun Aug 23 02:28:53 CST 2026","Sun Aug 23 02:28:53 CST 2026","117","tests.regression","test_todos_regression","TestTodosRegression","","","分页获取待办",""
+"passed","Sun Aug 23 02:28:44 CST 2026","Sun Aug 23 02:28:44 CST 2026","117","tests.regression","test_posts_regression","TestPostsRegression","","","分页获取帖子",""
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:42 CST 2026","118","tests.regression","test_comments_regression","TestCommentsRegression","","","查询不存在的评论ID返回404",""
+"passed","Sun Aug 23 02:28:39 CST 2026","Sun Aug 23 02:28:39 CST 2026","117","tests.regression","test_auth_regression","TestAuthRegression","","","指定expiresInMins=1的Token","验证指定短过期时间的Token。"
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:50 CST 2026","120","tests.regression","test_recipes_regression","TestRecipesRegression","","","按Pakistani标签获取食谱",""
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:52 CST 2026","154","tests.regression","test_todos_regression","TestTodosRegression","","","获取待办列表并验证Schema",""
+"passed","Sun Aug 23 02:28:48 CST 2026","Sun Aug 23 02:28:48 CST 2026","150","tests.regression","test_quotes_regression","TestQuotesRegression","","","获取名言列表并验证Schema",""
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:51 CST 2026","120","tests.regression","test_recipes_regression","TestRecipesRegression","","","PATCH部分更新食谱",""
+"passed","Sun Aug 23 02:28:56 CST 2026","Sun Aug 23 02:28:57 CST 2026","116","tests.smoke","test_posts_smoke","TestPostsSmoke","","","获取单个帖子应返回正确帖子","验证获取单个帖子返回正确的帖子信息。"
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:50 CST 2026","118","tests.regression","test_recipes_regression","TestRecipesRegression","","","添加新食谱",""
+"passed","Sun Aug 23 02:28:52 CST 2026","Sun Aug 23 02:28:52 CST 2026","118","tests.regression","test_todos_regression","TestTodosRegression","","","获取随机待办应返回有效数据",""
+"passed","Sun Aug 23 02:28:47 CST 2026","Sun Aug 23 02:28:47 CST 2026","118","tests.regression","test_products_regression","TestProductsRegression","","","删除商品","验证删除商品功能。"
+"passed","Sun Aug 23 02:28:55 CST 2026","Sun Aug 23 02:28:55 CST 2026","120","tests.regression","test_users_regression","TestUsersRegression","","","分页获取用户",""
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:42 CST 2026","119","tests.regression","test_comments_regression","TestCommentsRegression","","","PATCH部分更新评论",""
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:50 CST 2026","120","tests.regression","test_recipes_regression","TestRecipesRegression","","","按Snack餐类获取食谱",""
+"passed","Sun Aug 23 02:28:46 CST 2026","Sun Aug 23 02:28:46 CST 2026","117","tests.regression","test_products_regression","TestProductsRegression","","","仅传title添加产品","验证仅传title添加商品。"
+"passed","Sun Aug 23 02:28:51 CST 2026","Sun Aug 23 02:28:51 CST 2026","121","tests.regression","test_recipes_regression","TestRecipesRegression","","","分页获取食谱",""
+"passed","Sun Aug 23 02:28:57 CST 2026","Sun Aug 23 02:28:57 CST 2026","17","tests.smoke","test_products_smoke","TestProductsSmoke","","","获取商品列表应返回分页数据","验证获取商品列表返回分页结构。"
+"passed","Sun Aug 23 02:28:50 CST 2026","Sun Aug 23 02:28:50 CST 2026","118","tests.regression","test_recipes_regression","TestRecipesRegression","","","PUT更新食谱",""
+"passed","Sun Aug 23 02:28:49 CST 2026","Sun Aug 23 02:28:50 CST 2026","150","tests.regression","test_recipes_regression","TestRecipesRegression","","","获取食谱列表并验证Schema",""
+"passed","Sun Aug 23 02:28:40 CST 2026","Sun Aug 23 02:28:40 CST 2026","119","tests.regression","test_carts_regression","TestCartsRegression","","","PUT更新购物车",""
+"passed","Sun Aug 23 02:28:55 CST 2026","Sun Aug 23 02:28:55 CST 2026","116","tests.regression","test_users_regression","TestUsersRegression","","","查询不存在的用户ID返回404",""
+"passed","Sun Aug 23 02:28:42 CST 2026","Sun Aug 23 02:28:42 CST 2026","118","tests.regression","test_comments_regression","TestCommentsRegression","","","删除评论",""

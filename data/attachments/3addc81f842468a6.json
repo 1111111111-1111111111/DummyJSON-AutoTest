@@ -1,0 +1,67 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:40 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "807",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"327-P4zfv4emF+GGpBY1fkDILX+ZwQw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "77",
+    "x-ratelimit-reset": "1787423325",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=slfbr6ZPmXqxUc0Izs%2BRmruJy2zAruvIADVLgrkP0%2FLNLL6hZxkZnr0oNq0WHHAUbxYIaclmxWIZ7lJu3AE%2Bqss%2BIo4Ivj1n0fsZp3hx2C6QdBmd5JM9f1s0NM9UHmGr\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0499ee43020-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 40,
+        "title": "Strawberry",
+        "price": 3.99,
+        "quantity": 1,
+        "total": 3.99,
+        "discountPercentage": 1.12,
+        "discountedPrice": 4,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/strawberry/thumbnail.webp"
+      },
+      {
+        "id": 46,
+        "title": "Plant Pot",
+        "price": 14.99,
+        "quantity": 1,
+        "total": 14.99,
+        "discountPercentage": 6.84,
+        "discountedPrice": 14,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/thumbnail.webp"
+      },
+      {
+        "id": 112,
+        "title": "TV Studio Camera Pedestal",
+        "price": 499.99,
+        "quantity": 7,
+        "total": 3499.9300000000003,
+        "discountPercentage": 8.31,
+        "discountedPrice": 3209,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/thumbnail.webp"
+      }
+    ],
+    "total": 3518.9100000000003,
+    "discountedTotal": 3227,
+    "userId": 1,
+    "totalProducts": 3,
+    "totalQuantity": 9
+  },
+  "elapsed_ms": 117.95400000000001
+}

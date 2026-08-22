@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:44 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "388",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"184-Q+nJAF4Qg21R53PItDjbIjWhuiw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3DvrcbRCRxflYIjAI2yVAkZAxetUML2DdBdqZO3lRLQiSwgCg6949kmQw4xfsIIBA3KWvg%2Bn94sQbXmRnSR7NxM%2FR9cLcinYOGkTFK8zSEeYiepXdxwCAuoV6tgW29Z%2F\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f060a9613020-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "运行国家影响地区登录程序分析首页新闻这样法律.",
+    "body": "她的希望只是实现公司应用.社区设备比较电脑作为经济今年.浏览一点不能她的其实大学介绍结果.工作法律上海孩子建设基本点击已经.大家这个过程下载.",
+    "userId": 1,
+    "tags": [
+      "或者",
+      "空间",
+      "设备"
+    ],
+    "reactions": {
+      "likes": 209,
+      "dislikes": 39
+    }
+  },
+  "elapsed_ms": 115.66600000000001
+}

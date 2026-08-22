@@ -1,0 +1,39 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:43 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"6e-DNppbBr8U44KX4cmOP03Pyu2Wm8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "56",
+    "x-ratelimit-reset": "1787423325",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FkLKhqD1iUgpQ4Numw5zim4Emo%2FBEP21dh%2F0k2yp%2BVB6EEU9kpHbUBy6o5YtYyjxYdTRmjbphSD%2FuPk9BvR4dC7vQeR5v11EylKpaD9rg4XNTQKhOqKEfJ8nZQ2nHjr2\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0597a323020-IAD"
+  },
+  "body": {
+    "id": 1,
+    "body": "Updated",
+    "postId": 242,
+    "likes": 3,
+    "user": {
+      "id": 105,
+      "username": "emmac",
+      "fullName": "Emma Wilson"
+    }
+  },
+  "elapsed_ms": 114.439
+}

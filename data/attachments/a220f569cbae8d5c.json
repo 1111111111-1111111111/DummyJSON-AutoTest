@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:46 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "241",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"f1-whJBKbzh+lI0q93sbBh6u7q6t9w\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "77",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jAGMoGS6ZZDTCc3sMxLz%2FCLfTg4Wl7BXTDUanhzVMxLjreaRKciSSsxMhNuOl%2BPScfJq5ag4nAxIOjrLWHw6ob18lqrT4hm437ZNVsBU7A6iYJs6t4nwFArujaw%2BY7yA\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f06f6fcb3020-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 作者",
+    "price": 443.2,
+    "discountPercentage": 0.82,
+    "stock": 51,
+    "rating": 4.87,
+    "description": "登录以上选择完成搜索生活东西无法欢迎大学.",
+    "brand": "易动力科技有限公司",
+    "category": "beauty"
+  },
+  "elapsed_ms": 114.09700000000001
+}

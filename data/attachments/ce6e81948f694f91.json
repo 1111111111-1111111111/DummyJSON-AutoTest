@@ -1,0 +1,62 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:50 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"213-bOKvrp37SX4dZKcBgLuac3XFlmU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "49",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=uK%2B%2BETvNL7QzYUL8%2FTuV9H%2Fqz58auX9QBjZEfL8ElGF9wbvJAplYP%2BZdoBEIyjkQSsBPgQqLfq5xr1veDmAmlMAXjtkfiv1OMD%2Bipcc7IZMI5oyaMX5y64ySjCo1MyO4\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0892f783020-IAD"
+  },
+  "body": {
+    "id": 51,
+    "name": "她的 Special Recipe",
+    "ingredients": [
+      "注意",
+      "人民",
+      "支持",
+      "查看",
+      "比较",
+      "开始"
+    ],
+    "instructions": [
+      "工程那些发展环境朋友软件的话.",
+      "专业电子我们公司解决运行能力.",
+      "一切时候中心这是加入汽车或者.",
+      "通过下载一些两个决定.",
+      "喜欢得到城市你的地方基本."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Asian",
+    "caloriesPerServing": 428,
+    "tags": [
+      "一起",
+      "所有",
+      "系列"
+    ],
+    "userId": 67,
+    "mealType": [
+      "Breakfast"
+    ]
+  },
+  "elapsed_ms": 114.338
+}

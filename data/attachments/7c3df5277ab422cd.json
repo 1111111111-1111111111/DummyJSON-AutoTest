@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:49 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"53-YQbLyqtwj6TL5FodY7ZVZfSAymQ\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "58",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=UKPl23XH7oN3qCuskUfWsFtHe8O4jo3%2FuMCl6jV4vm7PwrKaPN9XdOaQ%2FzpiV0sm7YkVYq3Dla%2FvFZWj2GjTluxkrUXwCEHb%2B2JlVQI7LNy3IbbVGh3OEePcSnVfCQWg\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f083bb8d3020-IAD"
+  },
+  "body": {
+    "id": 585,
+    "quote": "He Who Avoids Complaint Invites Happiness.",
+    "author": "Abu Bakr"
+  },
+  "elapsed_ms": 113.213
+}

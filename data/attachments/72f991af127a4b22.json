@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "297",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"129-ovwTx0a33YD9h++AmPP+sLNd5vM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "88",
+    "x-ratelimit-reset": "1787423335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZF5DgjURM7mMuzYvcd3QlNqVX4DPc2SgSBNMh7jiAFy1I7vV91U7jGthGSe8a6Uoe3ShLd%2ByNMuKShQ676hRqEkkjgGkJaJsmONoYVoWnQxKMrPbOJJh9DEc2Wx10tQ5\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f066ac893020-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "都是历史选择关于通过当前因此.",
+    "body": "网上说明帮助业务经营.公司关于为什.不能或者客户只有.时间积分这种发布.文化得到之后主要这种一下.",
+    "userId": 1,
+    "tags": [
+      "的是",
+      "使用",
+      "最大"
+    ],
+    "reactions": {
+      "likes": 28,
+      "dislikes": 25
+    }
+  },
+  "elapsed_ms": 114.0
+}

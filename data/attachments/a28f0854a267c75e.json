@@ -1,0 +1,90 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 22 Aug 2026 18:28:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=k5RHmICsDl1YOLrZBAf5oOdS1u0nWcddMsyd33y98erP%2FCctduLW2XcRKoPDyeS6Vt8SOwBqTWyw1q9JFOVQGG%2B%2F%2FYAD6T%2B5yxN7fGcTb0fjqEBkq%2FGploXxcO%2BurjDP\"}]}",
+    "etag": "W/\"5e6-bX+IgjHKZz+TflDmEXfyyaBO9Hk\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1786267321",
+    "x-xss-protection": "1; mode=block",
+    "Age": "551215",
+    "Cache-Control": "no-store",
+    "cf-cache-status": "HIT",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a2f3f0b10f093020-IAD"
+  },
+  "body": {
+    "id": 1,
+    "title": "Essence Mascara Lash Princess",
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "category": "beauty",
+    "price": 9.99,
+    "discountPercentage": 10.48,
+    "rating": 2.56,
+    "stock": 99,
+    "tags": [
+      "beauty",
+      "mascara"
+    ],
+    "brand": "Essence",
+    "sku": "BEA-ESS-ESS-001",
+    "weight": 4,
+    "dimensions": {
+      "width": 15.14,
+      "height": 13.08,
+      "depth": 22.99
+    },
+    "warrantyInformation": "1 week warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Would not recommend!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Eleanor Collins",
+        "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Lucas Gordon",
+        "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Eleanor Collins",
+        "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 48,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "5784719087687",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+  },
+  "elapsed_ms": 9.325999999999999
+}
