@@ -1,0 +1,60 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:15 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"139-ELNxsMFjXOe3ZPo3AJr1HNXGZvU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "38",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=aZC%2BGA7msWMcgjmpTdah1ChcdNu3OeT9sKvSA6iylxnjIMvsi8iXFGKkiOvDRdrDQKCb7yMT4wlPhHZTfQK%2FxE0FjOpLVOI7chLlmCmO0Zh9nc%2BDwA5yoRKCFRMiXoT4\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a367cec21fd090c6-ORD"
+  },
+  "body": {
+    "products": [
+      {
+        "id": 1,
+        "title": "Essence Mascara Lash Princess",
+        "price": 9.99
+      },
+      {
+        "id": 2,
+        "title": "Eyeshadow Palette with Mirror",
+        "price": 19.99
+      },
+      {
+        "id": 3,
+        "title": "Powder Canister",
+        "price": 14.99
+      },
+      {
+        "id": 4,
+        "title": "Red Lipstick",
+        "price": 12.99
+      },
+      {
+        "id": 5,
+        "title": "Red Nail Polish",
+        "price": 8.99
+      }
+    ],
+    "total": 194,
+    "skip": 0,
+    "limit": 5
+  },
+  "elapsed_ms": 134.632
+}

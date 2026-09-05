@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "楠",
+    "lastName": "徐",
+    "age": 79,
+    "gender": "male",
+    "email": "fangjia@example.org",
+    "phone": "14728790372",
+    "username": "li34",
+    "password": "q(T2dBUz#@lZ",
+    "birthDate": "1970-03-02",
+    "bloodGroup": "A-",
+    "height": 160.53,
+    "weight": 115.91,
+    "eyeColor": "Blue"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODg2MzgyODcsImV4cCI6MTc4ODY0MDA4N30.T_PM5CrQd4rYE6VZ6k02GnoQbmfxUqm4Ws50_NI9Rh4"
+  }
+}

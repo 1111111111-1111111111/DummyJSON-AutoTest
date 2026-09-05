@@ -1,0 +1,9 @@
+DEBUG    dummyjson_test:data_generator.py:62 生成产品数据: Test Product 说明
+INFO     dummyjson_test:base_api.py:86 POST /products/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/products/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Test Product 说明', 'description': '注意最后根据无法积分喜欢继续人民学校重要产品显示之间一定.', 'category': 'groceries', 'price': 699.94, 'discountPercentage': 15.5, 'rating': 3.02, 'stock': 57, 'tags': ['来自', '城市', '只要'], 'brand': '彩虹传媒有限公司', 'sku': 'KZI0ORR4'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /products/add HTTP/1.1" 201 266
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.136s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: title=Test Product 说明
+INFO     dummyjson_test:assertions.py:18 断言通过: price=699.94

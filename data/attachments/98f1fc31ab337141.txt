@@ -1,0 +1,3 @@
+2026-09-06 03:58:19 | INFO     | dummyjson_test | http_client.py:108 | [GET] https://dummyjson.com/recipes/meal-type/Snack | attempt=1/3
+2026-09-06 03:58:20 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 200 | 耗时: 0.136s
+2026-09-06 03:58:20 | INFO     | dummyjson_test | assertions.py:36 | 断言通过: 列表 'recipes' 有 3 个元素

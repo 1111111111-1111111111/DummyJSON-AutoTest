@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "两个准备广告注册最新技术品牌.",
+    "body": "合作建设大家成功应该.问题之后系统作为但是不是部分活动.首页公司只是可是一下.会员经营发展.",
+    "userId": 1,
+    "tags": [
+      "谢谢",
+      "准备",
+      "选择"
+    ],
+    "reactions": {
+      "likes": 418,
+      "dislikes": 28
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODg2MzgyODcsImV4cCI6MTc4ODY0MDA4N30.T_PM5CrQd4rYE6VZ6k02GnoQbmfxUqm4Ws50_NI9Rh4"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:11 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"2ca-a+z9hgnrRD5CrE3KyTAGceMPmE0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "69",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TpnY5d%2FctHtJqVWm43%2BDHF%2FvpG35aOqxUmrMVD2OMWwRj2OCYk%2FkYqlSEYFLmpjmzTD7DgN6X6QeKkdcqTta8yUcvYViTYParTafzu6iJfiD2N5ufPIy1WcPb9qIwO%2B6\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a367cea63c0290c6-ORD"
+  },
+  "body": {
+    "comments": [
+      {
+        "id": 1,
+        "body": "This is some awesome thinking!",
+        "postId": 242,
+        "likes": 3,
+        "user": {
+          "id": 105,
+          "username": "emmac",
+          "fullName": "Emma Wilson"
+        }
+      },
+      {
+        "id": 2,
+        "body": "What terrific math skills you're showing!",
+        "postId": 46,
+        "likes": 4,
+        "user": {
+          "id": 183,
+          "username": "cameronp",
+          "fullName": "Cameron Perez"
+        }
+      },
+      {
+        "id": 3,
+        "body": "You are an amazing writer!",
+        "postId": 235,
+        "likes": 2,
+        "user": {
+          "id": 1,
+          "username": "emilys",
+          "fullName": "Emily Johnson"
+        }
+      },
+      {
+        "id": 4,
+        "body": "Wow! You have improved so much!",
+        "postId": 31,
+        "likes": 1,
+        "user": {
+          "id": 89,
+          "username": "braydenf",
+          "fullName": "Brayden Fleming"
+        }
+      },
+      {
+        "id": 5,
+        "body": "Nice idea!",
+        "postId": 212,
+        "likes": 1,
+        "user": {
+          "id": 149,
+          "username": "wyattp",
+          "fullName": "Wyatt Perry"
+        }
+      }
+    ],
+    "total": 340,
+    "skip": 0,
+    "limit": 5
+  },
+  "elapsed_ms": 135.867
+}

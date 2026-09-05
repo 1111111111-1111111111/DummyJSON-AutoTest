@@ -1,0 +1,6 @@
+INFO     dummyjson_test:base_api.py:41 GET /products params={'limit': 5, 'skip': 0, 'select': 'title,price'}
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/products | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:110 请求参数: {'limit': 5, 'skip': 0, 'select': 'title,price'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "GET /products?limit=5&skip=0&select=title%2Cprice HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.135s
+INFO     dummyjson_test:assertions.py:36 断言通过: 列表 'products' 有 5 个元素

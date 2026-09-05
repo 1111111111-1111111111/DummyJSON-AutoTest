@@ -1,0 +1,8 @@
+DEBUG    dummyjson_test:data_generator.py:99 生成用户数据: 楠 徐
+INFO     dummyjson_test:base_api.py:86 POST /users/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/users/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'firstName': '楠', 'lastName': '徐', 'age': 79, 'gender': 'male', 'email': 'fangjia@example.org', 'phone': '14728790372', 'username': 'li34', 'password': 'q(T2dBUz#@lZ', 'birthDate': '1970-03-02', 'bloodGroup': 'A-', 'height': 160.53, 'weight': 115.91, 'eyeColor': 'Blue'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /users/add HTTP/1.1" 201 833
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.134s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: firstName=楠

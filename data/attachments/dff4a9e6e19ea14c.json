@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "291",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"123-79GuUxK7J7YX9Yz4y9grzp1exGc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "56",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SMvdM0lBrRy%2Fa4xrXAZbsG6h1PnoTRUqDM2ifq8PwUw6tbqCjAr%2ByFXS6XpoNgUUWZjlR0tYB%2Bid4FkBfiydqYZxC3vbRnFbIbhzV3iTEAL48pW6S1oTVDu1%2FW2aClE0\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a367ceb1fc9c90c6-ORD"
+  },
+  "body": {
+    "id": 252,
+    "title": "两个准备广告注册最新技术品牌.",
+    "body": "合作建设大家成功应该.问题之后系统作为但是不是部分活动.首页公司只是可是一下.会员经营发展.",
+    "userId": 1,
+    "tags": [
+      "谢谢",
+      "准备",
+      "选择"
+    ],
+    "reactions": {
+      "likes": 418,
+      "dislikes": 28
+    }
+  },
+  "elapsed_ms": 134.221
+}

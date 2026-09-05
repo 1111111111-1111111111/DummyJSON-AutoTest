@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:27 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"7e-nRRhQ76df+fUjnsNA4sUm4CiulY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "91",
+    "x-ratelimit-reset": "1788638317",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tqMuRi1BrbNGrjsudXww%2BKOFjDd06fhwHPP%2FLwfVhuV7rpW2riTgJ7XboXtyKMmYCcxX%2Fx9fYfusKa3Tdw3ESKgjoj9HvqSmP3BcvvsWs38DqLh6u20edyB4ho%2FqzPsk\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a367cf0f4cef90c6-ORD"
+  },
+  "body": {
+    "id": 719,
+    "quote": "Chains Of Habit Are Too Light To Be Felt Until They Are Too Heavy To Be Broken.",
+    "author": "Warren Buffett"
+  },
+  "elapsed_ms": 137.89499999999998
+}

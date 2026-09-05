@@ -1,0 +1,83 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "etag": "W/\"549-+7OFiAFYsjrm9jKKn0Mduzm7flw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "59",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NncemXzLdNnX2QcWxQjKAD4Ev7AgxHXo3HgRepgRcDokjVY4Ow36QnE%2BuAmmKQpomPWjK6BpY1Repr%2FULc%2FbBVRHRKNyDapERQ9xOjfJRWrWMJ%2FNYAd6zXvctO026miD\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a367ceaf5bfe90c6-ORD"
+  },
+  "body": {
+    "posts": [
+      {
+        "id": 153,
+        "title": "The forest was alive with the sounds of nature",
+        "body": "Birds sang, leaves rustled, and a gentle stream trickled nearby. It was a symphony of life, a reminder of the world's beauty. The dense canopy overhead filtered the sunlight, creating a mosaic of light and shadow on the forest floor, a tranquil haven far from the chaos of modern life.",
+        "tags": [
+          "nature",
+          "tranquility",
+          "life"
+        ],
+        "reactions": {
+          "likes": 366,
+          "dislikes": 28
+        },
+        "views": 1868,
+        "userId": 24
+      },
+      {
+        "id": 167,
+        "title": "The market was a bustling maze of sights and sounds",
+        "body": "Stalls filled with colorful produce, the air rich with the scent of spices and fresh flowers. Vendors called out their wares, and the crowd moved in a vibrant dance. It was a place of energy and life, where every visit promised something new.",
+        "tags": [
+          "market",
+          "vibrant",
+          "life"
+        ],
+        "reactions": {
+          "likes": 1165,
+          "dislikes": 5
+        },
+        "views": 3654,
+        "userId": 118
+      },
+      {
+        "id": 190,
+        "title": "The farm was a bustling hub of activity",
+        "body": "Animals roamed the fields, and the air was filled with the sounds of clucking chickens and lowing cows. Crops swayed in the breeze, promising a good harvest. It was a place of hard work and satisfaction, where the rhythm of life followed the seasons.",
+        "tags": [
+          "farm",
+          "activity",
+          "life"
+        ],
+        "reactions": {
+          "likes": 463,
+          "dislikes": 13
+        },
+        "views": 488,
+        "userId": 188
+      }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+  },
+  "elapsed_ms": 138.30100000000002
+}

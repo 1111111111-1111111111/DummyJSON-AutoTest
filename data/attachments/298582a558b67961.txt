@@ -1,0 +1,5 @@
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/user/me | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "GET /user/me HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.136s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:24 断言通过: firstName 非空

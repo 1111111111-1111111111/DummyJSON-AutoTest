@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:14 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "266",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"10a-L9NH0gmUDNm10OtX//HTm8xjsLQ\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "48",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2F88oUc1R7dAQ0Vjf3hOqAAMc1P0uLbsgjZcfk%2FM7qHsQH6ebAeWnYenGBp1Np8NF1g%2Bodhp6fj7bL72CPy9qjPeA2fWA1vhJnLS2MKP7ySCds5SFjgMPTmUhUVvwgUjg\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a367ceb8fcfb90c6-ORD"
+  },
+  "body": {
+    "id": 252,
+    "title": "开发不会觉得点击成功.",
+    "body": "主题能够开发美国地址关于.商品来自次数历史积分一次.免费而且语言价格之后之后方面.",
+    "userId": 1,
+    "tags": [
+      "密码",
+      "完全",
+      "成为"
+    ],
+    "reactions": {
+      "likes": 299,
+      "dislikes": 31
+    }
+  },
+  "elapsed_ms": 134.14499999999998
+}

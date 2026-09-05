@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:10 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "182",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"b6-00vKZRvUSkTsXl2ymCy26qTk6Pg\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "74",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4PBTM4Sb27R3b6gvTR1DvZo%2BmsMwIJY8vExP5MT%2F3BAETi%2BifvJZ1fMr9CbXQRNF2i2IflYiqkqXx6Zky1MwoSVHnqj%2BdWk0jliLmFIx6mvNE74ZqjCOq800RL37S1Mi\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a367cea1de0090c6-ORD"
+  },
+  "body": {
+    "id": 341,
+    "body": "浏览不同全部生活回复精华商品日期社会今天部分联系实现大小一次.",
+    "postId": 3,
+    "user": {
+      "id": 5,
+      "username": "emmaj",
+      "fullName": "Emma Miller"
+    }
+  },
+  "elapsed_ms": 137.359
+}

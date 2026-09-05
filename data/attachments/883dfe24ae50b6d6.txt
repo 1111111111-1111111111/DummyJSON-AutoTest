@@ -1,0 +1,8 @@
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/auth/login | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'username': 'emilys', 'password': 'emilyspass', 'expiresInMins': 60}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /auth/login HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.135s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: username=emilys
+INFO     dummyjson_test:assertions.py:24 断言通过: accessToken 非空
+INFO     dummyjson_test:assertions.py:24 断言通过: refreshToken 非空

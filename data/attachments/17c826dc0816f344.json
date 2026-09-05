@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:17 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "264",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"108-zDtXaMrdh4nLQGEzqxHjqAIZeEE\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "96",
+    "x-ratelimit-reset": "1788638307",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TMr6%2FlvClGf6xdF9AW8PQ3iUewZrWULIEV0XGVEwCdHhohm7uvyl6YEEwEkco2Ds8AxMxCFPofPC1zWw%2BVwOaZYx2y%2B3pS9HJeBbBbke5F1BT4GxlQyiJepjC35277Vg\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a367cecc0bde90c6-ORD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 加入",
+    "price": 613.04,
+    "discountPercentage": 11.85,
+    "stock": 98,
+    "rating": 3.2,
+    "description": "所以看到等级国家日本两个谢谢正在人民为了商品一切拥有首页.",
+    "brand": "趋势信息有限公司",
+    "category": "laptops"
+  },
+  "elapsed_ms": 134.047
+}

@@ -1,0 +1,40 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "不会 Special Recipe",
+    "ingredients": [
+      "认为",
+      "技术",
+      "提供",
+      "专业"
+    ],
+    "instructions": [
+      "那么一切网络更新为了有限世界那些.",
+      "来自如此进入进入来源.",
+      "一次免费现在成为阅读.",
+      "城市大学安全企业什么音乐.",
+      "以及项目需要科技运行一次."
+    ],
+    "prepTimeMinutes": 42,
+    "cookTimeMinutes": 89,
+    "servings": 3,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 579,
+    "tags": [
+      "今年",
+      "能力",
+      "政府"
+    ],
+    "userId": 19,
+    "mealType": [
+      "Dessert"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODg2MzgyODcsImV4cCI6MTc4ODY0MDA4N30.T_PM5CrQd4rYE6VZ6k02GnoQbmfxUqm4Ws50_NI9Rh4"
+  }
+}

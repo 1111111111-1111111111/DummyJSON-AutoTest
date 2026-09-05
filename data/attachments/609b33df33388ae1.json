@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 说明",
+    "description": "注意最后根据无法积分喜欢继续人民学校重要产品显示之间一定.",
+    "category": "groceries",
+    "price": 699.94,
+    "discountPercentage": 15.5,
+    "rating": 3.02,
+    "stock": 57,
+    "tags": [
+      "来自",
+      "城市",
+      "只要"
+    ],
+    "brand": "彩虹传媒有限公司",
+    "sku": "KZI0ORR4"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODg2MzgyODcsImV4cCI6MTc4ODY0MDA4N30.T_PM5CrQd4rYE6VZ6k02GnoQbmfxUqm4Ws50_NI9Rh4"
+  }
+}

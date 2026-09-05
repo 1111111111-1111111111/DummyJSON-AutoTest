@@ -1,0 +1,68 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1be-kbZNgaVKQDTrR3CLtI9IPiFButs\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "57",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RhCoXQOxPZ4HU42yHR8q9yvB7sNu8Lr5W4G5y8FbYKVE92vQCIDU1244p%2F48PR9NOKsIPcD7RIs9fAnJhqX4QGdGoFHM48p2viGoZwQpcKnj4arLuwzdaWwpPAryMTwJ\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a367ceb119d890c6-ORD"
+  },
+  "body": {
+    "comments": [
+      {
+        "id": 93,
+        "body": "These are fabulous ideas!",
+        "postId": 1,
+        "likes": 7,
+        "user": {
+          "id": 190,
+          "username": "leahw",
+          "fullName": "Leah Gutierrez"
+        }
+      },
+      {
+        "id": 107,
+        "body": "You are a symbol of beauty.",
+        "postId": 1,
+        "likes": 7,
+        "user": {
+          "id": 131,
+          "username": "jacksonm",
+          "fullName": "Jackson Morales"
+        }
+      },
+      {
+        "id": 209,
+        "body": "Your eyes are like stars.",
+        "postId": 1,
+        "likes": 10,
+        "user": {
+          "id": 95,
+          "username": "miless",
+          "fullName": "Miles Stevenson"
+        }
+      }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+  },
+  "elapsed_ms": 134.482
+}

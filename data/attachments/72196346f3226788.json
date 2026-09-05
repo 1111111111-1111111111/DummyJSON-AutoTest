@@ -1,0 +1,80 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:13 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"252-7TD2M2E1b6o/A19MU7XZjGDjLbA\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9pgM29KW3pd%2B%2F9MwT3yMyvGLOj0Sueb%2B1SLZREv%2FZY%2FSZzZ%2Bt%2FdmmVgl%2B6WwmcAe%2FSdwcvScMBbqgkeJtwYK5s78cZt5RXTKpYAtfRjzuRfZ3C2K1aYD7wwztTjdBK7M\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a367ceb73ec490c6-ORD"
+  },
+  "body": {
+    "posts": [
+      {
+        "id": 1,
+        "title": "His mother had always taught him",
+        "reactions": {
+          "likes": 192,
+          "dislikes": 25
+        },
+        "userId": 121
+      },
+      {
+        "id": 2,
+        "title": "He was an expert but not in a discipline",
+        "reactions": {
+          "likes": 859,
+          "dislikes": 32
+        },
+        "userId": 91
+      },
+      {
+        "id": 3,
+        "title": "Dave watched as the forest burned up on the hill.",
+        "reactions": {
+          "likes": 1448,
+          "dislikes": 39
+        },
+        "userId": 16
+      },
+      {
+        "id": 4,
+        "title": "All he wanted was a candy bar.",
+        "reactions": {
+          "likes": 359,
+          "dislikes": 18
+        },
+        "userId": 47
+      },
+      {
+        "id": 5,
+        "title": "Hopes and dreams were dashed that day.",
+        "reactions": {
+          "likes": 119,
+          "dislikes": 30
+        },
+        "userId": 131
+      }
+    ],
+    "total": 251,
+    "skip": 0,
+    "limit": 5
+  },
+  "elapsed_ms": 134.941
+}

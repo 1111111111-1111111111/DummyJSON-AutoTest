@@ -1,0 +1,87 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:08 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "etag": "W/\"4d8-mbdtEeUUGzOKEIHP1LUzcXhrd5I\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "86",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Zer%2Fi2OAxk6sbUsH092L%2B9ylftxGYUOmSZdgHg9TLOvLdV9AR3wkOillfrXzZ6NRi2BeBeggqExK3tv5UCDEVFjAwNVh5rt8CEr5d41atCPrW0FHDx2Kw4NHJzrWLTrF\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a367ce974b2e90c6-ORD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 22,
+        "title": "Dog Food",
+        "price": 10.99,
+        "quantity": 2,
+        "total": 21.98,
+        "discountPercentage": 10.27,
+        "discountedPrice": 20,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp"
+      },
+      {
+        "id": 51,
+        "title": "Boxed Blender",
+        "price": 39.99,
+        "quantity": 7,
+        "total": 279.93,
+        "discountPercentage": 7.26,
+        "discountedPrice": 260,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/thumbnail.webp"
+      },
+      {
+        "id": 87,
+        "title": "Men Check Shirt",
+        "price": 27.99,
+        "quantity": 7,
+        "total": 195.92999999999998,
+        "discountPercentage": 11.38,
+        "discountedPrice": 174,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/thumbnail.webp"
+      },
+      {
+        "id": 147,
+        "title": "Football",
+        "price": 17.99,
+        "quantity": 8,
+        "total": 143.92,
+        "discountPercentage": 5.15,
+        "discountedPrice": 137,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/football/thumbnail.webp"
+      },
+      {
+        "id": 170,
+        "title": "Durango SXT RWD",
+        "price": 36999.99,
+        "quantity": 2,
+        "total": 73999.98,
+        "discountPercentage": 16.44,
+        "discountedPrice": 61834,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/thumbnail.webp"
+      }
+    ],
+    "total": 74641.73999999999,
+    "discountedTotal": 62425,
+    "userId": 1,
+    "totalProducts": 5,
+    "totalQuantity": 26
+  },
+  "elapsed_ms": 135.751
+}

@@ -1,0 +1,12 @@
+2026-09-06 03:58:05 | INFO     | dummyjson_test | http_client.py:45 | HttpClient 初始化完成 | base_url=https://dummyjson.com | timeout=30 | retry=3
+2026-09-06 03:58:05 | INFO     | dummyjson_test | http_client.py:108 | [POST] https://dummyjson.com/auth/login | attempt=1/3
+2026-09-06 03:58:06 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 200 | 耗时: 0.578s
+2026-09-06 03:58:06 | INFO     | dummyjson_test | conftest.py:226 | 全局认证Token获取成功: emilys
+2026-09-06 03:58:06 | INFO     | dummyjson_test | http_client.py:51 | 已设置认证 Token
+2026-09-06 03:58:06 | INFO     | dummyjson_test | http_client.py:108 | [POST] https://dummyjson.com/auth/login | attempt=1/3
+2026-09-06 03:58:06 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 200 | 耗时: 0.138s
+2026-09-06 03:58:06 | INFO     | dummyjson_test | assertions.py:12 | 断言通过: 状态码=200
+2026-09-06 03:58:06 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: id 非空
+2026-09-06 03:58:06 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: username 非空
+2026-09-06 03:58:06 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: accessToken 非空
+2026-09-06 03:58:06 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: refreshToken 非空

@@ -1,0 +1,21 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '开发不会觉得点击成功.', 'body': '主题能够开发美国地址关于.商品来自次数历史积分一次.免费而且语言价格之后之后方面.', 'userId': 1, 'tags': ['密码', '完全', '成为'], 'reactions': {'likes': 299, 'dislikes': 31}}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 266
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.134s
+INFO     dummyjson_test:keyword_actions.py:154 提取字段: id=252
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=开发不会觉得点击成功.
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "GET /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.134s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: id=1
+INFO     dummyjson_test:keyword_actions.py:103 字段非空验证通过: title
+INFO     dummyjson_test:http_client.py:108 [PUT] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Updated'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "PUT /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.134s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=Updated
+INFO     dummyjson_test:http_client.py:108 [DELETE] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "DELETE /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.134s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: isDeleted=True

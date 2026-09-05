@@ -1,0 +1,5 @@
+2026-09-06 03:58:25 | INFO     | dummyjson_test | base_api.py:103 | PATCH /users/1
+2026-09-06 03:58:25 | INFO     | dummyjson_test | http_client.py:108 | [PATCH] https://dummyjson.com/users/1 | attempt=1/3
+2026-09-06 03:58:25 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 200 | 耗时: 0.138s
+2026-09-06 03:58:25 | INFO     | dummyjson_test | assertions.py:18 | 断言通过: id=1
+2026-09-06 03:58:25 | INFO     | dummyjson_test | assertions.py:18 | 断言通过: age=30

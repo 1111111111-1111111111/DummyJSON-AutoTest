@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:57:40 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"67-b/4RvNeT2yh+91L2iGF+8ScSLf4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1788638267",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wpUGyd6TPCFycQayhcYT9eK2dCh%2BWp2EVTdoj2%2BNK%2FsDaPNn558%2FhdysMzXHTdIXgM6s%2BFGG8t4N7Kn%2FK5X9mSXF0k%2FxlRqJ45Gr0o4cvWTPLVzyv03rVlytyyBLU9yc\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a367cde78c7be5b6-IAD"
+  },
+  "body": {
+    "id": 885,
+    "quote": "I Don'T Want To Make Money, I Just Want To Be Wonderful.",
+    "author": "Marilyn Monroe"
+  },
+  "elapsed_ms": 115.33699999999999
+}

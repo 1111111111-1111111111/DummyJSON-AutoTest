@@ -1,0 +1,5 @@
+2026-09-06 03:58:19 | INFO     | dummyjson_test | base_api.py:71 | GET /recipes/search?q=Margherita
+2026-09-06 03:58:19 | INFO     | dummyjson_test | http_client.py:108 | [GET] https://dummyjson.com/recipes/search | attempt=1/3
+2026-09-06 03:58:19 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 200 | 耗时: 0.137s
+2026-09-06 03:58:19 | INFO     | dummyjson_test | assertions.py:42 | 断言通过: 分页字段完整 (total=2, skip=0, limit=2)
+2026-09-06 03:58:19 | INFO     | dummyjson_test | assertions.py:36 | 断言通过: 列表 'recipes' 有 2 个元素

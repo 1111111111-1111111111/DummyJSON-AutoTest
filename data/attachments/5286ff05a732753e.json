@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 05 Sep 2026 19:58:15 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "266",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"10a-MS30t//KvVIOAUapkCVPQWg/l7Q\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "37",
+    "x-ratelimit-reset": "1788638297",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=uZRqyGeCwIJH4zLmjP%2BnieU%2FEoXt0YX2BHZ80I68B27OY5ZP%2Brh1v%2FWHBvYHOCBGFT3uFpJ%2B9YdnQWcTs19X5FBEuLhkeXwLFw3ZGrIDx4yjzeyjpvMLYVAmTJj0zKvm\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a367cec2fab690c6-ORD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 说明",
+    "price": 699.94,
+    "discountPercentage": 15.5,
+    "stock": 57,
+    "rating": 3.02,
+    "description": "注意最后根据无法积分喜欢继续人民学校重要产品显示之间一定.",
+    "brand": "彩虹传媒有限公司",
+    "category": "groceries"
+  },
+  "elapsed_ms": 135.77100000000002
+}

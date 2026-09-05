@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 加入",
+    "description": "所以看到等级国家日本两个谢谢正在人民为了商品一切拥有首页.",
+    "category": "laptops",
+    "price": 613.04,
+    "discountPercentage": 11.85,
+    "rating": 3.2,
+    "stock": 98,
+    "tags": [
+      "都是",
+      "国内",
+      "设计"
+    ],
+    "brand": "趋势信息有限公司",
+    "sku": "A42A6IQ5"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODg2MzgyODcsImV4cCI6MTc4ODY0MDA4N30.T_PM5CrQd4rYE6VZ6k02GnoQbmfxUqm4Ws50_NI9Rh4"
+  }
+}
