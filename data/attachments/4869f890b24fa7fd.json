@@ -1,0 +1,33 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:15 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "73",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"49-qWOn00pjjMk5SPJFPHxlLFz/15M\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "77",
+    "x-ratelimit-reset": "1789244002",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Pw%2F1pYQPACythXPL5i1rmGnbRPjWKcsaee2oSUz0mLEkbGYZiWSn83rbk9r736k15HA7D3F9dE3vdRNAtWOySbJMltdDQKWPFo2CPxxQlyV%2FLH7qJ6WjlAUSL81%2Bv7EV\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a1925db884a708-LAX"
+  },
+  "body": {
+    "id": 195,
+    "title": "JSON Test Product",
+    "price": 29.99,
+    "category": "laptops"
+  },
+  "elapsed_ms": 183.446
+}

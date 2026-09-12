@@ -1,0 +1,47 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:06 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "323",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"143-9XK46cukud9Ov6/RnA+5sy5nPJ4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "75",
+    "x-ratelimit-reset": "1789243992",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IQG5%2BPeTZ7BD0ActJi4rBdmnehyoQScCSwzIk5q3cJ3nXRxmD2cVhjLyYrGNHYTXLU6PKpZB0o8bdI5QD7rKXCGnjHMMrzor8fhOJcxJRnx48gEY%2BgZAPB%2BPGYg6ZM3g\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a19221bac1a708-LAX"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 129,
+        "title": "Realme X",
+        "price": 299.99,
+        "quantity": 4,
+        "total": 1199.96,
+        "discountPercentage": 6.95,
+        "discountedPrice": 1117,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
+      }
+    ],
+    "total": 1199.96,
+    "discountedTotal": 1117,
+    "userId": 1,
+    "totalProducts": 1,
+    "totalQuantity": 4
+  },
+  "elapsed_ms": 184.131
+}

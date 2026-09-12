@@ -1,0 +1,47 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:29 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"b4-D6j7jC4i6e5srpzxX/8knxRcQS0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1789244012",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lN%2FZoEpzqritT%2FXtwEFsnB3gZpCrqHDoTm8N%2FYxWLcF%2B9Ynyn7bpqBrfPDNrL6F7hupMRKpeYN1b0XE3Qkc4ZSB%2FUTdW0WKqeZJbn%2FMfiI6UIORruvoy%2B9GrccX7tW5%2B\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a192b0d926a708-LAX"
+  },
+  "body": {
+    "todos": [
+      {
+        "id": 47,
+        "todo": "Learn Javascript",
+        "completed": false,
+        "userId": 1
+      },
+      {
+        "id": 64,
+        "todo": "Listen to a new music genre",
+        "completed": true,
+        "userId": 1
+      }
+    ],
+    "total": 2,
+    "skip": 0,
+    "limit": 2
+  },
+  "elapsed_ms": 183.31300000000002
+}

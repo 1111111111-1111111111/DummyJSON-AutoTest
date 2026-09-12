@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:14 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "276",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"114-Q4q01a7hEHmVLrDOW+LNNioux3Y\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "82",
+    "x-ratelimit-reset": "1789244002",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xVCW%2B54JKJXlPQL7FmpI%2FlQ4%2FBjkDJBZYed4lS4AaOKcuG16fuajsRtYvXFWAWTvZivH%2FjmSQqbLolGoHacHihUz5IgiW3ytqTkSBoVcEsK64V2RmCFK2GedCmQTfBAo\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a19253dd04a708-LAX"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 客户",
+    "price": 584.16,
+    "discountPercentage": 14.96,
+    "stock": 1,
+    "rating": 3.65,
+    "description": "类型社会部分如此记者投资男人我们欢迎他的我们其中只是帮助个人能力.",
+    "brand": "精芯信息有限公司",
+    "category": "laptops"
+  },
+  "elapsed_ms": 183.262
+}

@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:08 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "155",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"9b-zmpKzWfzbQboRr0eBTXlhw19vSY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "63",
+    "x-ratelimit-reset": "1789243992",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pIyPPx1pIK8GE4wRXGLYu8vgkQfiAq9W%2BCYxyeg3OiXSYYEchr%2BUMW94pn4j4JXoUOOiC0SofQmtXID%2B2olH%2BbtTIqaE0QYmU15L5I9hfWQ5iLTkJ3RY3q9bmzaW5ywf\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a1922fdcb3a708-LAX"
+  },
+  "body": {
+    "id": 341,
+    "body": "过程正在关于进入加入设备继续特别一起朋友.",
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "username": "emilys",
+      "fullName": "Emily Johnson"
+    }
+  },
+  "elapsed_ms": 180.97
+}

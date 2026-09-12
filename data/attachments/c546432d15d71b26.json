@@ -1,0 +1,1075 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:05 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "etag": "W/\"4e86-V55AAqNossyUvY0z7RfyoaxDTiI\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "77",
+    "x-ratelimit-reset": "1789243992",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KogfPUNO8jnT8oQhSZRJ1VBhAcd3rV3n%2FnsXKhbZXlafjlBjw5MKJs5ZvieRiMlGXF6CO3Et3uX14BQ6ttYqGqlG3aoJymtD5%2Fxlcx3hyDxJwjrRgrk88J%2BFg2AznQpu\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a1921f5a39a708-LAX"
+  },
+  "body": {
+    "carts": [
+      {
+        "id": 180,
+        "products": [
+          {
+            "id": 26,
+            "title": "Green Chili Pepper",
+            "price": 0.99,
+            "quantity": 2,
+            "total": 1.98,
+            "discountPercentage": 1,
+            "discountedTotal": 1.96,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp"
+          },
+          {
+            "id": 74,
+            "title": "Spoon",
+            "price": 4.99,
+            "quantity": 1,
+            "total": 4.99,
+            "discountPercentage": 1.53,
+            "discountedTotal": 4.91,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/thumbnail.webp"
+          }
+        ],
+        "total": 6.97,
+        "discountedTotal": 6.87,
+        "userId": 180,
+        "totalProducts": 2,
+        "totalQuantity": 3
+      },
+      {
+        "id": 157,
+        "products": [
+          {
+            "id": 74,
+            "title": "Spoon",
+            "price": 4.99,
+            "quantity": 1,
+            "total": 4.99,
+            "discountPercentage": 1.53,
+            "discountedTotal": 4.91,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/thumbnail.webp"
+          },
+          {
+            "id": 16,
+            "title": "Apple",
+            "price": 1.99,
+            "quantity": 1,
+            "total": 1.99,
+            "discountPercentage": 12.62,
+            "discountedTotal": 1.74,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp"
+          }
+        ],
+        "total": 6.98,
+        "discountedTotal": 6.65,
+        "userId": 157,
+        "totalProducts": 2,
+        "totalQuantity": 2
+      },
+      {
+        "id": 13,
+        "products": [
+          {
+            "id": 35,
+            "title": "Potatoes",
+            "price": 2.29,
+            "quantity": 2,
+            "total": 4.58,
+            "discountPercentage": 5.38,
+            "discountedTotal": 4.33,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/potatoes/thumbnail.webp"
+          },
+          {
+            "id": 23,
+            "title": "Eggs",
+            "price": 2.99,
+            "quantity": 4,
+            "total": 11.96,
+            "discountPercentage": 11.05,
+            "discountedTotal": 10.64,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp"
+          }
+        ],
+        "total": 16.54,
+        "discountedTotal": 14.97,
+        "userId": 13,
+        "totalProducts": 2,
+        "totalQuantity": 6
+      },
+      {
+        "id": 103,
+        "products": [
+          {
+            "id": 37,
+            "title": "Red Onions",
+            "price": 1.99,
+            "quantity": 5,
+            "total": 9.95,
+            "discountPercentage": 9.9,
+            "discountedTotal": 8.96,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/red-onions/thumbnail.webp"
+          },
+          {
+            "id": 39,
+            "title": "Soft Drinks",
+            "price": 1.99,
+            "quantity": 4,
+            "total": 7.96,
+            "discountPercentage": 17.48,
+            "discountedTotal": 6.57,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/thumbnail.webp"
+          },
+          {
+            "id": 18,
+            "title": "Cat Food",
+            "price": 8.99,
+            "quantity": 2,
+            "total": 17.98,
+            "discountPercentage": 9.58,
+            "discountedTotal": 16.26,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"
+          }
+        ],
+        "total": 35.89,
+        "discountedTotal": 31.79,
+        "userId": 103,
+        "totalProducts": 3,
+        "totalQuantity": 11
+      },
+      {
+        "id": 139,
+        "products": [
+          {
+            "id": 62,
+            "title": "Ice Cube Tray",
+            "price": 5.99,
+            "quantity": 2,
+            "total": 11.98,
+            "discountPercentage": 0.63,
+            "discountedTotal": 11.9,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/thumbnail.webp"
+          },
+          {
+            "id": 139,
+            "title": "Baseball Glove",
+            "price": 24.99,
+            "quantity": 1,
+            "total": 24.99,
+            "discountPercentage": 2.9,
+            "discountedTotal": 24.27,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/thumbnail.webp"
+          }
+        ],
+        "total": 36.97,
+        "discountedTotal": 36.17,
+        "userId": 139,
+        "totalProducts": 2,
+        "totalQuantity": 3
+      },
+      {
+        "id": 55,
+        "products": [
+          {
+            "id": 49,
+            "title": "Black Aluminium Cup",
+            "price": 5.99,
+            "quantity": 3,
+            "total": 17.97,
+            "discountPercentage": 15.65,
+            "discountedTotal": 15.16,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/thumbnail.webp"
+          },
+          {
+            "id": 84,
+            "title": "Gigabyte Aorus Men Tshirt",
+            "price": 24.99,
+            "quantity": 1,
+            "total": 24.99,
+            "discountPercentage": 0.94,
+            "discountedTotal": 24.76,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp"
+          }
+        ],
+        "total": 42.96,
+        "discountedTotal": 39.92,
+        "userId": 55,
+        "totalProducts": 2,
+        "totalQuantity": 4
+      },
+      {
+        "id": 203,
+        "products": [
+          {
+            "id": 158,
+            "title": "Sunglasses",
+            "price": 22.99,
+            "quantity": 1,
+            "total": 22.99,
+            "discountPercentage": 1.51,
+            "discountedTotal": 22.64,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/thumbnail.webp"
+          },
+          {
+            "id": 70,
+            "title": "Red Tongs",
+            "price": 6.99,
+            "quantity": 4,
+            "total": 27.96,
+            "discountPercentage": 14.52,
+            "discountedTotal": 23.9,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/thumbnail.webp"
+          }
+        ],
+        "total": 50.95,
+        "discountedTotal": 46.54,
+        "userId": 203,
+        "totalProducts": 2,
+        "totalQuantity": 5
+      },
+      {
+        "id": 148,
+        "products": [
+          {
+            "id": 32,
+            "title": "Milk",
+            "price": 3.49,
+            "quantity": 2,
+            "total": 6.98,
+            "discountPercentage": 13.74,
+            "discountedTotal": 6.02,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/milk/thumbnail.webp"
+          },
+          {
+            "id": 111,
+            "title": "Selfie Stick Monopod",
+            "price": 12.99,
+            "quantity": 5,
+            "total": 64.95,
+            "discountPercentage": 19.12,
+            "discountedTotal": 52.53,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/thumbnail.webp"
+          }
+        ],
+        "total": 71.93,
+        "discountedTotal": 58.55,
+        "userId": 148,
+        "totalProducts": 2,
+        "totalQuantity": 7
+      },
+      {
+        "id": 121,
+        "products": [
+          {
+            "id": 60,
+            "title": "Grater Black",
+            "price": 10.99,
+            "quantity": 5,
+            "total": 54.95,
+            "discountPercentage": 3.56,
+            "discountedTotal": 52.99,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/thumbnail.webp"
+          },
+          {
+            "id": 42,
+            "title": "Water",
+            "price": 0.99,
+            "quantity": 3,
+            "total": 2.9699999999999998,
+            "discountPercentage": 14.92,
+            "discountedTotal": 2.53,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/water/thumbnail.webp"
+          },
+          {
+            "id": 53,
+            "title": "Chopping Board",
+            "price": 12.99,
+            "quantity": 2,
+            "total": 25.98,
+            "discountPercentage": 8.03,
+            "discountedTotal": 23.89,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/thumbnail.webp"
+          }
+        ],
+        "total": 83.9,
+        "discountedTotal": 79.41,
+        "userId": 121,
+        "totalProducts": 3,
+        "totalQuantity": 10
+      },
+      {
+        "id": 36,
+        "products": [
+          {
+            "id": 3,
+            "title": "Powder Canister",
+            "price": 14.99,
+            "quantity": 3,
+            "total": 44.97,
+            "discountPercentage": 9.84,
+            "discountedTotal": 40.54,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp"
+          },
+          {
+            "id": 138,
+            "title": "Baseball Ball",
+            "price": 8.99,
+            "quantity": 2,
+            "total": 17.98,
+            "discountPercentage": 1.71,
+            "discountedTotal": 17.67,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/thumbnail.webp"
+          },
+          {
+            "id": 72,
+            "title": "Slotted Turner",
+            "price": 8.99,
+            "quantity": 4,
+            "total": 35.96,
+            "discountPercentage": 13.35,
+            "discountedTotal": 31.16,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/thumbnail.webp"
+          }
+        ],
+        "total": 98.91,
+        "discountedTotal": 89.37,
+        "userId": 36,
+        "totalProducts": 3,
+        "totalQuantity": 9
+      },
+      {
+        "id": 168,
+        "products": [
+          {
+            "id": 52,
+            "title": "Carbon Steel Wok",
+            "price": 29.99,
+            "quantity": 2,
+            "total": 59.98,
+            "discountPercentage": 6.53,
+            "discountedTotal": 56.06,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/thumbnail.webp"
+          },
+          {
+            "id": 50,
+            "title": "Black Whisk",
+            "price": 9.99,
+            "quantity": 4,
+            "total": 39.96,
+            "discountPercentage": 10.24,
+            "discountedTotal": 35.87,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/thumbnail.webp"
+          }
+        ],
+        "total": 99.94,
+        "discountedTotal": 91.93,
+        "userId": 168,
+        "totalProducts": 2,
+        "totalQuantity": 6
+      },
+      {
+        "id": 96,
+        "products": [
+          {
+            "id": 5,
+            "title": "Red Nail Polish",
+            "price": 8.99,
+            "quantity": 5,
+            "total": 44.95,
+            "discountPercentage": 11.44,
+            "discountedTotal": 39.81,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp"
+          },
+          {
+            "id": 162,
+            "title": "Blue Frock",
+            "price": 29.99,
+            "quantity": 2,
+            "total": 59.98,
+            "discountPercentage": 12.13,
+            "discountedTotal": 52.7,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/tops/blue-frock/thumbnail.webp"
+          }
+        ],
+        "total": 104.93,
+        "discountedTotal": 92.51,
+        "userId": 96,
+        "totalProducts": 2,
+        "totalQuantity": 7
+      },
+      {
+        "id": 106,
+        "products": [
+          {
+            "id": 84,
+            "title": "Gigabyte Aorus Men Tshirt",
+            "price": 24.99,
+            "quantity": 1,
+            "total": 24.99,
+            "discountPercentage": 0.94,
+            "discountedTotal": 24.76,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp"
+          },
+          {
+            "id": 166,
+            "title": "Tartan Dress",
+            "price": 39.99,
+            "quantity": 2,
+            "total": 79.98,
+            "discountPercentage": 12.95,
+            "discountedTotal": 69.62,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/thumbnail.webp"
+          }
+        ],
+        "total": 104.97,
+        "discountedTotal": 94.38,
+        "userId": 106,
+        "totalProducts": 2,
+        "totalQuantity": 3
+      },
+      {
+        "id": 48,
+        "products": [
+          {
+            "id": 140,
+            "title": "Basketball",
+            "price": 14.99,
+            "quantity": 5,
+            "total": 74.95,
+            "discountPercentage": 7.44,
+            "discountedTotal": 69.37,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/thumbnail.webp"
+          },
+          {
+            "id": 18,
+            "title": "Cat Food",
+            "price": 8.99,
+            "quantity": 4,
+            "total": 35.96,
+            "discountPercentage": 9.58,
+            "discountedTotal": 32.52,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"
+          }
+        ],
+        "total": 110.91,
+        "discountedTotal": 101.89,
+        "userId": 48,
+        "totalProducts": 2,
+        "totalQuantity": 9
+      },
+      {
+        "id": 56,
+        "products": [
+          {
+            "id": 60,
+            "title": "Grater Black",
+            "price": 10.99,
+            "quantity": 2,
+            "total": 21.98,
+            "discountPercentage": 3.56,
+            "discountedTotal": 21.2,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/thumbnail.webp"
+          },
+          {
+            "id": 99,
+            "title": "Amazon Echo Plus",
+            "price": 99.99,
+            "quantity": 1,
+            "total": 99.99,
+            "discountPercentage": 12.07,
+            "discountedTotal": 87.92,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp"
+          }
+        ],
+        "total": 121.97,
+        "discountedTotal": 109.12,
+        "userId": 56,
+        "totalProducts": 2,
+        "totalQuantity": 3
+      },
+      {
+        "id": 99,
+        "products": [
+          {
+            "id": 18,
+            "title": "Cat Food",
+            "price": 8.99,
+            "quantity": 3,
+            "total": 26.97,
+            "discountPercentage": 9.58,
+            "discountedTotal": 24.39,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"
+          },
+          {
+            "id": 68,
+            "title": "Pan",
+            "price": 24.99,
+            "quantity": 3,
+            "total": 74.97,
+            "discountPercentage": 3,
+            "discountedTotal": 72.72,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/thumbnail.webp"
+          },
+          {
+            "id": 146,
+            "title": "Feather Shuttlecock",
+            "price": 5.99,
+            "quantity": 1,
+            "total": 5.99,
+            "discountPercentage": 2.95,
+            "discountedTotal": 5.81,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/thumbnail.webp"
+          },
+          {
+            "id": 28,
+            "title": "Ice Cream",
+            "price": 5.49,
+            "quantity": 3,
+            "total": 16.47,
+            "discountPercentage": 8.69,
+            "discountedTotal": 15.04,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp"
+          }
+        ],
+        "total": 124.4,
+        "discountedTotal": 117.96,
+        "userId": 99,
+        "totalProducts": 4,
+        "totalQuantity": 10
+      },
+      {
+        "id": 37,
+        "products": [
+          {
+            "id": 141,
+            "title": "Basketball Rim",
+            "price": 39.99,
+            "quantity": 3,
+            "total": 119.97,
+            "discountPercentage": 7.74,
+            "discountedTotal": 110.68,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/thumbnail.webp"
+          },
+          {
+            "id": 41,
+            "title": "Tissue Paper Box",
+            "price": 2.49,
+            "quantity": 4,
+            "total": 9.96,
+            "discountPercentage": 13.28,
+            "discountedTotal": 8.64,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/thumbnail.webp"
+          }
+        ],
+        "total": 129.93,
+        "discountedTotal": 119.32,
+        "userId": 37,
+        "totalProducts": 2,
+        "totalQuantity": 7
+      },
+      {
+        "id": 107,
+        "products": [
+          {
+            "id": 52,
+            "title": "Carbon Steel Wok",
+            "price": 29.99,
+            "quantity": 1,
+            "total": 29.99,
+            "discountPercentage": 6.53,
+            "discountedTotal": 28.03,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/thumbnail.webp"
+          },
+          {
+            "id": 47,
+            "title": "Table Lamp",
+            "price": 49.99,
+            "quantity": 2,
+            "total": 99.98,
+            "discountPercentage": 7.09,
+            "discountedTotal": 92.89,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/thumbnail.webp"
+          }
+        ],
+        "total": 129.97,
+        "discountedTotal": 120.92,
+        "userId": 107,
+        "totalProducts": 2,
+        "totalQuantity": 3
+      },
+      {
+        "id": 166,
+        "products": [
+          {
+            "id": 175,
+            "title": "White Faux Leather Backpack",
+            "price": 39.99,
+            "quantity": 2,
+            "total": 79.98,
+            "discountPercentage": 15.2,
+            "discountedTotal": 67.82,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/thumbnail.webp"
+          },
+          {
+            "id": 180,
+            "title": "Dress Pea",
+            "price": 49.99,
+            "quantity": 1,
+            "total": 49.99,
+            "discountPercentage": 17.68,
+            "discountedTotal": 41.15,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/thumbnail.webp"
+          }
+        ],
+        "total": 129.97,
+        "discountedTotal": 108.97,
+        "userId": 166,
+        "totalProducts": 2,
+        "totalQuantity": 3
+      },
+      {
+        "id": 2,
+        "products": [
+          {
+            "id": 86,
+            "title": "Man Short Sleeve Shirt",
+            "price": 19.99,
+            "quantity": 5,
+            "total": 99.94999999999999,
+            "discountPercentage": 6.83,
+            "discountedTotal": 93.12,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/thumbnail.webp"
+          },
+          {
+            "id": 104,
+            "title": "Apple iPhone Charger",
+            "price": 19.99,
+            "quantity": 2,
+            "total": 39.98,
+            "discountPercentage": 18.52,
+            "discountedTotal": 32.58,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp"
+          }
+        ],
+        "total": 139.93,
+        "discountedTotal": 125.7,
+        "userId": 2,
+        "totalProducts": 2,
+        "totalQuantity": 7
+      },
+      {
+        "id": 105,
+        "products": [
+          {
+            "id": 148,
+            "title": "Golf Ball",
+            "price": 9.99,
+            "quantity": 2,
+            "total": 19.98,
+            "discountPercentage": 17.37,
+            "discountedTotal": 16.51,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/thumbnail.webp"
+          },
+          {
+            "id": 109,
+            "title": "Monopod",
+            "price": 19.99,
+            "quantity": 3,
+            "total": 59.97,
+            "discountPercentage": 8.58,
+            "discountedTotal": 54.82,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/thumbnail.webp"
+          },
+          {
+            "id": 75,
+            "title": "Tray",
+            "price": 16.99,
+            "quantity": 4,
+            "total": 67.96,
+            "discountPercentage": 7.48,
+            "discountedTotal": 62.88,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/thumbnail.webp"
+          }
+        ],
+        "total": 147.91,
+        "discountedTotal": 134.21,
+        "userId": 105,
+        "totalProducts": 3,
+        "totalQuantity": 9
+      },
+      {
+        "id": 88,
+        "products": [
+          {
+            "id": 58,
+            "title": "Fork",
+            "price": 3.99,
+            "quantity": 5,
+            "total": 19.950000000000003,
+            "discountPercentage": 8.07,
+            "discountedTotal": 18.34,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/thumbnail.webp"
+          },
+          {
+            "id": 100,
+            "title": "Apple Airpods",
+            "price": 129.99,
+            "quantity": 1,
+            "total": 129.99,
+            "discountPercentage": 15.54,
+            "discountedTotal": 109.79,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp"
+          }
+        ],
+        "total": 149.94,
+        "discountedTotal": 128.13,
+        "userId": 88,
+        "totalProducts": 2,
+        "totalQuantity": 6
+      },
+      {
+        "id": 10,
+        "products": [
+          {
+            "id": 41,
+            "title": "Tissue Paper Box",
+            "price": 2.49,
+            "quantity": 1,
+            "total": 2.49,
+            "discountPercentage": 13.28,
+            "discountedTotal": 2.16,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/thumbnail.webp"
+          },
+          {
+            "id": 108,
+            "title": "iPhone 12 Silicone Case with MagSafe Plum",
+            "price": 29.99,
+            "quantity": 5,
+            "total": 149.95,
+            "discountPercentage": 13.85,
+            "discountedTotal": 129.18,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp"
+          }
+        ],
+        "total": 152.44,
+        "discountedTotal": 131.34,
+        "userId": 10,
+        "totalProducts": 2,
+        "totalQuantity": 6
+      },
+      {
+        "id": 118,
+        "products": [
+          {
+            "id": 60,
+            "title": "Grater Black",
+            "price": 10.99,
+            "quantity": 4,
+            "total": 43.96,
+            "discountPercentage": 3.56,
+            "discountedTotal": 42.4,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/thumbnail.webp"
+          },
+          {
+            "id": 183,
+            "title": "Green Oval Earring",
+            "price": 24.99,
+            "quantity": 2,
+            "total": 49.98,
+            "discountPercentage": 15.18,
+            "discountedTotal": 42.39,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/thumbnail.webp"
+          },
+          {
+            "id": 120,
+            "title": "Vaseline Men Body and Face Lotion",
+            "price": 9.99,
+            "quantity": 4,
+            "total": 39.96,
+            "discountPercentage": 13.39,
+            "discountedTotal": 34.61,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/thumbnail.webp"
+          },
+          {
+            "id": 33,
+            "title": "Mulberry",
+            "price": 4.99,
+            "quantity": 5,
+            "total": 24.950000000000003,
+            "discountPercentage": 12.87,
+            "discountedTotal": 21.74,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/mulberry/thumbnail.webp"
+          }
+        ],
+        "total": 158.85,
+        "discountedTotal": 141.14,
+        "userId": 118,
+        "totalProducts": 4,
+        "totalQuantity": 15
+      },
+      {
+        "id": 160,
+        "products": [
+          {
+            "id": 66,
+            "title": "Microwave Oven",
+            "price": 89.99,
+            "quantity": 1,
+            "total": 89.99,
+            "discountPercentage": 12.13,
+            "discountedTotal": 79.07,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/thumbnail.webp"
+          },
+          {
+            "id": 183,
+            "title": "Green Oval Earring",
+            "price": 24.99,
+            "quantity": 3,
+            "total": 74.97,
+            "discountPercentage": 15.18,
+            "discountedTotal": 63.59,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/thumbnail.webp"
+          }
+        ],
+        "total": 164.96,
+        "discountedTotal": 142.66,
+        "userId": 160,
+        "totalProducts": 2,
+        "totalQuantity": 4
+      },
+      {
+        "id": 102,
+        "products": [
+          {
+            "id": 22,
+            "title": "Dog Food",
+            "price": 10.99,
+            "quantity": 1,
+            "total": 10.99,
+            "discountPercentage": 10.27,
+            "discountedTotal": 9.86,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp"
+          },
+          {
+            "id": 111,
+            "title": "Selfie Stick Monopod",
+            "price": 12.99,
+            "quantity": 1,
+            "total": 12.99,
+            "discountPercentage": 19.12,
+            "discountedTotal": 10.51,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/thumbnail.webp"
+          },
+          {
+            "id": 53,
+            "title": "Chopping Board",
+            "price": 12.99,
+            "quantity": 4,
+            "total": 51.96,
+            "discountPercentage": 8.03,
+            "discountedTotal": 47.79,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/thumbnail.webp"
+          },
+          {
+            "id": 45,
+            "title": "House Showpiece Plant",
+            "price": 39.99,
+            "quantity": 2,
+            "total": 79.98,
+            "discountPercentage": 7.46,
+            "discountedTotal": 74.01,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/thumbnail.webp"
+          },
+          {
+            "id": 63,
+            "title": "Kitchen Sieve",
+            "price": 7.99,
+            "quantity": 2,
+            "total": 15.98,
+            "discountPercentage": 18.91,
+            "discountedTotal": 12.96,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/thumbnail.webp"
+          }
+        ],
+        "total": 171.9,
+        "discountedTotal": 155.13,
+        "userId": 102,
+        "totalProducts": 5,
+        "totalQuantity": 10
+      },
+      {
+        "id": 85,
+        "products": [
+          {
+            "id": 157,
+            "title": "Party Glasses",
+            "price": 19.99,
+            "quantity": 4,
+            "total": 79.96,
+            "discountPercentage": 11.22,
+            "discountedTotal": 70.99,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/thumbnail.webp"
+          },
+          {
+            "id": 47,
+            "title": "Table Lamp",
+            "price": 49.99,
+            "quantity": 2,
+            "total": 99.98,
+            "discountPercentage": 7.09,
+            "discountedTotal": 92.89,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/thumbnail.webp"
+          }
+        ],
+        "total": 179.94,
+        "discountedTotal": 163.88,
+        "userId": 85,
+        "totalProducts": 2,
+        "totalQuantity": 6
+      },
+      {
+        "id": 188,
+        "products": [
+          {
+            "id": 184,
+            "title": "Tropical Earring",
+            "price": 19.99,
+            "quantity": 5,
+            "total": 99.94999999999999,
+            "discountPercentage": 0.76,
+            "discountedTotal": 99.19,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/thumbnail.webp"
+          },
+          {
+            "id": 166,
+            "title": "Tartan Dress",
+            "price": 39.99,
+            "quantity": 1,
+            "total": 39.99,
+            "discountPercentage": 12.95,
+            "discountedTotal": 34.81,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/thumbnail.webp"
+          },
+          {
+            "id": 2,
+            "title": "Eyeshadow Palette with Mirror",
+            "price": 19.99,
+            "quantity": 1,
+            "total": 19.99,
+            "discountPercentage": 18.19,
+            "discountedTotal": 16.35,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp"
+          },
+          {
+            "id": 183,
+            "title": "Green Oval Earring",
+            "price": 24.99,
+            "quantity": 1,
+            "total": 24.99,
+            "discountPercentage": 15.18,
+            "discountedTotal": 21.2,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/thumbnail.webp"
+          }
+        ],
+        "total": 184.92,
+        "discountedTotal": 171.55,
+        "userId": 188,
+        "totalProducts": 4,
+        "totalQuantity": 8
+      },
+      {
+        "id": 32,
+        "products": [
+          {
+            "id": 21,
+            "title": "Cucumber",
+            "price": 1.49,
+            "quantity": 5,
+            "total": 7.45,
+            "discountPercentage": 0.16,
+            "discountedTotal": 7.44,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp"
+          },
+          {
+            "id": 181,
+            "title": "Marni Red & Black Suit",
+            "price": 179.99,
+            "quantity": 1,
+            "total": 179.99,
+            "discountPercentage": 19.02,
+            "discountedTotal": 145.76,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/thumbnail.webp"
+          }
+        ],
+        "total": 187.44,
+        "discountedTotal": 153.2,
+        "userId": 32,
+        "totalProducts": 2,
+        "totalQuantity": 6
+      },
+      {
+        "id": 14,
+        "products": [
+          {
+            "id": 44,
+            "title": "Family Tree Photo Frame",
+            "price": 29.99,
+            "quantity": 4,
+            "total": 119.96,
+            "discountPercentage": 14.87,
+            "discountedTotal": 102.12,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/thumbnail.webp"
+          },
+          {
+            "id": 68,
+            "title": "Pan",
+            "price": 24.99,
+            "quantity": 1,
+            "total": 24.99,
+            "discountPercentage": 3,
+            "discountedTotal": 24.24,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/thumbnail.webp"
+          },
+          {
+            "id": 65,
+            "title": "Lunch Box",
+            "price": 12.99,
+            "quantity": 5,
+            "total": 64.95,
+            "discountPercentage": 10.34,
+            "discountedTotal": 58.23,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/thumbnail.webp"
+          }
+        ],
+        "total": 209.9,
+        "discountedTotal": 184.59,
+        "userId": 14,
+        "totalProducts": 3,
+        "totalQuantity": 10
+      }
+    ],
+    "total": 208,
+    "skip": 0,
+    "limit": 30
+  },
+  "elapsed_ms": 185.118
+}

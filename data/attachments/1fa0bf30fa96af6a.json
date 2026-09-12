@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:16 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "288",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"120-An4GC6JLx7wALEMKgrRacIuf1lU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "75",
+    "x-ratelimit-reset": "1789244002",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RLtzHCgcEsHzf4X0hVEvCPZCl2FpH0h7buaqPu00UR1Twdk6AWPCntVbWNzbvEU01Cibd8WogK5coh55OOz63hV8Vx7z%2BAK3yeS6OSw%2BDZ%2BU2ftO0sZlAxcKv20TzaWQ\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a192601968a708-LAX"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 完成",
+    "price": 388.27,
+    "discountPercentage": 29.17,
+    "stock": 52,
+    "rating": 3.04,
+    "description": "增加影响今年不要技术这么之后情况图片男人责任显示系统你的情况回复评论一些.",
+    "brand": "创亿信息有限公司",
+    "category": "beauty"
+  },
+  "elapsed_ms": 182.113
+}

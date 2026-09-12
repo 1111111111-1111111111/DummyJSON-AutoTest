@@ -1,0 +1,43 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "不断 Special Recipe",
+    "ingredients": [
+      "关系",
+      "威望",
+      "有限",
+      "经验",
+      "之间",
+      "关于",
+      "孩子",
+      "汽车"
+    ],
+    "instructions": [
+      "用户问题只是功能很多.",
+      "规定状态音乐科技任何是否搜索全部.",
+      "根据提高影响登录关系.",
+      "事情活动其中关于."
+    ],
+    "prepTimeMinutes": 33,
+    "cookTimeMinutes": 70,
+    "servings": 8,
+    "difficulty": "Easy",
+    "cuisine": "French",
+    "caloriesPerServing": 250,
+    "tags": [
+      "状态",
+      "不过",
+      "自己"
+    ],
+    "userId": 131,
+    "mealType": [
+      "Breakfast"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODkyNDM5ODQsImV4cCI6MTc4OTI0NTc4NH0.J3i-X4aolI6wWBIfNrcCOaD8TEMK7HWvdJlXv8dbvKI"
+  }
+}

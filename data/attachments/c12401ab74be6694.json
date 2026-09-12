@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "这里由于发展到了只要.",
+    "body": "他们报告经营能够是否电脑自己方法.网络得到女人制作.出来但是这么工程认为.系列信息图片朋友帮助不要.威望开始那些次数.",
+    "userId": 1,
+    "tags": [
+      "还是",
+      "标题",
+      "帮助"
+    ],
+    "reactions": {
+      "likes": 302,
+      "dislikes": 2
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODkyNDM5ODQsImV4cCI6MTc4OTI0NTc4NH0.J3i-X4aolI6wWBIfNrcCOaD8TEMK7HWvdJlXv8dbvKI"
+  }
+}

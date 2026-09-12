@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 完成",
+    "description": "增加影响今年不要技术这么之后情况图片男人责任显示系统你的情况回复评论一些.",
+    "category": "beauty",
+    "price": 388.27,
+    "discountPercentage": 29.17,
+    "rating": 3.04,
+    "stock": 52,
+    "tags": [
+      "威望",
+      "来自",
+      "解决"
+    ],
+    "brand": "创亿信息有限公司",
+    "sku": "NE0IEXEE"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODkyNDM5ODQsImV4cCI6MTc4OTI0NTc4NH0.J3i-X4aolI6wWBIfNrcCOaD8TEMK7HWvdJlXv8dbvKI"
+  }
+}

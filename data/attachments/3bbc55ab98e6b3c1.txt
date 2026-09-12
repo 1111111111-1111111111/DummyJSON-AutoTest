@@ -1,0 +1,8 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:base_api.py:86 POST /posts/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '一次日期手机不是规定什么美国.', 'body': '基本这是活动精华无法你们地方.能力无法积分登录.城市类型一个运行帮助相关得到.作品表示目前不同经济详细作品.推荐感觉报告具有帖子文化是一.', 'userId': 1, 'tags': ['人民', '不断', '文章'], 'reactions': {'likes': 45, 'dislikes': 3}}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 356
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.182s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: userId=1

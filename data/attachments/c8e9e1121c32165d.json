@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:10 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "356",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"164-/UpzUjShpqZ+ONc2VFEVAQxbMIY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "52",
+    "x-ratelimit-reset": "1789243992",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JBTACeZqxDIQcr87fYE5iIJHGOu9k9ALy9BS3ubjRgSmQYC7Xk0PIGSlXCtr6w8mXDS1NBFlrqZXB%2FTWl0hqRkufrkid%2BQmqJ5dVf3HWLQe14q50wcMV4iYF8E4aHPq5\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a1923cf9cea708-LAX"
+  },
+  "body": {
+    "id": 252,
+    "title": "一次日期手机不是规定什么美国.",
+    "body": "基本这是活动精华无法你们地方.能力无法积分登录.城市类型一个运行帮助相关得到.作品表示目前不同经济详细作品.推荐感觉报告具有帖子文化是一.",
+    "userId": 1,
+    "tags": [
+      "人民",
+      "不断",
+      "文章"
+    ],
+    "reactions": {
+      "likes": 45,
+      "dislikes": 3
+    }
+  },
+  "elapsed_ms": 182.077
+}

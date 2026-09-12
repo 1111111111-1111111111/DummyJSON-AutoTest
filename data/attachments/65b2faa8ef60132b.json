@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:12:34 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"96-49pX/mSroT4xTtTtJubrE7+fUBQ\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "93",
+    "x-ratelimit-reset": "1789243965",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2F5j70njiKf4nxhNVJi19LUWVIwxQzWpdbTlXMjhiQbnOND0iHv6reorl%2F2D%2BB8lMNu3tpd79PZwQ0X6GdyQco13NOr1UFnPaVWTlO7v1OAE3FbKin5I5K29hS8pA2Mt5\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a1915cfaa1e1ee-LAX"
+  },
+  "body": {
+    "id": 765,
+    "quote": "A man's behavior is the index of the man, and his discourse is the index of his understanding.",
+    "author": "Ali ibn Abi Talib (R.A)"
+  },
+  "elapsed_ms": 85.01499999999999
+}

@@ -1,0 +1,185 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:18 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "etag": "W/\"130b-BTSyXEHysY0D/ZTlfIFDc6hLLZQ\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "69",
+    "x-ratelimit-reset": "1789244002",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=riSrqo%2BABv4UHhFhrHiyCmsxoHbDeFzBtaLOsio4rYXrrnNruAiyYh8SwoIGoapg%2FMfa5HH1ZI3yg6ZlT%2BsbD0fMSVPpLZoK0d1YpKuBgwux1y7%2F3z%2FQqi3PHbkxaoja\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a1926aa901a708-LAX"
+  },
+  "body": {
+    "quotes": [
+      {
+        "id": 2,
+        "quote": "The Bay of Bengal is hit frequently by cyclones. The months of November and May, in particular, are dangerous in this regard.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 3,
+        "quote": "Thinking is the capital, Enterprise is the way, Hard Work is the solution.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 9,
+        "quote": "While children are struggling to be unique, the world around them is trying all means to make them look like everybody else.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 32,
+        "quote": "Let us sacrifice our today so that our children can have a better tomorrow.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 36,
+        "quote": "I'm not a handsome guy, but I can give my hand to someone who needs help. Beauty is in the heart, not in the face.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 45,
+        "quote": "No matter what is the environment around you, it is always possible to maintain your brand of integrity.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 64,
+        "quote": "India has to be transformed into a developed nation, a prosperous nation and a healthy nation, with a value system.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 93,
+        "quote": "Convergence of our views on global trade issues under the WTO and our common resolve to combat terrorism provide a valuable base for mutual understanding.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 104,
+        "quote": "For 2,500 years, India has never invaded anybody.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 156,
+        "quote": "All God's creatures are His family; and he is the most beloved of God who tries to do most good to God's creatures.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 166,
+        "quote": "Don't read success stories, you will only get a message. Read failure stories, you will get some ideas to get success.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 185,
+        "quote": "We are all born with a divine fire in us. Our efforts should be to give wings to this fire and fill the world with the glow of its goodness.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 237,
+        "quote": "We have not invaded anyone. We have not conquered anyone. We have not grabbed their land, their culture, their history and tried to enforce our way of life on them.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 239,
+        "quote": "Be active! Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 241,
+        "quote": "Developing nations want to become developed nations.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 261,
+        "quote": "Climbing to the top demands strength, whether it is to the top of Mount Everest or to the top of your career.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 268,
+        "quote": "A developed India by 2020, or even earlier, is not a dream. It need not be a mere vision in the minds of many Indians. It is a mission we can all take up - and succeed.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 301,
+        "quote": "Confidence and hard work is the best medicine to kill the disease called failure. It will make you successful person.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 302,
+        "quote": "The bird is powered by its own life and by its motivation.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 305,
+        "quote": "One lesson that every nation can learn from China is to focus more on creating village-level enterprises, quality health services and educational facilities.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 310,
+        "quote": "All wars signify the failure of conflict resolution mechanisms, and they need post-war rebuilding of faith, trust and confidence.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 318,
+        "quote": "India should walk on her own shadow - we must have our own development model.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 324,
+        "quote": "A teacher should have a creative mind.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 335,
+        "quote": "My impression of the American people can be summarized by a quotation from Benjamin Franklin, Those things that hurt instruct! I realized that people in this part of the world meet their problems head on. They attempt to get out of them rather than suffer them.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 348,
+        "quote": "We will be remembered only if we give to our younger generation a prosperous and safe India, resulting out of economic prosperity coupled with civilizational heritage.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 354,
+        "quote": "One of the very important characteristics of a student is to question. Let the students ask questions.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 391,
+        "quote": "There are forces in life working for you and against you. One must distinguish the beneficial forces from the malevolent ones and choose correctly between them.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 446,
+        "quote": "Creativity is the key to success in the future, and primary education is where teachers can bring creativity in children at that level.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 451,
+        "quote": "We should not give up and we should not allow the problem to defeat us.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 458,
+        "quote": "What is politics? Political system is equal to development politics plus political politics.",
+        "author": "Abdul Kalam"
+      }
+    ],
+    "total": 1454,
+    "skip": 0,
+    "limit": 30
+  },
+  "elapsed_ms": 198.593
+}

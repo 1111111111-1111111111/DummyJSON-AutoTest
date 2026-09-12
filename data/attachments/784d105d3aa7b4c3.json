@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 客户",
+    "description": "类型社会部分如此记者投资男人我们欢迎他的我们其中只是帮助个人能力.",
+    "category": "laptops",
+    "price": 584.16,
+    "discountPercentage": 14.96,
+    "rating": 3.65,
+    "stock": 1,
+    "tags": [
+      "怎么",
+      "方式",
+      "其实"
+    ],
+    "brand": "精芯信息有限公司",
+    "sku": "FXXMTDJ1"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODkyNDM5ODQsImV4cCI6MTc4OTI0NTc4NH0.J3i-X4aolI6wWBIfNrcCOaD8TEMK7HWvdJlXv8dbvKI"
+  }
+}

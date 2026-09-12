@@ -1,0 +1,87 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 12 Sep 2026 20:13:05 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "etag": "W/\"508-zRli0MZMMYbjA7QIpyHrFxUe/LM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "82",
+    "x-ratelimit-reset": "1789243992",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Pon7w0fGJNiXNYkIhTwW7mTz4AM4%2FPmH60dhsJxOavc3em0Vo5gyv4axWAOdZNi3hf6qEhxQdf0yI4621z2XOQ6AY4NIWnjeSH1XrZTVVHTGTnYR%2FCzu%2B7oTvPCpUZsR\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3a192198e9ba708-LAX"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 134,
+        "title": "Vivo S1",
+        "price": 249.99,
+        "quantity": 3,
+        "total": 749.97,
+        "discountPercentage": 10.17,
+        "discountedPrice": 674,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
+      },
+      {
+        "id": 100,
+        "title": "Apple Airpods",
+        "price": 129.99,
+        "quantity": 10,
+        "total": 1299.9,
+        "discountPercentage": 15.54,
+        "discountedPrice": 1098,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp"
+      },
+      {
+        "id": 97,
+        "title": "Rolex Datejust",
+        "price": 10999.99,
+        "quantity": 10,
+        "total": 109999.9,
+        "discountPercentage": 3.73,
+        "discountedPrice": 105897,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
+      },
+      {
+        "id": 81,
+        "title": "Lenovo Yoga 920",
+        "price": 1099.99,
+        "quantity": 6,
+        "total": 6599.9400000000005,
+        "discountPercentage": 6.55,
+        "discountedPrice": 6168,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
+      },
+      {
+        "id": 182,
+        "title": "Green Crystal Earring",
+        "price": 29.99,
+        "quantity": 7,
+        "total": 209.92999999999998,
+        "discountPercentage": 15.24,
+        "discountedPrice": 178,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/thumbnail.webp"
+      }
+    ],
+    "total": 118859.63999999998,
+    "discountedTotal": 114015,
+    "userId": 1,
+    "totalProducts": 5,
+    "totalQuantity": 36
+  },
+  "elapsed_ms": 182.908
+}

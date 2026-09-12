@@ -1,0 +1,2 @@
+2026-09-13 04:13:02 | INFO     | dummyjson_test | http_client.py:108 | [POST] https://dummyjson.com/auth/login | attempt=1/3
+2026-09-13 04:13:02 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 400 | 耗时: 0.181s
