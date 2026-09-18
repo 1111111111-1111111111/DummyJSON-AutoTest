@@ -1,0 +1,55 @@
+{
+  "test_name": "test_add_user",
+  "timestamp": "2026-09-19 04:26:42",
+  "error_type": "AssertionError",
+  "error_message": "响应应包含字段 'id'",
+  "traceback": "NoneType: None\n",
+  "request": {
+    "method": "POST",
+    "url": "https://dummyjson.com/users/add",
+    "params": null,
+    "body": {
+      "firstName": "梅",
+      "lastName": "陈",
+      "age": 76,
+      "gender": "female",
+      "email": "jing44@example.org",
+      "phone": "15198212746",
+      "username": "yong28",
+      "password": "mk9^TBcj*3pW",
+      "birthDate": "1918-07-12",
+      "bloodGroup": "AB-",
+      "height": 168.55,
+      "weight": 70.81,
+      "eyeColor": "Blue"
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+    }
+  },
+  "response": {
+    "status_code": 429,
+    "headers": {
+      "Date": "Fri, 18 Sep 2026 20:26:42 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "63",
+      "Connection": "keep-alive",
+      "etag": "W/\"3f-B2nsbEAffcnicdDhQteNVaOxHik\"",
+      "retry-after": "10",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "x-ratelimit-limit": "100",
+      "x-ratelimit-remaining": "0",
+      "x-ratelimit-reset": "1789763210",
+      "cf-cache-status": "DYNAMIC",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1BDBnPVIk3M%2BiPLEWD0kVpbk1%2FOZqjz2woZNSOyJWR9cMpRlOYMxJ8fvYnAwL7rOAsvg0qPYMRkCzoctr3T%2B7SHhJO%2B5LnaTh3Cp931YIGmBosLgzJfsSzWyrhAdfv5r\"}]}",
+      "Server": "cloudflare",
+      "CF-RAY": "a3d31651dbe0d8c1-IAD"
+    },
+    "body": {
+      "message": "request limit exceeded, please wait a few seconds"
+    },
+    "elapsed_ms": 11.7,
+    "url": "https://dummyjson.com/users/add"
+  }
+}

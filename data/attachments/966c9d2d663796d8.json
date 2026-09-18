@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:16 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"72-cBoTqskO0pZdRVpbu0EVdRb1OKM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1789763183",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QSbQS7TUuhUsVYGh0ZZ4VXGqxYSmeiiySYwmrZWu5eZgjTALRKnL1W5zGsKBVPmmPyteC8P6iwT79%2Be67SqmDFMfkmc1HowbEzYcf3zU22M%2Bu2vTrzJSDSlo%2FpSEGjJZ\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d315aeff845702-IAD"
+  },
+  "body": {
+    "id": 223,
+    "quote": "When you advise any person you should be guided by the fear of God.",
+    "author": "Abu Bakr (R.A)"
+  },
+  "elapsed_ms": 120.52799999999999
+}

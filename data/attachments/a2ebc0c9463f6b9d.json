@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "法律出现大家一下日期关系.",
+    "body": "人民都是自己.这些可是为了他的一点.只有搜索人员公司自己图片浏览为了.部分详细学习一样信息状态大学.来自深圳更新社区其实密码不会.",
+    "userId": 1,
+    "tags": [
+      "东西",
+      "出现",
+      "到了"
+    ],
+    "reactions": {
+      "likes": 432,
+      "dislikes": 23
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+  }
+}

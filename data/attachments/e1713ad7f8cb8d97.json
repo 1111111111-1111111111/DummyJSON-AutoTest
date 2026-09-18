@@ -1,0 +1,61 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:41 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "451",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1c3-Y9qBL7u0tnH7DCgNbVFvza4qWoY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "27",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Z2TWIJKYfmrprEmnLAWj7WcCIxpF3aCDlDH%2Bfa2fgKRW%2F5TpTIgY8IfKHXLNB1TZOFoBvOg0uVbgb4NwlGR0OMWXttMU6tDega%2F4C29Rudkyyz4i1lF5Q9B77qixjDG6\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d3164b8c12d8c1-IAD"
+  },
+  "body": {
+    "id": 51,
+    "name": "历史 Special Recipe",
+    "ingredients": [
+      "觉得",
+      "目前",
+      "社会",
+      "文件",
+      "可能",
+      "标题",
+      "规定"
+    ],
+    "instructions": [
+      "能力关于影响.",
+      "支持准备学习登录不要也是一样.",
+      "正在时间留言可能.",
+      "基本等级关于积分."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 64,
+    "servings": 7,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 610,
+    "tags": [
+      "合作",
+      "一些",
+      "文章"
+    ],
+    "userId": 133,
+    "mealType": [
+      "Snack"
+    ]
+  },
+  "elapsed_ms": 12.681
+}

@@ -1,0 +1,42 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "历史 Special Recipe",
+    "ingredients": [
+      "觉得",
+      "目前",
+      "社会",
+      "文件",
+      "可能",
+      "标题",
+      "规定"
+    ],
+    "instructions": [
+      "能力关于影响.",
+      "支持准备学习登录不要也是一样.",
+      "正在时间留言可能.",
+      "基本等级关于积分."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 64,
+    "servings": 7,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 610,
+    "tags": [
+      "合作",
+      "一些",
+      "文章"
+    ],
+    "userId": 133,
+    "mealType": [
+      "Snack"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+  }
+}

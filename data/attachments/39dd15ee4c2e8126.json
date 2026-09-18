@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "梅",
+    "lastName": "陈",
+    "age": 76,
+    "gender": "female",
+    "email": "jing44@example.org",
+    "phone": "15198212746",
+    "username": "yong28",
+    "password": "mk9^TBcj*3pW",
+    "birthDate": "1918-07-12",
+    "bloodGroup": "AB-",
+    "height": 168.55,
+    "weight": 70.81,
+    "eyeColor": "Blue"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+  }
+}

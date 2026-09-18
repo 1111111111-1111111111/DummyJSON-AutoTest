@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:41 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"6d-Nkr2N+imL9Akw0IMCQquLrMvhxY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "42",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=OtXpJal%2FocxEIDlZDXBglW38e2vaxrd9IA9XOsveLG60Ra0T0nJZRJZA3VE%2B8Wh5b9rjSkv55bntnn6JAJ0laLu3yDuY9cXPjqPRGCVuLbOmxIgck5mv9ZcPRh9DiKHh\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d31648aa41d8c1-IAD"
+  },
+  "body": {
+    "id": 1,
+    "quote": "Your heart is the size of an ocean. Go find yourself in its hidden depths.",
+    "author": "Rumi"
+  },
+  "elapsed_ms": 20.285
+}

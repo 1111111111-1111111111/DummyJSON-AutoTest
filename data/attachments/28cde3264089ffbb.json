@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:40 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "303",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"12f-4IJTNBpMBaScAgupzNiLDo3ZdKM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "64",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qBnSYOH39CmIVTcrDpc7eq%2BdLCn72UD8UvJTgx7Fgs9AwPUpahLO%2FbowWQqAPMrSnmsx%2Fl8E2Gub7FGnkuc5JMmOgsLpAepCKDRnBggrn%2Bv31D9bLcUdYYGt0EtxUDRF\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d316436e6dd8c1-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "直接进入而且必须孩子电影操作能力.",
+    "body": "实现工作软件城市自己.建设部分文章出现决定空间成为.简介只是这里主要男人.重要中国行业来自需要.",
+    "userId": 1,
+    "tags": [
+      "文化",
+      "那个",
+      "也是"
+    ],
+    "reactions": {
+      "likes": 236,
+      "dislikes": 49
+    }
+  },
+  "elapsed_ms": 14.089
+}

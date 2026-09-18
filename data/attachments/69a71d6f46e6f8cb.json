@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:41 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"7d-IcNRXaY7uW33smBxXYMjVVY22jo\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "41",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FSKuuQ%2FFtRHT6aqxQlrDrrJShvhBPNYYuevYrm5bjCovbeGHL5I4n7XoUEI%2FrOoE05Uh9zlfjC%2BO1XKxVY0RUWG%2BMRotUKwPwF0grecWyy4qXSfq%2FyGrchj%2BKITMIIjf\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d31648dac6d8c1-IAD"
+  },
+  "body": {
+    "id": 1086,
+    "quote": "That which you do not wish for yourself, do not impose on others.",
+    "author": "Umar ibn Al-Khattāb (R.A)"
+  },
+  "elapsed_ms": 13.166
+}

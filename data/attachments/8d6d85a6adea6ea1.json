@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:41 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "291",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"123-GjxbqRCTP8jA+d4nqwFGxDYgmQg\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "46",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=78RCj005c0mrDPf9NholrltLC2qJUGknu2PycOmXFxkKs5QBdHmU0oM1zKbl%2B%2Ff2OxEIOjrUpTT9EBdata8CCcYQv7SI76WlOTuA9TkURHPry4ZeSXSgUIx19MQariiS\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d316477de6d8c1-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 经济",
+    "price": 163.04,
+    "discountPercentage": 20.24,
+    "stock": 50,
+    "rating": 4.63,
+    "description": "有关目前为什阅读原因经济日期更多而且电脑这种服务精华学习资料论坛报告文章.",
+    "brand": "佳禾传媒有限公司",
+    "category": "furniture"
+  },
+  "elapsed_ms": 19.480999999999998
+}

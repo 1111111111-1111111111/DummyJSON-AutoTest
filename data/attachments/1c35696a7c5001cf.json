@@ -1,0 +1,41 @@
+{
+  "test_name": "test_get_user_posts",
+  "timestamp": "2026-09-19 04:26:42",
+  "error_type": "AssertionError",
+  "error_message": "响应应包含字段 'posts'",
+  "traceback": "NoneType: None\n",
+  "request": {
+    "method": "GET",
+    "url": "https://dummyjson.com/users/5/posts",
+    "params": null,
+    "body": null,
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+    }
+  },
+  "response": {
+    "status_code": 429,
+    "headers": {
+      "Date": "Fri, 18 Sep 2026 20:26:42 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "63",
+      "Connection": "keep-alive",
+      "etag": "W/\"3f-B2nsbEAffcnicdDhQteNVaOxHik\"",
+      "retry-after": "10",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "x-ratelimit-limit": "100",
+      "x-ratelimit-remaining": "0",
+      "x-ratelimit-reset": "1789763210",
+      "cf-cache-status": "DYNAMIC",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QPNvr3lwOt6XjqCMnMvYuecIFfZZUecZYhe1GIPDzb6gRRVC4hruqN8PSzah20SU5i6uOPelaf%2BZ1E6bpa9BcnyIHa4N75i58VGouO1%2Fd04Dy%2Bli7sN9CS6LSuJIB1gj\"}]}",
+      "Server": "cloudflare",
+      "CF-RAY": "a3d316515a3bd8c1-IAD"
+    },
+    "body": {
+      "message": "request limit exceeded, please wait a few seconds"
+    },
+    "elapsed_ms": 13.48,
+    "url": "https://dummyjson.com/users/5/posts"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:39 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "188",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"bc-nd5Z+J2BQh1qh+za++iriMnvMac\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YIx7yo6FXJfcKT1%2FWyHfqrcLV%2F5xKSnbTMyIS55zufKjhEBaShZN2tEs8MYCY3f6d5TIyrsHxGyuIM77N3CX6fJaP7aM5bWapIctWa0g%2FDnfgCemjLBi9liEbNbb5dFJ\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d3163ecd73d8c1-IAD"
+  },
+  "body": {
+    "id": 341,
+    "body": "网上相关成功需要就是实现地区已经时间用户怎么教育但是密码产品非常.",
+    "postId": 3,
+    "user": {
+      "id": 5,
+      "username": "emmaj",
+      "fullName": "Emma Miller"
+    }
+  },
+  "elapsed_ms": 20.67
+}

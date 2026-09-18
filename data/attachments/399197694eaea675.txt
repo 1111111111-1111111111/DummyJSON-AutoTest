@@ -1,0 +1,7 @@
+2026-09-19 04:26:43 | INFO     | dummyjson_test | base_api.py:41 | GET /users params={'limit': 5, 'skip': 0, 'select': 'firstName,age'}
+2026-09-19 04:26:43 | INFO     | dummyjson_test | http_client.py:108 | [GET] https://dummyjson.com/users | attempt=1/3
+2026-09-19 04:26:43 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 429 | 耗时: 0.014s
+2026-09-19 04:26:43 | ERROR    | dummyjson_test | screenshot.py:114 | [截图工具] 断言失败证据已留存:
+  HTML: /app/screenshots/20260919_042643_test_select_fields.html
+  JSON: /app/screenshots/20260919_042643_test_select_fields.json
+  PNG:  /app/screenshots/20260919_042643_test_select_fields.png

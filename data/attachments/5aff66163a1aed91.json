@@ -1,0 +1,30 @@
+{
+  "status_code": 404,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:39 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "44",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"2c-2aG2MmFZ+Q2tmmGbxWWbpFMS/Ec\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "96",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2F1zhJ9XMSU7hoY5snk5AZnsC3gRaYnzyhJ1imWdjf98%2Bbk%2Fzn%2BDMaaFYXz1iXT3LCu25D0PnwV%2BsbyNNonJxhiP7EevG1sunuQHMx7Tx9yf96fx5RaQ4H7uoqWBzxP7L\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d3163d5876d8c1-IAD"
+  },
+  "body": {
+    "message": "Cart with id '99999' not found"
+  },
+  "elapsed_ms": 30.799
+}

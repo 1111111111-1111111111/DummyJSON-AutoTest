@@ -1,0 +1,77 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:39 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "1001",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"3e9-PJgYuZVKLCWPLcNPtVl8xiWZe+Q\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "95",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yQSjExvKaUDEplGACnI1f4G9Cqye%2BwIBYKgYW5MfaMx7eFfIcBj%2FKHKxJnPfD4qomTuXIRIma82g1WYGd014JOPLk1SgpegcfZY%2Bdjnq2Ppsdv%2BRYJUf1H6DVeW26zte\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d3163d994fd8c1-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 86,
+        "title": "Man Short Sleeve Shirt",
+        "price": 19.99,
+        "quantity": 4,
+        "total": 79.96,
+        "discountPercentage": 6.83,
+        "discountedPrice": 74,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/thumbnail.webp"
+      },
+      {
+        "id": 37,
+        "title": "Red Onions",
+        "price": 1.99,
+        "quantity": 1,
+        "total": 1.99,
+        "discountPercentage": 9.9,
+        "discountedPrice": 2,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/red-onions/thumbnail.webp"
+      },
+      {
+        "id": 22,
+        "title": "Dog Food",
+        "price": 10.99,
+        "quantity": 5,
+        "total": 54.95,
+        "discountPercentage": 10.27,
+        "discountedPrice": 49,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp"
+      },
+      {
+        "id": 193,
+        "title": "Watch Gold for Women",
+        "price": 799.99,
+        "quantity": 8,
+        "total": 6399.92,
+        "discountPercentage": 18.34,
+        "discountedPrice": 5226,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
+      }
+    ],
+    "total": 6536.82,
+    "discountedTotal": 5351,
+    "userId": 1,
+    "totalProducts": 4,
+    "totalQuantity": 18
+  },
+  "elapsed_ms": 32.508
+}

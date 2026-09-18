@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>断言失败截图 - test_get_single_post</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; background: #f5f5f5; padding: 20px; }
+  .container { max-width: 960px; margin: 0 auto; background: #fff; border-radius: 12px;
+               box-shadow: 0 4px 20px rgba(0,0,0,0.1); overflow: hidden; }
+  .header { background: #dc3545; color: #fff; padding: 20px 28px; }
+  .header h1 { font-size: 22px; font-weight: 700; }
+  .header .sub { font-size: 14px; opacity: 0.9; margin-top: 6px; }
+  .section { padding: 18px 28px; border-bottom: 1px solid #eee; }
+  .section h2 { font-size: 16px; color: #333; margin-bottom: 10px;
+               border-left: 4px solid #dc3545; padding-left: 10px; }
+  .error-box { background: #fde8ea; border-left: 4px solid #dc3545;
+               padding: 14px 16px; border-radius: 6px; }
+  .error-type { display: inline-block; background: #dc3545; color: #fff;
+               padding: 2px 10px; border-radius: 4px; font-size: 12px; font-weight: 600;
+               margin-bottom: 8px; }
+  .error-msg { font-size: 14px; color: #333; line-height: 1.8; word-break: break-all; }
+  .traceback { background: #f8f9fa; padding: 12px; border-radius: 6px;
+               font-family: "Consolas", "Courier New", monospace; font-size: 12px;
+               line-height: 1.6; overflow-x: auto; color: #555; white-space: pre-wrap;
+               max-height: 300px; overflow-y: auto; }
+  .req-box { background: #e8f4fd; border-radius: 8px; padding: 14px; }
+  .res-box { background: #fef5e7; border-radius: 8px; padding: 14px; }
+  .status-badge { display: inline-block; padding: 3px 12px; border-radius: 4px;
+                  font-weight: 700; font-size: 14px; color: #fff;
+                  background: #dc3545; }
+  .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .meta-item { font-size: 13px; }
+  .meta-label { color: #888; font-weight: 600; }
+  .meta-value { color: #333; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>&#9888; 断言失败截图 (Assertion Failed)</h1>
+    <div class="sub">2026-09-19 04:26:43 | test_get_single_post</div>
+  </div>
+
+  <div class="section">
+    <h2>错误信息</h2>
+    <div class="error-box">
+      <span class="error-type">AssertionError</span>
+      <div class="error-msg">字段值不匹配 | field=id | 期望=1 实际=None</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>异常堆栈追踪</h2>
+    <div class="traceback">NoneType: None<br></div>
+  </div>
+
+  <div class="section">
+    <h2>HTTP 请求上下文</h2>
+    <div class="req-box">
+      <div class="meta-grid" style="margin-bottom:12px;">
+        <div class="meta-item"><span class="meta-label">Method:</span>
+          <span class="meta-value">GET</span></div>
+        <div class="meta-item"><span class="meta-label">Status:</span>
+          <span class="status-badge">429</span></div>
+      </div>
+      <div style="margin-bottom:8px;"><span class="meta-label">URL:</span>
+        <span class="meta-value" style="word-break:break-all;">https://dummyjson.com/posts/1</span></div>
+      <pre style="background:#f8f9fa;padding:12px;border-radius:6px;overflow-x:auto;font-size:13px;line-height:1.6;">{
+  "method": "GET",
+  "url": "https://dummyjson.com/posts/1",
+  "params": null,
+  "body": null,
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+  }
+}</pre>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>HTTP 响应上下文</h2>
+    <div class="res-box">
+      <pre style="background:#f8f9fa;padding:12px;border-radius:6px;overflow-x:auto;font-size:13px;line-height:1.6;">{
+  "status_code": 429,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:43 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "63",
+    "Connection": "keep-alive",
+    "etag": "W/\"3f-B2nsbEAffcnicdDhQteNVaOxHik\"",
+    "retry-after": "10",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1789763210",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cpe%2F7x3%2Bejel14PYDX2ebbR%2FgsjFJ9CIZei%2FhAryXors45hFnLmdwNFyFVTxAyw9%2FtzxGTvayZn1S0TXrShzqz1aA6dT6bjNFuJ4E9bSBtPHt4ifczSaYY1BieQieQAe\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d31655fccbd8c1-IAD"
+  },
+  "body": {
+    "message": "request limit exceeded, please wait a few seconds"
+  },
+  "elapsed_ms": 12.41,
+  "url": "https://dummyjson.com/posts/1"
+}</pre>
+    </div>
+  </div>
+
+  <div class="section" style="border-bottom:none;">
+    <span style="font-size:12px;color:#999;">由 ScreenshotUtil 自动生成 |
+      2026-09-19 04:26:43</span>
+  </div>
+</div>
+</body>
+</html>

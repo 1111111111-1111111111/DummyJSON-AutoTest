@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 不过",
+    "description": "方式评论日本今年类别一个你们建设在线基本.",
+    "category": "fragrances",
+    "price": 450.19,
+    "discountPercentage": 19.22,
+    "rating": 3.53,
+    "stock": 46,
+    "tags": [
+      "还是",
+      "中文",
+      "虽然"
+    ],
+    "brand": "戴硕电子信息有限公司",
+    "sku": "FF6GUT0X"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+  }
+}

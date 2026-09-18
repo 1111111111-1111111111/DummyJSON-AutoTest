@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 经济",
+    "description": "有关目前为什阅读原因经济日期更多而且电脑这种服务精华学习资料论坛报告文章.",
+    "category": "furniture",
+    "price": 163.04,
+    "discountPercentage": 20.24,
+    "rating": 4.63,
+    "stock": 50,
+    "tags": [
+      "的人",
+      "加入",
+      "进行"
+    ],
+    "brand": "佳禾传媒有限公司",
+    "sku": "IWC9GV31"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+  }
+}

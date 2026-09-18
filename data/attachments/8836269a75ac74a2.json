@@ -1,0 +1,41 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:39 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"bd-FVg+j94ws9ckdmlocIfX7f64V/4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "87",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JezUj9siwM9C0Ctfk5dC%2B8ofB6VYQ4RQpaw4JkVJ2tsfA%2BM%2BQmSFSWxvGhbZAXq0I%2FgpzQ27%2FZZZKq4Ggt1gJu2RUVzyDdWIBSAQWc9CKmiUUDBE%2BEJNTtFySplbP9%2By\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d3163f4f73d8c1-IAD"
+  },
+  "body": {
+    "id": 1,
+    "body": "This is some awesome thinking!",
+    "postId": 242,
+    "likes": 3,
+    "user": {
+      "id": 105,
+      "username": "emmac",
+      "fullName": "Emma Wilson"
+    },
+    "isDeleted": true,
+    "deletedOn": "2026-09-18T20:26:39.893Z"
+  },
+  "elapsed_ms": 13.134
+}

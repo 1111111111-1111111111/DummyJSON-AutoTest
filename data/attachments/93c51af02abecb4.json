@@ -1,0 +1,46 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:40 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1fd-V/0pl761xXB7dMvGcuNg7UjQzFE\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "61",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=T3HvrIMhpFZR%2BYKeMIQIZjUPQLf6YSNb043qC%2BInqVq1K6nI%2FPyl2KmbeXjKV6Vy3ZFDEXXr23oVZW19dKukl%2F5P4fWZg3yUwWRd1L0dik%2BQB5Ov2pF86aJH7cqjDOi8\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d31643bf7cd8c1-IAD"
+  },
+  "body": {
+    "id": 1,
+    "title": "His mother had always taught him",
+    "body": "His mother had always taught him not to ever think of himself as better than others. He'd tried to live by this motto. He never looked down on those who were less fortunate or who had less money than him. But the stupidity of the group of people he was talking to made him change his mind.",
+    "tags": [
+      "history",
+      "american",
+      "crime"
+    ],
+    "reactions": {
+      "likes": 192,
+      "dislikes": 25
+    },
+    "views": 305,
+    "userId": 121,
+    "isDeleted": true,
+    "deletedOn": "2026-09-18T20:26:40.602Z"
+  },
+  "elapsed_ms": 12.989
+}

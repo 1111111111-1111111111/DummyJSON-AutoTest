@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:40 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "340",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"154-ASsR67Hn/3fgikTad1Rv9U6rQqY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "72",
+    "x-ratelimit-reset": "1789763210",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=uVXxfgdcVy7YTH4xd4sstVhzqyvva1foIkz2mJcTX5X96Au%2BcnO6ceCWyPDS7FeUnNd%2BjPi0pglkG7%2BDf7rpiCGAwXsWziDuzi0uPt3voRAjVx40tv%2FavkbF%2F3wbu2Rg\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d31641b839d8c1-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "法律出现大家一下日期关系.",
+    "body": "人民都是自己.这些可是为了他的一点.只有搜索人员公司自己图片浏览为了.部分详细学习一样信息状态大学.来自深圳更新社区其实密码不会.",
+    "userId": 1,
+    "tags": [
+      "东西",
+      "出现",
+      "到了"
+    ],
+    "reactions": {
+      "likes": 432,
+      "dislikes": 23
+    }
+  },
+  "elapsed_ms": 34.159
+}

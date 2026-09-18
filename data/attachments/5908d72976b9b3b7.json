@@ -1,0 +1,41 @@
+{
+  "test_name": "test_user_not_found",
+  "timestamp": "2026-09-19 04:26:43",
+  "error_type": "AssertionError",
+  "error_message": "状态码不匹配 | 期望=404 实际=429 | 响应体={\"message\":\"request limit exceeded, please wait a few seconds\"}",
+  "traceback": "NoneType: None\n",
+  "request": {
+    "method": "GET",
+    "url": "https://dummyjson.com/users/99999",
+    "params": null,
+    "body": null,
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3ODk3NjMxOTksImV4cCI6MTc4OTc2NDk5OX0.ljBp766Wqh8SSG_Is8jRTxpQNY_gF04-FAF5w7yKEnI"
+    }
+  },
+  "response": {
+    "status_code": 429,
+    "headers": {
+      "Date": "Fri, 18 Sep 2026 20:26:43 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "63",
+      "Connection": "keep-alive",
+      "etag": "W/\"3f-B2nsbEAffcnicdDhQteNVaOxHik\"",
+      "retry-after": "10",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "x-ratelimit-limit": "100",
+      "x-ratelimit-remaining": "0",
+      "x-ratelimit-reset": "1789763210",
+      "cf-cache-status": "DYNAMIC",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2F1PJe7a8zFrAGs0tAvx5PmjuvBKi7sPb%2FGrluTuiyAnbW5HhZxdC478ux%2BvDx28DATMGp460cbOh0Y9ik%2BUVE37FQB%2Bef2HLmk13LVkAJETR7fOCnFBHR%2BxM9YoD0DMl\"}]}",
+      "Server": "cloudflare",
+      "CF-RAY": "a3d31653bb69d8c1-IAD"
+    },
+    "body": {
+      "message": "request limit exceeded, please wait a few seconds"
+    },
+    "elapsed_ms": 11.84,
+    "url": "https://dummyjson.com/users/99999"
+  }
+}

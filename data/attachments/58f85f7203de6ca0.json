@@ -1,0 +1,77 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 20:26:39 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "etag": "W/\"43f-jM791+iRqActQn8gwLAC7FFBtIk\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "82",
+    "x-ratelimit-reset": "1789763200",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sh8TycLZTuAynwVTKOURdoApM4HAdSjrGE2cngV15gT0Nw8QVkyvgC27ERdzc7T64f%2FVifhj9PMTus1NUvjvf3o3WbQfvGqAKV66pS1VIitScz4AiswafCNZPSZooAkU\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a3d3163c7d61d8c1-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 177,
+        "title": "Black Women's Gown",
+        "price": 129.99,
+        "quantity": 8,
+        "total": 1039.92,
+        "discountPercentage": 10.48,
+        "discountedPrice": 931,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/thumbnail.webp"
+      },
+      {
+        "id": 15,
+        "title": "Wooden Bathroom Sink With Mirror",
+        "price": 799.99,
+        "quantity": 6,
+        "total": 4799.9400000000005,
+        "discountPercentage": 8.8,
+        "discountedPrice": 4378,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"
+      },
+      {
+        "id": 168,
+        "title": "Charger SXT RWD",
+        "price": 32999.99,
+        "quantity": 5,
+        "total": 164999.94999999998,
+        "discountPercentage": 8.23,
+        "discountedPrice": 151420,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/thumbnail.webp"
+      },
+      {
+        "id": 9,
+        "title": "Dolce Shine Eau de",
+        "price": 69.99,
+        "quantity": 4,
+        "total": 279.96,
+        "discountPercentage": 0.62,
+        "discountedPrice": 278,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp"
+      }
+    ],
+    "total": 171119.77,
+    "discountedTotal": 157007,
+    "userId": 1,
+    "totalProducts": 4,
+    "totalQuantity": 23
+  },
+  "elapsed_ms": 14.822000000000001
+}
