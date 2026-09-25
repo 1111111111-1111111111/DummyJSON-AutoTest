@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 25 Sep 2026 21:07:46 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "155",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"9b-n0XYldfiuA8L3WjsYYQ4zogayWY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "64",
+    "x-ratelimit-reset": "1790370469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=o86%2F9FKxm03CNn5oeUI3ppVEkcNN%2FEioBFs%2FXt3vnoUWOP3Nza8R64O9MfFO3j%2FWQD2ll%2BoQDyQ%2FGcYzaUtFJlqqmYb0i3iI1VlC8OOz%2BseCHBGHFkAYNEw3morGGsV3\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a40d0014f92c4b1f-LAX"
+  },
+  "body": {
+    "id": 341,
+    "body": "设计企业时间都是能力目前联系参加企业发表.",
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "username": "emilys",
+      "fullName": "Emily Johnson"
+    }
+  },
+  "elapsed_ms": 187.35999999999999
+}

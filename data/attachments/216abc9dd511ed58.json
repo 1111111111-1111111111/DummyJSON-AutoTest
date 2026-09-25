@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 25 Sep 2026 21:07:17 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"91-hfh3wST5RBM22Cq+3meW/43C3No\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "91",
+    "x-ratelimit-reset": "1790370439",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Vr7NAbx0buXlCMpuuZgryhGIQdDtNjyHqPvBBjdk6XmxqAXhDaNxovIlwz%2Ffan0JHTbxSKd1%2FS%2FCBQkOcJnm%2FbogcPHuUGXd4X5df023PYCq%2F11UCTtK5XBn%2BVsQVpaW\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a40cff5f9fb458d9-PDX"
+  },
+  "body": {
+    "id": 1054,
+    "quote": "I Don'T Know Who My Grandfather Was; I Am Much More Concerned To Know What His Grandson Will Be.",
+    "author": "Abraham Lincoln"
+  },
+  "elapsed_ms": 186.235
+}

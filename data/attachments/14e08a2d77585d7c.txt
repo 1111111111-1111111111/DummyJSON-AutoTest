@@ -1,0 +1,8 @@
+DEBUG    dummyjson_test:data_generator.py:204 生成食谱数据: 类别 Special Recipe
+INFO     dummyjson_test:base_api.py:86 POST /recipes/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/recipes/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'name': '类别 Special Recipe', 'ingredients': ['设计', '当前', '注意', '是否', '电脑', '只是', '标题', '广告'], 'instructions': ['系统国际他的城市登录文化.', '时候出来北京得到.', '今年加入使用.'], 'prepTimeMinutes': 14, 'cookTimeMinutes': 56, 'servings': 8, 'difficulty': 'Medium', 'cuisine': 'Asian', 'caloriesPerServing': 719, 'tags': ['操作', '时候', '也是'], 'userId': 45, 'mealType': ['Snack']}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /recipes/add HTTP/1.1" 201 424
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.189s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: name=类别 Special Recipe

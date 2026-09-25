@@ -1,0 +1,66 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 25 Sep 2026 21:08:05 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"2ca-1R07BqBfmZAQg8/5xQBa2Y5ftS8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "67",
+    "x-ratelimit-reset": "1790370489",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DzzJQy0b11K90Lyva4xMinCKJuf33Dg4Iwilt%2BmbazMQmH3pK5E11DCEELm%2BAL5Ln%2FwEyG1D9PzHkD1coEmrq%2BkQQrPAYUlyb78%2BDXclhQYYINymWS%2BkFDRw4%2FbeOpB1\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a40d008cdabb4b1f-LAX"
+  },
+  "body": {
+    "posts": [
+      {
+        "id": 61,
+        "title": "I'm going to hire professional help tomorrow.",
+        "body": "I'm going to hire professional help tomorrow. I can't handle this anymore. She fell over the coffee table and now there is blood in her catheter. This is much more than I ever signed up to do.",
+        "tags": [
+          "fiction",
+          "classic",
+          "american"
+        ],
+        "reactions": {
+          "likes": 1127,
+          "dislikes": 40
+        },
+        "views": 4419,
+        "userId": 5
+      },
+      {
+        "id": 123,
+        "title": "The old scholar was watching the noisy",
+        "body": "young people around him and it suddenly occurred to him that he was the only one in the whole audience who had the privilege of freedom, ",
+        "tags": [
+          "mystery",
+          "classic"
+        ],
+        "reactions": {
+          "likes": 1350,
+          "dislikes": 12
+        },
+        "views": 1583,
+        "userId": 5
+      }
+    ],
+    "total": 2,
+    "skip": 0,
+    "limit": 2
+  },
+  "elapsed_ms": 186.60399999999998
+}

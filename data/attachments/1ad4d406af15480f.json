@@ -1,0 +1,67 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 25 Sep 2026 21:07:43 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "798",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"31e-IyHBR9CJATaE6yOUleUsUL1UwJE\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "76",
+    "x-ratelimit-reset": "1790370469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dodx3dA9naMhQlt0LzShHtuikeCjejPi0eGB%2FSuCnkRNirGGk5yiSCH80veU%2BvxSgswODTkxF%2BYIPyH71Cnt414gyMMO8XXXtOhvgIiC7OKYBgd9UVhL2w%2Bw0u654%2BIZ\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a40d00066ca84b1f-LAX"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 5,
+        "title": "Red Nail Polish",
+        "price": 8.99,
+        "quantity": 5,
+        "total": 44.95,
+        "discountPercentage": 11.44,
+        "discountedPrice": 40,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp"
+      },
+      {
+        "id": 116,
+        "title": "Scooter Motorcycle",
+        "price": 2999.99,
+        "quantity": 1,
+        "total": 2999.99,
+        "discountPercentage": 6.27,
+        "discountedPrice": 2812,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/motorcycle/scooter-motorcycle/thumbnail.webp"
+      },
+      {
+        "id": 144,
+        "title": "Cricket Helmet",
+        "price": 44.99,
+        "quantity": 1,
+        "total": 44.99,
+        "discountPercentage": 9.64,
+        "discountedPrice": 41,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/thumbnail.webp"
+      }
+    ],
+    "total": 3089.9299999999994,
+    "discountedTotal": 2893,
+    "userId": 1,
+    "totalProducts": 3,
+    "totalQuantity": 7
+  },
+  "elapsed_ms": 187.067
+}

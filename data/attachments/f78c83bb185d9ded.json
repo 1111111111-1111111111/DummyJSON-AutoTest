@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 新闻",
+    "description": "通过大家任何她的就是阅读之后看到这里.",
+    "category": "fragrances",
+    "price": 310.18,
+    "discountPercentage": 3.92,
+    "rating": 4.08,
+    "stock": 55,
+    "tags": [
+      "标题",
+      "成为",
+      "价格"
+    ],
+    "brand": "商软冠联信息有限公司",
+    "sku": "WH1ZFXLK"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTAzNzA0NjEsImV4cCI6MTc5MDM3MjI2MX0.8wo27Sqd4FqE_W5nT7xPKWk33ADKLdTW6eLxsw0wvTw"
+  }
+}

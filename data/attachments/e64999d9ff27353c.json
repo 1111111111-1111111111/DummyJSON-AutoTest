@@ -1,0 +1,77 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 25 Sep 2026 21:07:42 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rUEr%2BiYDaivdchay5bLgAxWl%2BRCiR3ixu4TNpcZkwboX9NAktQVLUkAMaF82ecF%2FU%2FAiXzw3itXT2LZuIna9%2FpKdwzwLxuE0AmyFKGJXsEi5S1cSaNYqUoR%2F7zSJSptS\"}]}",
+    "etag": "W/\"433-P34eb5Zpn5CtdOgFq2ekeJxKHe4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "83",
+    "x-ratelimit-reset": "1790370469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a40cfffe09d54b1f-LAX"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 69,
+        "title": "Plate",
+        "price": 3.99,
+        "quantity": 8,
+        "total": 31.92,
+        "discountPercentage": 7.31,
+        "discountedPrice": 30,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/thumbnail.webp"
+      },
+      {
+        "id": 95,
+        "title": "Rolex Cellini Date Black Dial",
+        "price": 8999.99,
+        "quantity": 9,
+        "total": 80999.91,
+        "discountPercentage": 8.88,
+        "discountedPrice": 73807,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
+      },
+      {
+        "id": 79,
+        "title": "Asus Zenbook Pro Dual Screen Laptop",
+        "price": 1799.99,
+        "quantity": 3,
+        "total": 5399.97,
+        "discountPercentage": 11.14,
+        "discountedPrice": 4798,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
+      },
+      {
+        "id": 10,
+        "title": "Gucci Bloom Eau de",
+        "price": 79.99,
+        "quantity": 7,
+        "total": 559.93,
+        "discountPercentage": 14.39,
+        "discountedPrice": 479,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp"
+      }
+    ],
+    "total": 86991.73,
+    "discountedTotal": 79114,
+    "userId": 1,
+    "totalProducts": 4,
+    "totalQuantity": 27
+  },
+  "elapsed_ms": 186.17700000000002
+}

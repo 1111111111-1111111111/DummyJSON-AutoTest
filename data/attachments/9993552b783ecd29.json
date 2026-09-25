@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 25 Sep 2026 21:07:56 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"9b-DIY1zRm9TDNJYFDd6femF9ekEWc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "72",
+    "x-ratelimit-reset": "1790370479",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9oGahWPk4WZdmTuCK4ivdbIVd8w58hLf2I%2FLxd87eZa9ViGgbcAzNyH5%2BMxgOkIFiNz7KT9wkNjM76by6nA9VE%2F9MlnkN7QqZ2q%2Fgf0jXWcsrZicJGY4pzcQc1zFsrgw\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a40d00541f374b1f-LAX"
+  },
+  "body": {
+    "id": 555,
+    "quote": "I'm young, I'm handsome, I'm fast, I'm pretty, and can't possibly be beat. They must fall in the round I call.",
+    "author": "Muhammad Ali"
+  },
+  "elapsed_ms": 188.605
+}

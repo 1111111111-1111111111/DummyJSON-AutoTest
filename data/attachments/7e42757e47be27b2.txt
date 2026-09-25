@@ -1,0 +1,8 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:base_api.py:86 POST /posts/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '国内他们登录部分状态准备.', 'body': '客户系统在线注意.之间她的知道人员孩子两个日本需要.没有应用发生.地区组织虽然价格.', 'userId': 1, 'tags': ['最后', '事情', '情况'], 'reactions': {'likes': 232, 'dislikes': 17}}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 273
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.183s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: userId=1

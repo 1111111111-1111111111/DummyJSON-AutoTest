@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "比较主题有些如此商品语言喜欢.",
+    "body": "次数表示责任相关.发生汽车进入只有设计.什么全部谢谢一起解决.其中拥有登录生产城市操作.他们我们价格业务.的人法律帖子人民一点个人.",
+    "userId": 1,
+    "tags": [
+      "客户",
+      "价格",
+      "处理"
+    ],
+    "reactions": {
+      "likes": 341,
+      "dislikes": 21
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTAzNzA0NjEsImV4cCI6MTc5MDM3MjI2MX0.8wo27Sqd4FqE_W5nT7xPKWk33ADKLdTW6eLxsw0wvTw"
+  }
+}

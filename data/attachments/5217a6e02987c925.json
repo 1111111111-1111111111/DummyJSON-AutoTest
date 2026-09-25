@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "国内他们登录部分状态准备.",
+    "body": "客户系统在线注意.之间她的知道人员孩子两个日本需要.没有应用发生.地区组织虽然价格.",
+    "userId": 1,
+    "tags": [
+      "最后",
+      "事情",
+      "情况"
+    ],
+    "reactions": {
+      "likes": 232,
+      "dislikes": 17
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTAzNzA0NjEsImV4cCI6MTc5MDM3MjI2MX0.8wo27Sqd4FqE_W5nT7xPKWk33ADKLdTW6eLxsw0wvTw"
+  }
+}

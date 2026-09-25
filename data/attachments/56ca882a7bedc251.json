@@ -1,0 +1,34 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 25 Sep 2026 21:07:18 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"54-RMk7CpPU1Vn1E5WgrXlGiNF2goY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "89",
+    "x-ratelimit-reset": "1790370439",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=kqxjmkawiauPuJTgGXUNgaLKdA9XkqpipKlDVHTW6SKfOyFlaaiBA4RxzJuLP81NL6oPimqZr2VeXcIy0uiLg9bnst8jLM8PLBewBPXZaw02UxVwjUtOOsh1ELAvXTdY\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a40cff647beb58d9-PDX"
+  },
+  "body": {
+    "id": 48,
+    "todo": "Volunteer at a local animal shelter",
+    "completed": false,
+    "userId": 56
+  },
+  "elapsed_ms": 184.709
+}
