@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:43 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"59-g1Ig/3FasBd2Z7PfY7kIhOTYb1Q\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "47",
+    "x-ratelimit-reset": "1791059928",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=MKFFEmza8%2BVt6BKEeS8J0cn8AbhJUYyD9kJquy0M56a8Z9S5dmmjxKX7%2BJgUiSnjY1eYTN8R89gqMFHGbqKFJWru6lZLANNCpPzyH10hTBdoZid3wwQ%2Baog016owuJXo\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec08a3f0a150b-IAD"
+  },
+  "body": {
+    "id": 251,
+    "quote": "His hands can't hit what his eyes can't see.",
+    "author": "Muhammad Ali"
+  },
+  "elapsed_ms": 115.975
+}

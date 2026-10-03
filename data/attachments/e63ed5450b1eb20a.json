@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "建设大小政府主题品牌大小精华研究她的.",
+    "body": "网站男人当然问题.业务回复男人.进行环境可以可是.标题作者部门行业.",
+    "userId": 1,
+    "tags": [
+      "需要",
+      "是一",
+      "位置"
+    ],
+    "reactions": {
+      "likes": 429,
+      "dislikes": 17
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTEwNTk5MDYsImV4cCI6MTc5MTA2MTcwNn0.EVGQ8n-H2jLEoJ3OW65gMD-fFQ2iM5gk5dum7G026qM"
+  }
+}

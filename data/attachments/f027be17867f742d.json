@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "杨",
+    "lastName": "张",
+    "age": 59,
+    "gender": "female",
+    "email": "junwan@example.net",
+    "phone": "15183064430",
+    "username": "jieliang",
+    "password": "9Sslma4b#9Cp",
+    "birthDate": "1915-12-20",
+    "bloodGroup": "AB+",
+    "height": 176.92,
+    "weight": 46.63,
+    "eyeColor": "Brown"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTEwNTk5MDYsImV4cCI6MTc5MTA2MTcwNn0.EVGQ8n-H2jLEoJ3OW65gMD-fFQ2iM5gk5dum7G026qM"
+  }
+}

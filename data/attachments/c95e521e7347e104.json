@@ -1,0 +1,40 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "一样 Special Recipe",
+    "ingredients": [
+      "欢迎",
+      "以及",
+      "他们",
+      "销售",
+      "设计"
+    ],
+    "instructions": [
+      "当前一直您的之间.",
+      "当前本站操作单位详细文化之后.",
+      "完成孩子情况.",
+      "您的文化系统孩子."
+    ],
+    "prepTimeMinutes": 28,
+    "cookTimeMinutes": 45,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "American",
+    "caloriesPerServing": 184,
+    "tags": [
+      "不断",
+      "推荐",
+      "日本"
+    ],
+    "userId": 9,
+    "mealType": [
+      "Snack"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTEwNTk5MDYsImV4cCI6MTc5MTA2MTcwNn0.EVGQ8n-H2jLEoJ3OW65gMD-fFQ2iM5gk5dum7G026qM"
+  }
+}

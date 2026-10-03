@@ -1,0 +1,8 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:base_api.py:86 POST /posts/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '建设大小政府主题品牌大小精华研究她的.', 'body': '网站男人当然问题.业务回复男人.进行环境可以可是.标题作者部门行业.', 'userId': 1, 'tags': ['需要', '是一', '位置'], 'reactions': {'likes': 429, 'dislikes': 17}}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 267
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.113s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: userId=1

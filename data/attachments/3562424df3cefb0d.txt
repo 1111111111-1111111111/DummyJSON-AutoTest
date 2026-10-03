@@ -1,0 +1,21 @@
+DEBUG    dummyjson_test:data_generator.py:62 生成产品数据: Test Product 美国
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/products/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Test Product 美国', 'description': '或者以后最新具有以下不是注册时间广告的是工具.', 'category': 'groceries', 'price': 864.76, 'discountPercentage': 10.06, 'rating': 4.8, 'stock': 24, 'tags': ['一切', '介绍', '电脑'], 'brand': '凌云传媒有限公司', 'sku': 'EJZPRI4G'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /products/add HTTP/1.1" 201 248
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.116s
+INFO     dummyjson_test:keyword_actions.py:154 提取字段: id=195
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=Test Product 美国
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/products/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "GET /products/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.010s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: id=1
+INFO     dummyjson_test:keyword_actions.py:103 字段非空验证通过: title
+INFO     dummyjson_test:http_client.py:108 [PUT] https://dummyjson.com/products/1 | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Updated Title'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "PUT /products/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.119s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=Updated Title
+INFO     dummyjson_test:http_client.py:108 [DELETE] https://dummyjson.com/products/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "DELETE /products/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.118s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: isDeleted=True

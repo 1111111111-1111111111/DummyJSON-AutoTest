@@ -1,0 +1,21 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '空间当然资源登录中文完全使用您的影响.', 'body': '你们各种制作浏览以后详细广告一个.帖子更多处理之后.知道生产主要上海欢迎地区.就是应该出来开发拥有其实.品牌特别您的当然.', 'userId': 1, 'tags': ['发现', '会员', '政府'], 'reactions': {'likes': 267, 'dislikes': 23}}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 346
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.117s
+INFO     dummyjson_test:keyword_actions.py:154 提取字段: id=252
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=空间当然资源登录中文完全使用您的影响.
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "GET /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.115s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: id=1
+INFO     dummyjson_test:keyword_actions.py:103 字段非空验证通过: title
+INFO     dummyjson_test:http_client.py:108 [PUT] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Updated'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "PUT /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.117s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=Updated
+INFO     dummyjson_test:http_client.py:108 [DELETE] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "DELETE /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.115s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: isDeleted=True

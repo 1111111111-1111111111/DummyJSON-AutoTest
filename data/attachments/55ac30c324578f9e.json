@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:29 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "137",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"89-qci+TOq+JljSMG09SYXgImEWL1s\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "81",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X5TFcPQZ19209Qjvg04f0wQqZTRAQWP%2BudgtN1gZlRi%2B2%2BR%2BiYXGeaArm%2BBjn7ldreeOP9D4jqgwn2L45UIggA9Knr4YGrvzh%2F4%2BlmD9FLY8w6NIcOHyNzDYPuBMoD2u\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec030caf7150b-IAD"
+  },
+  "body": {
+    "id": 341,
+    "body": "表示介绍浏览要求法律知道更新.",
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "username": "emilys",
+      "fullName": "Emily Johnson"
+    }
+  },
+  "elapsed_ms": 113.61699999999999
+}

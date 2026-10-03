@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:34 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "248",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"f8-sil2gr0Fu0IkQaoKMG44LpFURT8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "44",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bD0iFP6T%2BcTgFOQmLsTPv%2FECT5iGUkUuMKHOeZodCRodQYFZSeDFHOZkm7QBklM6VUJD62Bbl%2BQ3nV1sd2Sbxt8a4J82JWxZinc0PkF4%2FCmrg0BNQvMc36fDbPNSTwuc\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec04fb9db150b-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 美国",
+    "price": 864.76,
+    "discountPercentage": 10.06,
+    "stock": 24,
+    "rating": 4.8,
+    "description": "或者以后最新具有以下不是注册时间广告的是工具.",
+    "brand": "凌云传媒有限公司",
+    "category": "groceries"
+  },
+  "elapsed_ms": 115.88
+}

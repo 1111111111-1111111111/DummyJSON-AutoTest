@@ -1,0 +1,43 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:33 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"228-UBUv1rYcbdypG8zVvY1v3mKrdKY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "49",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=V3SjVR7P9BcTTBslcumXB3AoS5HPfqbrVeY%2BeeOXf9SaLY9KlvlPL3JYfge07S4ky%2F3%2F7f3aFtHvZlDDQLuUHTfyY8eMP6QwBSUTF%2FMT8552g5ihvJ6%2FBJLXlXutuA7F\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec04bfcbc150b-IAD"
+  },
+  "body": {
+    "id": 1,
+    "title": "Essence Mascara Lash Princess",
+    "price": 999.99,
+    "discountPercentage": 10.48,
+    "stock": 99,
+    "rating": 2.56,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "brand": "Essence",
+    "category": "beauty"
+  },
+  "elapsed_ms": 115.57199999999999
+}

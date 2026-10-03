@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 之后",
+    "description": "她的情况控制感觉相关为什手机开始学习一下能力那个.",
+    "category": "fragrances",
+    "price": 778.81,
+    "discountPercentage": 17.85,
+    "rating": 3.51,
+    "stock": 90,
+    "tags": [
+      "首页",
+      "感觉",
+      "在线"
+    ],
+    "brand": "富罳传媒有限公司",
+    "sku": "895Z2LT5"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTEwNTk5MDYsImV4cCI6MTc5MTA2MTcwNn0.EVGQ8n-H2jLEoJ3OW65gMD-fFQ2iM5gk5dum7G026qM"
+  }
+}

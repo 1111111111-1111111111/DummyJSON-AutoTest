@@ -1,0 +1,30 @@
+{
+  "status_code": 404,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:35 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "45",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"2d-8oQDlvlXvrK5yACadWsSXa4wrWg\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "35",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FvqKthRRyokO8yVf53GnX%2FFXh%2Bg4sDXax3aFz2cAAD4h4zxS%2BOjREf9XMI28Oj9jbSRXWCUQdmA7n3M7YdJvpUGt7hkJ9N4QsmkLRMuuHbnMeOhCaP6yDPO1O5R482Vs\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec0593ab9150b-IAD"
+  },
+  "body": {
+    "message": "Quote with id '99999' not found"
+  },
+  "elapsed_ms": 116.48400000000001
+}

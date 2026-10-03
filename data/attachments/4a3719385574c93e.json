@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:31 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "346",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"15a-Hg6/H6bd/Knki5Sx1NjmplI1mY8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "62",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=euopcHVRpyCOGFzVP8EuyHJoV90yoSxSSO76ROqvfCF8ulm8lmjWnmBEfAc6Mv%2BbePrzs9M0eWGwC6GWK1C0jwbWPtd9b9t9A80NqocXUMBbOAScZgaWU7H7dde%2F%2FYL%2B\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec03f1e29150b-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "空间当然资源登录中文完全使用您的影响.",
+    "body": "你们各种制作浏览以后详细广告一个.帖子更多处理之后.知道生产主要上海欢迎地区.就是应该出来开发拥有其实.品牌特别您的当然.",
+    "userId": 1,
+    "tags": [
+      "发现",
+      "会员",
+      "政府"
+    ],
+    "reactions": {
+      "likes": 267,
+      "dislikes": 23
+    }
+  },
+  "elapsed_ms": 117.033
+}

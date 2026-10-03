@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:05 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"be-BHiWywFN7CtAfWpYYdfn0Wozvmw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1791059890",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Qf%2BbCx9rdB1kEzF0ZzFr%2BvsmM0bFhGyRKk1T6c%2F0QPqid%2F0HcECbJQ5bjy%2BIcQ3vvHakFFX03ysHYNTLYDeL6E3WI%2B5iNbPWBB1MYfkhLE0ij5I%2FPZvjUirfILfzRab4\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ebf9bbe6a608d-ORD"
+  },
+  "body": {
+    "id": 1101,
+    "quote": "A friend cannot be considered a friend until he is tested in three occasions: in timeof need, behind your back, and after your death.",
+    "author": "Ali ibn Abi Talib (R.A)"
+  },
+  "elapsed_ms": 45.638999999999996
+}

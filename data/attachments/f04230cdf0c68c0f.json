@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:36 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"53-twYMHpoNo5E+5U8K+98ZSGHqEV0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "32",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vS%2Bz%2BtDIVldMAkQGa6g8%2F9hUU1clcGHyrg3ZZpBaYzx3tXTK8JfFyRwYS%2Bs3bDF4pY%2Fvd42x4gAXr9cdevYW8zKcKNZDcrPdpLtcQbVJpINjGNUn1ASVgdyhbvE9G4Pe\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec05c4cdc150b-IAD"
+  },
+  "body": {
+    "id": 21,
+    "quote": "Respond to every call that excites your spirit.",
+    "author": "Rumi"
+  },
+  "elapsed_ms": 114.368
+}

@@ -1,0 +1,31 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:33 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "41",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"29-MN9xAwH0oOx9Vbl50ZKcjlOfMC0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HbR60aO2AhiMdeNm2WS3f3FW7kTKKAH9ACc9je3FP3waBlLoNhmPHeIBzQFFvT0DHM6PIytXpGCk50Re%2B6cUDKHzAY5gdiydn1zsNb6dnwIRKDn6ldZcJ%2FnB%2FE7E4%2BSW\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec0486faa150b-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Minimal Test Product"
+  },
+  "elapsed_ms": 113.651
+}

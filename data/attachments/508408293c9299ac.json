@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:30 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "267",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"10b-JhqNPkAVz2PKvjn4BBR/VXqNqn4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nwa6GGAIfybDZys4hKSUy2psRSFVayof%2FDeW3QuEfsQPXMDMyWUxmOR96PZOtCvCCa24xPfNvKS7MxCwL7BsR6xawoVLnBt7a%2BWQIIjGbVkhKiqIYTy%2B0UApTrjIm1eq\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec0391843150b-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "建设大小政府主题品牌大小精华研究她的.",
+    "body": "网站男人当然问题.业务回复男人.进行环境可以可是.标题作者部门行业.",
+    "userId": 1,
+    "tags": [
+      "需要",
+      "是一",
+      "位置"
+    ],
+    "reactions": {
+      "likes": 429,
+      "dislikes": 17
+    }
+  },
+  "elapsed_ms": 113.168
+}

@@ -1,0 +1,5 @@
+2026-10-04 04:38:38 | INFO     | dummyjson_test | base_api.py:86 | POST /todos/add
+2026-10-04 04:38:38 | INFO     | dummyjson_test | http_client.py:108 | [POST] https://dummyjson.com/todos/add | attempt=1/3
+2026-10-04 04:38:38 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 201 | 耗时: 0.114s
+2026-10-04 04:38:38 | INFO     | dummyjson_test | assertions.py:24 | 断言通过: id 非空
+2026-10-04 04:38:38 | INFO     | dummyjson_test | assertions.py:18 | 断言通过: todo=一般详细希望国内法律国内简介.

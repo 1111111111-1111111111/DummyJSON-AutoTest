@@ -1,0 +1,57 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:27 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "563",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"233-OKQ6HsFV5Edi8VYkZ41fMOCJ8Ig\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "94",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=v8ko1PC4uN%2FyefMivz0pG3doK%2F0uDg4OK4vwueJ3r9yOKjfmTTrrFyfM83ZV2AHFFfJqRp7Q2zO%2F7MSXtx%2FQqxg%2FkKD616FsO3c3Gk4rDkiPfPSSDAXoHAW1BSNHiW0k\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec027bbd2150b-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 153,
+        "title": "Volleyball",
+        "price": 11.99,
+        "quantity": 7,
+        "total": 83.93,
+        "discountPercentage": 12.25,
+        "discountedPrice": 74,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/volleyball/thumbnail.webp"
+      },
+      {
+        "id": 97,
+        "title": "Rolex Datejust",
+        "price": 10999.99,
+        "quantity": 6,
+        "total": 65999.94,
+        "discountPercentage": 3.73,
+        "discountedPrice": 63538,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
+      }
+    ],
+    "total": 66083.87,
+    "discountedTotal": 63612,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 13
+  },
+  "elapsed_ms": 113.715
+}

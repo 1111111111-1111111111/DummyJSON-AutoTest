@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:28 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "158",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"9e-llIESFKpSXALr2KNjvWI80HsWnY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "89",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gdFGQMkSiaRGkgdVStJFvBIDCQeg2PO0EkrV17AjFBT6r%2BW4HCZhKq3DWFNLRRSBqYcWywdg6bKT4syq15p0HkIQNp6nR7kR%2FuBGO8yfj85mW938BR0Xr9siCRGCXzHW\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec02b98e3150b-IAD"
+  },
+  "body": {
+    "id": 341,
+    "body": "公司投资地方系统怎么的人评论参加游戏精华组织.",
+    "postId": 3,
+    "user": {
+      "id": 5,
+      "username": "emmaj",
+      "fullName": "Emma Miller"
+    }
+  },
+  "elapsed_ms": 115.54899999999999
+}

@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "空间当然资源登录中文完全使用您的影响.",
+    "body": "你们各种制作浏览以后详细广告一个.帖子更多处理之后.知道生产主要上海欢迎地区.就是应该出来开发拥有其实.品牌特别您的当然.",
+    "userId": 1,
+    "tags": [
+      "发现",
+      "会员",
+      "政府"
+    ],
+    "reactions": {
+      "likes": 267,
+      "dislikes": 23
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTEwNTk5MDYsImV4cCI6MTc5MTA2MTcwNn0.EVGQ8n-H2jLEoJ3OW65gMD-fFQ2iM5gk5dum7G026qM"
+  }
+}

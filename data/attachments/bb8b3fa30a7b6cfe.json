@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:35 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"81-Q1C1HoFC3y8Ivu3gOQNVfzZyPB4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "39",
+    "x-ratelimit-reset": "1791059918",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wECwXdQyrYBCizvRqmlPqQAaV9mICwohc%2BQR%2FApqtpmnte06ha%2FFId8q%2BpqIBVaJyp6mbrkyIO%2FX1d5MRmjsQdMFQoAiF0rkVTYco8l7%2BY6oX8j4JgkzNfmOsQmVD55w\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec0560fec150b-IAD"
+  },
+  "body": {
+    "id": 1205,
+    "quote": "Fear Allah, for that is fortune; indifference to Allah is misfortune.",
+    "author": "Umar ibn Al-Khattāb (R.A)"
+  },
+  "elapsed_ms": 115.911
+}

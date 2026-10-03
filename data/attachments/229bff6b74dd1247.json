@@ -1,0 +1,57 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 03 Oct 2026 20:38:27 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "577",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"241-rGuanJ7uf/9XCZSInoUsX+eTL9c\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "82",
+    "x-ratelimit-reset": "1791059908",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TWFudXTmCIrscIybAFywXxVHrx%2F7WtXuZLlUdEFRRvf1824n9MdFQEZN%2B4FHzMR%2FUv5232LYcHSvWFCr2g6%2BGOFw23nx%2BEbyi4k68dfw4A5LKYIOGgL8iZ0fjrfHzd%2B5\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a44ec022791c150b-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 131,
+        "title": "Samsung Galaxy S7",
+        "price": 299.99,
+        "quantity": 10,
+        "total": 2999.9,
+        "discountPercentage": 19.55,
+        "discountedPrice": 2413,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
+      },
+      {
+        "id": 57,
+        "title": "Fine Mesh Strainer",
+        "price": 9.99,
+        "quantity": 4,
+        "total": 39.96,
+        "discountPercentage": 3.5,
+        "discountedPrice": 39,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/thumbnail.webp"
+      }
+    ],
+    "total": 3039.86,
+    "discountedTotal": 2452,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 14
+  },
+  "elapsed_ms": 116.96900000000001
+}
