@@ -1,0 +1,57 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:46 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "560",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"230-uVuOgdjFB6bQOTnreRcSlb661i0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "82",
+    "x-ratelimit-reset": "1791666715",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CpJt6qvntvLx7BL3LVijC41y53xt9Ys8ewtfdTW3u9bfIw4YOd4%2ByIeDEioK7bV4%2Fy1Jt1PpQgObuSY0tENgmMaTv0Z8Mznk0IvfWMvOeB3sOVCvIGmZ%2BHuX2TvfXF7E\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889e91cc442bdb-DTW"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 124,
+        "title": "iPhone X",
+        "price": 899.99,
+        "quantity": 4,
+        "total": 3599.96,
+        "discountPercentage": 19.59,
+        "discountedPrice": 2895,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
+      },
+      {
+        "id": 167,
+        "title": "300 Touring",
+        "price": 28999.99,
+        "quantity": 7,
+        "total": 202999.93000000002,
+        "discountPercentage": 3.98,
+        "discountedPrice": 194921,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/thumbnail.webp"
+      }
+    ],
+    "total": 206599.89,
+    "discountedTotal": 197816,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 11
+  },
+  "elapsed_ms": 61.627
+}

@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:49 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "251",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"fb-hqqIUrVyDPdD4JAfUjFWQDh/E8o\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "32",
+    "x-ratelimit-reset": "1791666715",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=r54gb73j%2FPK6OiPmiyURzK%2FIkVGbT3OMQu6Orq23z2GnvkhRsDGUJ88tYNhBTx3zU0UuiP2GQ5uk%2FeDmRD7O0xANu8sw%2BVBzKKP5D4vS1sGcNr6iBOs1BPJcMSUY5Y5C\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889ea779e72bdb-DTW"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 价格",
+    "price": 444.54,
+    "discountPercentage": 19.26,
+    "stock": 9,
+    "rating": 4.93,
+    "description": "下载详细法律就是这样生活有些一般自己这样.",
+    "brand": "襄樊地球村网络有限公司",
+    "category": "groceries"
+  },
+  "elapsed_ms": 58.831
+}

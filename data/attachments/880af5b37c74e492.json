@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "https://dummyjson.com/auth/me",
+  "params": null,
+  "body": null,
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "文",
+    "lastName": "夏",
+    "age": 34,
+    "gender": "male",
+    "email": "jie84@example.net",
+    "phone": "13743144331",
+    "username": "taozhu",
+    "password": "qLp%zpx1X9AG",
+    "birthDate": "1995-01-14",
+    "bloodGroup": "B-",
+    "height": 197.68,
+    "weight": 65.97,
+    "eyeColor": "Gray"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTE2NjY3MDUsImV4cCI6MTc5MTY2ODUwNX0.q3HxDGeOhRh9H9YNBwx9DhSxQEso_YqUUonDrfk1g-s"
+  }
+}

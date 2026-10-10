@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 价格",
+    "description": "下载详细法律就是这样生活有些一般自己这样.",
+    "category": "groceries",
+    "price": 444.54,
+    "discountPercentage": 19.26,
+    "rating": 4.93,
+    "stock": 9,
+    "tags": [
+      "安全",
+      "他的",
+      "用户"
+    ],
+    "brand": "襄樊地球村网络有限公司",
+    "sku": "VCTV6FT4"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTE2NjY3MDUsImV4cCI6MTc5MTY2ODUwNX0.q3HxDGeOhRh9H9YNBwx9DhSxQEso_YqUUonDrfk1g-s"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:46 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "589",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"24d-/HTY1APOsGCy2ykw3R0Zhz9lHHc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "75",
+    "x-ratelimit-reset": "1791666715",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=G9jWWvK7oQJM0QYDNFp1uS%2B8KnSlN%2BCpciNFsQLdwtQ8QzK6tw9c5HmX2ZhXzbtHqU8qdpCFBD%2FvVkW2VkX8fwgkCU7fPF8k4bjufZO2o6uGrsHDx2h8EEPhvMVVMpUX\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889e949a632bdb-DTW"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 98,
+        "title": "Rolex Submariner Watch",
+        "price": 13999.99,
+        "quantity": 4,
+        "total": 55999.96,
+        "discountPercentage": 5.05,
+        "discountedPrice": 53172,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
+      },
+      {
+        "id": 131,
+        "title": "Samsung Galaxy S7",
+        "price": 299.99,
+        "quantity": 4,
+        "total": 1199.96,
+        "discountPercentage": 19.55,
+        "discountedPrice": 965,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
+      }
+    ],
+    "total": 57199.92,
+    "discountedTotal": 54137,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 8
+  },
+  "elapsed_ms": 60.469
+}

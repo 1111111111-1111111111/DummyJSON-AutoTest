@@ -1,0 +1,21 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '地方大小来自成功进入.', 'body': '人民一次开始作品.以后选择企业我们会员状态开始.规定市场发展决定汽车.销售可是业务社区.', 'userId': 1, 'tags': ['经济', '状态', '目前'], 'reactions': {'likes': 109, 'dislikes': 2}}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 272
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.059s
+INFO     dummyjson_test:keyword_actions.py:154 提取字段: id=252
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=地方大小来自成功进入.
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "GET /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.059s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: id=1
+INFO     dummyjson_test:keyword_actions.py:103 字段非空验证通过: title
+INFO     dummyjson_test:http_client.py:108 [PUT] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Updated'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "PUT /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.059s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=Updated
+INFO     dummyjson_test:http_client.py:108 [DELETE] https://dummyjson.com/posts/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "DELETE /posts/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.059s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: isDeleted=True

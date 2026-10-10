@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:50 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "289",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"121-f6Nt/gMPCqYDdiilE7mfzl3ZCwY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1791666715",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=S9HN82AJHiN49sjiAmwiVaPMRHEE7F8l%2Fj38sCCQykYZFs8kB8MJAT2dI3s9k2S6vqI2Dv8l67YV9gzGMdyYXn9zsczlbRk%2FNkSbUpkA7e5Kf8COoa7xfED1xhmBXXnX\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889eaa99fc2bdb-DTW"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 深圳",
+    "price": 413.29,
+    "discountPercentage": 17.04,
+    "stock": 13,
+    "rating": 3.53,
+    "description": "无法大小表示设备表示方面同时一定只有软件由于男人认为部分国内如此问题.",
+    "brand": "浦华众城科技有限公司",
+    "category": "laptops"
+  },
+  "elapsed_ms": 58.733
+}

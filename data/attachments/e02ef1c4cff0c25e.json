@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "秀珍",
+    "lastName": "张",
+    "age": 78,
+    "gender": "female",
+    "email": "juan33@example.com",
+    "phone": "13657910400",
+    "username": "leiwei",
+    "password": "2(@*0hQhpd!G",
+    "birthDate": "2018-12-26",
+    "bloodGroup": "B+",
+    "height": 154.64,
+    "weight": 96.69,
+    "eyeColor": "Brown"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTE2NjY3MDUsImV4cCI6MTc5MTY2ODUwNX0.q3HxDGeOhRh9H9YNBwx9DhSxQEso_YqUUonDrfk1g-s"
+  }
+}

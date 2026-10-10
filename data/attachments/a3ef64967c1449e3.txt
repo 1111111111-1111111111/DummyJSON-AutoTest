@@ -1,0 +1,7 @@
+2026-10-11 05:11:52 | INFO     | dummyjson_test | http_client.py:108 | [GET] https://dummyjson.com/recipes | attempt=1/3
+2026-10-11 05:11:52 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 429 | 耗时: 0.059s
+2026-10-11 05:11:52 | ERROR    | dummyjson_test | schema_validator.py:35 | JSON Schema 校验失败: 'total' is a required property | 路径: []
+2026-10-11 05:11:52 | ERROR    | dummyjson_test | screenshot.py:114 | [截图工具] 断言失败证据已留存:
+  HTML: /app/screenshots/20261011_051152_test_keyword_recipe_flow.html
+  JSON: /app/screenshots/20261011_051152_test_keyword_recipe_flow.json
+  PNG:  /app/screenshots/20261011_051152_test_keyword_recipe_flow.png

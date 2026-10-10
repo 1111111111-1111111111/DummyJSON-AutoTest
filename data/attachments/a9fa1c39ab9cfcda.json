@@ -1,0 +1,58 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:51 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "460",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1cc-2q4Kzl01kIoKj3g01QPRfbFjwN8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "4",
+    "x-ratelimit-reset": "1791666715",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3QG8p%2Bem%2BdPTFMg%2FCdYkiee6ejrKhIN6r%2B2BOcmBqZ6XrKqh7bNJVPUUURVDNLeg8bb7dxbnuzPQtjoPWO1fzn%2F8vHOC%2F9BOSTxOcFnZrPLc9V87eSwQlhqH4u%2BRJz1%2B\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889eb3dab52bdb-DTW"
+  },
+  "body": {
+    "id": 51,
+    "name": "开始 Special Recipe",
+    "ingredients": [
+      "时候",
+      "无法",
+      "下载",
+      "然后"
+    ],
+    "instructions": [
+      "精华部分但是功能.",
+      "有限密码个人她的数据功能.",
+      "项目中文喜欢其实发展在线服务自己.",
+      "不要人民影响时间详细中心."
+    ],
+    "prepTimeMinutes": 50,
+    "cookTimeMinutes": 41,
+    "servings": 3,
+    "difficulty": "Medium",
+    "cuisine": "Indian",
+    "caloriesPerServing": 243,
+    "tags": [
+      "这些",
+      "功能",
+      "系列"
+    ],
+    "userId": 153,
+    "mealType": [
+      "Lunch"
+    ]
+  },
+  "elapsed_ms": 61.599000000000004
+}

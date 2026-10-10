@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "提高还是功能现在全部社区都是政府.",
+    "body": "推荐可能经验详细人民进入.不能中文方面城市包括一下.如此经济开始只有首页.发布目前今年本站.",
+    "userId": 1,
+    "tags": [
+      "比较",
+      "主要",
+      "我们"
+    ],
+    "reactions": {
+      "likes": 340,
+      "dislikes": 42
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTE2NjY3MDUsImV4cCI6MTc5MTY2ODUwNX0.q3HxDGeOhRh9H9YNBwx9DhSxQEso_YqUUonDrfk1g-s"
+  }
+}

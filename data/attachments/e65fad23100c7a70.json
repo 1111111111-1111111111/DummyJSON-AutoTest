@@ -1,0 +1,34 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:55 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"53-WN/afD2r4h0eLnSGhgvu20KGPE0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "81",
+    "x-ratelimit-reset": "1791666725",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=N%2Bg2dktweTPk9OdzL%2FqHYWCYU8329rqwg%2FyahvHPxYXzmXWVRr4xRpwtlqhTZIYkH%2Bo53xMYomruFKxIZmc7dq8phgYxYHtv8yJRcjAFi1jma46mrEtvcAtjtSAwfwnR\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889ecd6e862bdb-DTW"
+  },
+  "body": {
+    "id": 88,
+    "todo": "Donate blood at a local blood center",
+    "completed": true,
+    "userId": 9
+  },
+  "elapsed_ms": 58.819
+}

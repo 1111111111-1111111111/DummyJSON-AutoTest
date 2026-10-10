@@ -1,0 +1,97 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:54 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "832",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"340-rN1pFjJ0Wro2ldrGIY5K7Cc56to\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "97",
+    "x-ratelimit-reset": "1791666725",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yqur4zLSCBDa54tclIZVN80JQtRLOnsJB5f%2BawVwNgFmslAszi06Tq4FAocJdd5ZB7NesKZtKd95vsTkD8cq9sSCU1AWRTiPh0viDXpxTsH7NF5p8%2Ft5bNDBSTFyeFry\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889ec66b252bdb-DTW"
+  },
+  "body": {
+    "id": 209,
+    "firstName": "文",
+    "lastName": "夏",
+    "maidenName": "",
+    "age": 34,
+    "gender": "male",
+    "email": "jie84@example.net",
+    "phone": "13743144331",
+    "username": "taozhu",
+    "password": "qLp%zpx1X9AG",
+    "birthDate": "1995-01-14",
+    "image": "",
+    "bloodGroup": "B-",
+    "height": 197.68,
+    "weight": 65.97,
+    "eyeColor": "Gray",
+    "hair": {
+      "color": "",
+      "type": ""
+    },
+    "ip": "",
+    "address": {
+      "address": "",
+      "city": "",
+      "state": "",
+      "stateCode": "",
+      "postalCode": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "country": ""
+    },
+    "macAddress": "",
+    "university": "",
+    "bank": {
+      "cardExpire": "",
+      "cardNumber": "",
+      "cardType": "",
+      "currency": "",
+      "iban": ""
+    },
+    "company": {
+      "department": "",
+      "name": "",
+      "title": "",
+      "address": {
+        "address": "",
+        "city": "",
+        "state": "",
+        "stateCode": "",
+        "postalCode": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "country": ""
+      }
+    },
+    "ein": "",
+    "ssn": "",
+    "userAgent": "",
+    "crypto": {
+      "coin": "",
+      "wallet": "",
+      "network": ""
+    },
+    "role": "user"
+  },
+  "elapsed_ms": 61.592
+}

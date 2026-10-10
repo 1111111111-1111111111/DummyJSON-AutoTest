@@ -1,0 +1,6 @@
+DEBUG    dummyjson_test:data_generator.py:99 生成用户数据: 秀珍 张
+INFO     dummyjson_test:base_api.py:86 POST /users/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/users/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'firstName': '秀珍', 'lastName': '张', 'age': 78, 'gender': 'female', 'email': 'juan33@example.com', 'phone': '13657910400', 'username': 'leiwei', 'password': '2(@*0hQhpd!G', 'birthDate': '2018-12-26', 'bloodGroup': 'B+', 'height': 154.64, 'weight': 96.69, 'eyeColor': 'Brown'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /users/add HTTP/1.1" 429 63
+INFO     dummyjson_test:http_client.py:125 响应状态码: 429 | 耗时: 0.058s

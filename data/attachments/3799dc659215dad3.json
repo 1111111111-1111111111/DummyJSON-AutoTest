@@ -1,0 +1,60 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:50 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"28e-nzzzSohgORmfMs2zbrX8N7GyUxU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "15",
+    "x-ratelimit-reset": "1791666715",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oJy8K75Bg1icg50I9kuf3oK23fHaxKV93OiG9cddow2s3Z1xGS6PVkNtfulhRDz6N0C6EUDvYdFxuLB8G3tnr0y3jG%2FFxgxvYzEzjcngMOJfrY5O5vhKch9trFVZvvk%2F\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889eaefe182bdb-DTW"
+  },
+  "body": {
+    "quotes": [
+      {
+        "id": 1,
+        "quote": "Your heart is the size of an ocean. Go find yourself in its hidden depths.",
+        "author": "Rumi"
+      },
+      {
+        "id": 2,
+        "quote": "The Bay of Bengal is hit frequently by cyclones. The months of November and May, in particular, are dangerous in this regard.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 3,
+        "quote": "Thinking is the capital, Enterprise is the way, Hard Work is the solution.",
+        "author": "Abdul Kalam"
+      },
+      {
+        "id": 4,
+        "quote": "If You Can'T Make It Good, At Least Make It Look Good.",
+        "author": "Bill Gates"
+      },
+      {
+        "id": 5,
+        "quote": "Heart be brave. If you cannot be brave, just go. Love's glory is not a small thing.",
+        "author": "Rumi"
+      }
+    ],
+    "total": 1454,
+    "skip": 0,
+    "limit": 5
+  },
+  "elapsed_ms": 59.3
+}

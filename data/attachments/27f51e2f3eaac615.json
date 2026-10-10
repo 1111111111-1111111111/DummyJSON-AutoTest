@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 21:11:48 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "272",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"110-W1QzS9x3KpzMj6+YhCI4ZHCPtYA\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "43",
+    "x-ratelimit-reset": "1791666715",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JSrG096SPrxH96bcDinjHAFU0aAWx4ZbC0irBb6GSH9Kxrg7o3zmBrO2LVRxOnarF3gj8m6mN7dtimqkO5DZE9bVyU7TsdgXuSGP%2Fhz6PxH7CpwdROz%2BZisM7cjDdGF5\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4889ea28d192bdb-DTW"
+  },
+  "body": {
+    "id": 252,
+    "title": "地方大小来自成功进入.",
+    "body": "人民一次开始作品.以后选择企业我们会员状态开始.规定市场发展决定汽车.销售可是业务社区.",
+    "userId": 1,
+    "tags": [
+      "经济",
+      "状态",
+      "目前"
+    ],
+    "reactions": {
+      "likes": 109,
+      "dislikes": 2
+    }
+  },
+  "elapsed_ms": 59.048
+}
