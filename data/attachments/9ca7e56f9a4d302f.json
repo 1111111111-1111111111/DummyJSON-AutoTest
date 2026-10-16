@@ -1,0 +1,77 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:13 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Bffsp4c4pzXZIgd7ugMlMe0%2BIzkMlDLP5bxLbPrFoiddEvF3q38qHi5ftnZd8WHLYz%2BxDscFK8W242luy1O0UUegreSzjwcCCGAin3uxowFucfaibs2AgQh6Xw5NOaW9\"}]}",
+    "etag": "W/\"419-h3pCDY119+F0lO2y15BxjkV5ncY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "82",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4e71de3c45c-EWR"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 94,
+        "title": "Longines Master Collection",
+        "price": 1499.99,
+        "quantity": 2,
+        "total": 2999.98,
+        "discountPercentage": 17.24,
+        "discountedPrice": 2483,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
+      },
+      {
+        "id": 1,
+        "title": "Essence Mascara Lash Princess",
+        "price": 9.99,
+        "quantity": 3,
+        "total": 29.97,
+        "discountPercentage": 10.48,
+        "discountedPrice": 27,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+      },
+      {
+        "id": 74,
+        "title": "Spoon",
+        "price": 4.99,
+        "quantity": 6,
+        "total": 29.94,
+        "discountPercentage": 1.53,
+        "discountedPrice": 29,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/thumbnail.webp"
+      },
+      {
+        "id": 57,
+        "title": "Fine Mesh Strainer",
+        "price": 9.99,
+        "quantity": 8,
+        "total": 79.92,
+        "discountPercentage": 3.5,
+        "discountedPrice": 77,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/thumbnail.webp"
+      }
+    ],
+    "total": 3139.81,
+    "discountedTotal": 2616,
+    "userId": 1,
+    "totalProducts": 4,
+    "totalQuantity": 19
+  },
+  "elapsed_ms": 33.505
+}

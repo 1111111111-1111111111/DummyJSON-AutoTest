@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:31:49 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"7a-BY3Y1KEhZ9QgT0o4OGVCDSkd0C4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "91",
+    "x-ratelimit-reset": "1792182711",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=MHfWMa0mzpbSyRPmHW7655PpA73m%2FiOC7SfTQTNT0hWKWsFvB5gSvzHu4PBwvy1trP2YfwTh4du%2FLX0OeAOyx%2FjqkaIvy%2FcVgY3FtjTWARlEDHRViCA8N7j%2F6xuaykA2\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d44ecc6850eb-STL"
+  },
+  "body": {
+    "id": 1029,
+    "quote": "At the end of my life, with just one breath left, if you come, I'll sit up and sing.",
+    "author": "Rumi"
+  },
+  "elapsed_ms": 249.935
+}

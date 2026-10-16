@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 根据",
+    "description": "问题只有你的一些广告一次完全目前之间中国公司有关客户时候应该各种在线必须欢迎成为.",
+    "category": "furniture",
+    "price": 353.3,
+    "discountPercentage": 8.67,
+    "rating": 4.59,
+    "stock": 98,
+    "tags": [
+      "他的",
+      "经营",
+      "精华"
+    ],
+    "brand": "群英科技有限公司",
+    "sku": "2K577N9A"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTIxODI3MzMsImV4cCI6MTc5MjE4NDUzM30.cgF5pDceOPaOuEpV64u0Ky-2gKFtmTMRI50Yf0JeORU"
+  }
+}

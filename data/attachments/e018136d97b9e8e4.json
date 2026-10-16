@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "辉",
+    "lastName": "冯",
+    "age": 25,
+    "gender": "male",
+    "email": "hujie@example.com",
+    "phone": "13775237181",
+    "username": "yan84",
+    "password": "B27%ckvCXo0O",
+    "birthDate": "2005-10-16",
+    "bloodGroup": "AB-",
+    "height": 167.65,
+    "weight": 49.35,
+    "eyeColor": "Blue"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTIxODI3MzMsImV4cCI6MTc5MjE4NDUzM30.cgF5pDceOPaOuEpV64u0Ky-2gKFtmTMRI50Yf0JeORU"
+  }
+}

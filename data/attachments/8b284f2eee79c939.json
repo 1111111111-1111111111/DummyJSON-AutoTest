@@ -1,0 +1,57 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:14 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "580",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"244-eIEofpLO8gUwbkaOJydDwhC+Nug\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "75",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CCOi%2FPU%2Fx%2FjFne8S9vyg9pN2m87OquPZ4ft2DDFWfWlpROBnDPGVy7QpQ5XtgqbzzVbjDETigtOOu8NzNq8tEe%2FPBBm6d4gSO4Wz%2FSgOfLMLyMRaRxijo6nC2yULIuLa\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4e92804c45c-EWR"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 100,
+        "title": "Apple Airpods",
+        "price": 129.99,
+        "quantity": 4,
+        "total": 519.96,
+        "discountPercentage": 15.54,
+        "discountedPrice": 439,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp"
+      },
+      {
+        "id": 10,
+        "title": "Gucci Bloom Eau de",
+        "price": 79.99,
+        "quantity": 7,
+        "total": 559.93,
+        "discountPercentage": 14.39,
+        "discountedPrice": 479,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp"
+      }
+    ],
+    "total": 1079.8899999999999,
+    "discountedTotal": 918,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 11
+  },
+  "elapsed_ms": 32.546
+}

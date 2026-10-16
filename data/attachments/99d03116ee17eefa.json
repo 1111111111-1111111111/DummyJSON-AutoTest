@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:14 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "176",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"b0-uZEhTHYuBux4v5e6WTP4zP39WmI\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BS%2FAPzapuHYpUx3t9OM9mvAaY0bzX8bWHeL4YgKFwa1B6P1lbJk01hrhyFmOKkZTh9diKgjGrNlX8XK3Gf4%2FCb%2BvLQDhXx8YlFpLN0uEqnuWztbNKl%2FqSfrsvZYhvSnn\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4eaba21c45c-EWR"
+  },
+  "body": {
+    "id": 341,
+    "body": "广告论坛发现设备的人选择所以历史准备发表语言以及因此进行.",
+    "postId": 3,
+    "user": {
+      "id": 5,
+      "username": "emmaj",
+      "fullName": "Emma Miller"
+    }
+  },
+  "elapsed_ms": 34.375
+}

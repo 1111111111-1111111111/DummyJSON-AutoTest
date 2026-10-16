@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:15 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "255",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"ff-tb0B12s9mEnWSGh2B/yyJ/j8h+A\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "52",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=01OzRocC80TWydueHxl4bMZDiGiiYOXv4eF7LbN%2FvVS4jT%2BV%2Fj6%2BXIQOOTfgavFxUPJJBEqMDRfHt7vERdlN7soz66CxtknCQe5pYOcRl2VDxBK2j2%2BKxvCU5CCu%2FedK\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4ef3eafc45c-EWR"
+  },
+  "body": {
+    "id": 252,
+    "title": "有限科技信息关系.",
+    "body": "这里成功如果自己注册.市场帖子方式希望等级.发表东西文章对于.发生电子深圳一种.",
+    "userId": 1,
+    "tags": [
+      "功能",
+      "首页",
+      "由于"
+    ],
+    "reactions": {
+      "likes": 409,
+      "dislikes": 36
+    }
+  },
+  "elapsed_ms": 31.433000000000003
+}

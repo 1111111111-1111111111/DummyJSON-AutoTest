@@ -1,0 +1,61 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:17 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "438",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1b6-cqXGZPh0k3JHCnWG701ClGTXUwU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "6",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hOegvb3HFLjOWKwvmJSI%2BUNmDRh9vKQfIYhKv%2FJCBeKogEIUuoc1SsByXvF4cuaJO0GdK9O9qSvFWGJqcId7umTCbGefg0MmEe5dij0yk1sbbOz7RWkxzBCJxFL8ciQt\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4fbab93c45c-EWR"
+  },
+  "body": {
+    "id": 51,
+    "name": "这样 Special Recipe",
+    "ingredients": [
+      "情况",
+      "最后",
+      "软件",
+      "介绍",
+      "因此",
+      "空间",
+      "广告"
+    ],
+    "instructions": [
+      "等级方法谢谢.",
+      "电子客户留言.",
+      "可是帖子这种.",
+      "浏览资源注册电影基本工具电话."
+    ],
+    "prepTimeMinutes": 26,
+    "cookTimeMinutes": 80,
+    "servings": 6,
+    "difficulty": "Hard",
+    "cuisine": "Italian",
+    "caloriesPerServing": 169,
+    "tags": [
+      "环境",
+      "部分",
+      "合作"
+    ],
+    "userId": 126,
+    "mealType": [
+      "Lunch"
+    ]
+  },
+  "elapsed_ms": 25.070999999999998
+}

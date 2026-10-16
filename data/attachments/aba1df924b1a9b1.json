@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:16 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "287",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"11f-rsxNtTcne5/LDxgeTSDUzQB6Hl4\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "33",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jcY5769BNG4Cvg56bGKJPYPw%2BfuoWk2qTsw4pJjJ%2BwVWDuNnYpsuCBIYp3EUtzPRI95OnY3l4ubeEAM5pOvVsbrVtOTxLw1lASq8Xz04afr0VgTT71tNBFlIc6nfOQt%2F\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4f43beac45c-EWR"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 我们",
+    "price": 909.57,
+    "discountPercentage": 13.1,
+    "stock": 92,
+    "rating": 4.58,
+    "description": "简介中心等级一切市场市场一直事情论坛过程专业报告精华责任分析内容产品.",
+    "brand": "MBP软件传媒有限公司",
+    "category": "groceries"
+  },
+  "elapsed_ms": 64.536
+}

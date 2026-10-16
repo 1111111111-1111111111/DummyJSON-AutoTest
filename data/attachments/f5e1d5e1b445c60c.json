@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "增加推荐进入一点其他规定解决商品那么两个.",
+    "body": "环境提供历史那么.然后具有回复质量结果很多.解决帮助一点一直.都是来自是一留言发表显示电子全部.一样品牌欢迎业务经验图片应用到了.",
+    "userId": 1,
+    "tags": [
+      "语言",
+      "新闻",
+      "只有"
+    ],
+    "reactions": {
+      "likes": 418,
+      "dislikes": 47
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTIxODI3MzMsImV4cCI6MTc5MjE4NDUzM30.cgF5pDceOPaOuEpV64u0Ky-2gKFtmTMRI50Yf0JeORU"
+  }
+}

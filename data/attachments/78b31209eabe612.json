@@ -1,0 +1,41 @@
+{
+  "test_name": "test_get_user_todos",
+  "timestamp": "2026-10-17 04:32:18",
+  "error_type": "AssertionError",
+  "error_message": "响应应包含字段 'todos'",
+  "traceback": "NoneType: None\n",
+  "request": {
+    "method": "GET",
+    "url": "https://dummyjson.com/users/1/todos",
+    "params": null,
+    "body": null,
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTIxODI3MzMsImV4cCI6MTc5MjE4NDUzM30.cgF5pDceOPaOuEpV64u0Ky-2gKFtmTMRI50Yf0JeORU"
+    }
+  },
+  "response": {
+    "status_code": 429,
+    "headers": {
+      "Date": "Fri, 16 Oct 2026 20:32:18 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "63",
+      "Connection": "keep-alive",
+      "etag": "W/\"3f-B2nsbEAffcnicdDhQteNVaOxHik\"",
+      "retry-after": "10",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "x-ratelimit-limit": "100",
+      "x-ratelimit-remaining": "0",
+      "x-ratelimit-reset": "1792182741",
+      "cf-cache-status": "DYNAMIC",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=fGnD0yr6U0ZiZB0fX5J7sVF4UVKDvafjYDobcNBb446RoIMpBG2D8btoYgisf3f7HdsU8FMdUpyT6FjQhBW2xwQfEv3rb3jwvj9EYhQ1j4DP6JnT9KwGraDBcXX1hBc3\"}]}",
+      "Server": "cloudflare",
+      "CF-RAY": "a4b9d5051de1c45c-EWR"
+    },
+    "body": {
+      "message": "request limit exceeded, please wait a few seconds"
+    },
+    "elapsed_ms": 41.55,
+    "url": "https://dummyjson.com/users/1/todos"
+  }
+}

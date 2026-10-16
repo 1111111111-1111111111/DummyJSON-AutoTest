@@ -1,0 +1,46 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:14 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"b2-DkvuwKvNx2WnACtncGB1YPbkHDE\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "71",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Y%2FXvriXtAqmghiLwbngwmCuq2zvg48wqOVAplsFMZLglBZDWRzbei8MGrnABaadbZQ8H94mCqV3OXbYos4p%2B4ZgTE8IX4k05a23dKCtWe9hg4RM%2B4f%2BRFuF3sbMZaU0g\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4ea69dfc45c-EWR"
+  },
+  "body": {
+    "comments": [
+      {
+        "id": 15,
+        "body": "You've shown so much growth!",
+        "postId": 6,
+        "likes": 2,
+        "user": {
+          "id": 17,
+          "username": "evelyns",
+          "fullName": "Evelyn Sanchez"
+        }
+      }
+    ],
+    "total": 1,
+    "skip": 0,
+    "limit": 1
+  },
+  "elapsed_ms": 37.457
+}

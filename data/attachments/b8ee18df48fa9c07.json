@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 我们",
+    "description": "简介中心等级一切市场市场一直事情论坛过程专业报告精华责任分析内容产品.",
+    "category": "groceries",
+    "price": 909.57,
+    "discountPercentage": 13.1,
+    "rating": 4.58,
+    "stock": 92,
+    "tags": [
+      "日期",
+      "孩子",
+      "运行"
+    ],
+    "brand": "MBP软件传媒有限公司",
+    "sku": "1FAH25QO"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTIxODI3MzMsImV4cCI6MTc5MjE4NDUzM30.cgF5pDceOPaOuEpV64u0Ky-2gKFtmTMRI50Yf0JeORU"
+  }
+}

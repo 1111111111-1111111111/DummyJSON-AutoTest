@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 20:32:16 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "301",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"12d-5IEycLH0uiA9+YB7584TqK7ENhg\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "26",
+    "x-ratelimit-reset": "1792182741",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5t8BQefyUiWDahnueDEMC5%2FG%2BbmL6iTle4%2B9oav4H3f982pUOm2Y6kVTMN%2Fbmg2dDvdO7%2FRLOO8TBpDRSflQvGGnhoW01mXH9mDH7qUbHJl3Dq57j8eTqu6LzOBlLea5\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4b9d4f68e0fc45c-EWR"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 根据",
+    "price": 353.3,
+    "discountPercentage": 8.67,
+    "stock": 98,
+    "rating": 4.59,
+    "description": "问题只有你的一些广告一次完全目前之间中国公司有关客户时候应该各种在线必须欢迎成为.",
+    "brand": "群英科技有限公司",
+    "category": "furniture"
+  },
+  "elapsed_ms": 33.546
+}

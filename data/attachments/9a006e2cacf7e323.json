@@ -1,0 +1,42 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "这样 Special Recipe",
+    "ingredients": [
+      "情况",
+      "最后",
+      "软件",
+      "介绍",
+      "因此",
+      "空间",
+      "广告"
+    ],
+    "instructions": [
+      "等级方法谢谢.",
+      "电子客户留言.",
+      "可是帖子这种.",
+      "浏览资源注册电影基本工具电话."
+    ],
+    "prepTimeMinutes": 26,
+    "cookTimeMinutes": 80,
+    "servings": 6,
+    "difficulty": "Hard",
+    "cuisine": "Italian",
+    "caloriesPerServing": 169,
+    "tags": [
+      "环境",
+      "部分",
+      "合作"
+    ],
+    "userId": 126,
+    "mealType": [
+      "Lunch"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTIxODI3MzMsImV4cCI6MTc5MjE4NDUzM30.cgF5pDceOPaOuEpV64u0Ky-2gKFtmTMRI50Yf0JeORU"
+  }
+}

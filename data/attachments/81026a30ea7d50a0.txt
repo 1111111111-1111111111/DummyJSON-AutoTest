@@ -1,0 +1,8 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:base_api.py:86 POST /posts/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '有限科技信息关系.', 'body': '这里成功如果自己注册.市场帖子方式希望等级.发表东西文章对于.发生电子深圳一种.', 'userId': 1, 'tags': ['功能', '首页', '由于'], 'reactions': {'likes': 409, 'dislikes': 36}}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 255
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.031s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: userId=1
