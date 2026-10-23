@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "艳",
+    "lastName": "刘",
+    "age": 18,
+    "gender": "female",
+    "email": "fanglong@example.org",
+    "phone": "15840043887",
+    "username": "zhuguiying",
+    "password": "#qo$FkNUm6Fe",
+    "birthDate": "1922-06-02",
+    "bloodGroup": "A+",
+    "height": 168.1,
+    "weight": 81.17,
+    "eyeColor": "Gray"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTI3ODkzMzAsImV4cCI6MTc5Mjc5MTEzMH0.xS3ri0VBFwIWc70HTBtfstlprejflVNBpE16OIaq3vU"
+  }
+}

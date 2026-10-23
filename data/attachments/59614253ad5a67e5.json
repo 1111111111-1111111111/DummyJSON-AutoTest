@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "140",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"8c-ok79CohG7wd2RA14mirYGaqGIzU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "68",
+    "x-ratelimit-reset": "1792789335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=iJm1x69PAdO7Ub%2Bn9cdQeDqmEyauSaSHTvbPtFnDPvc0W7cpDIFqWW1bgSBZh2ZuiOItV3JGBUcKYRe%2BqDmHeMcAa5L5in2xb4xi7OraLhVnMw6qh03Y%2BLki4KLHmxhc\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae6f4fd4df82-SJC"
+  },
+  "body": {
+    "id": 341,
+    "body": "资源国际男人我的汽车成为一些社会.",
+    "postId": 3,
+    "user": {
+      "id": 5,
+      "username": "emmaj",
+      "fullName": "Emma Miller"
+    }
+  },
+  "elapsed_ms": 80.774
+}

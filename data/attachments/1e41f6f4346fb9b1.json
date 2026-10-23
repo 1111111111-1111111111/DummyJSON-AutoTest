@@ -1,0 +1,97 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:23 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "841",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"349-5KikZehe/zugC79oAsBPb6UZUA0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "18",
+    "x-ratelimit-reset": "1792789345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xLaB2dpkm%2FeJHtpxrHdHJ5agz7a0xni8Si6vL%2BlcV%2FfjhnYvjD6WjIfQmjeLHMTM7uRKISwJT9m3EiHEnaljVyYuyaWSjzOWB9gURySHYemQO5tkqMMAtPsQrrTCcxhH\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3aeb5b8d2df82-SJC"
+  },
+  "body": {
+    "id": 209,
+    "firstName": "飞",
+    "lastName": "万",
+    "maidenName": "",
+    "age": 42,
+    "gender": "female",
+    "email": "xiuyingguo@example.org",
+    "phone": "15231296474",
+    "username": "xiatian",
+    "password": "7Nd)7Tb$*l9$",
+    "birthDate": "1938-01-06",
+    "image": "",
+    "bloodGroup": "A-",
+    "height": 183.62,
+    "weight": 59.83,
+    "eyeColor": "Green",
+    "hair": {
+      "color": "",
+      "type": ""
+    },
+    "ip": "",
+    "address": {
+      "address": "",
+      "city": "",
+      "state": "",
+      "stateCode": "",
+      "postalCode": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "country": ""
+    },
+    "macAddress": "",
+    "university": "",
+    "bank": {
+      "cardExpire": "",
+      "cardNumber": "",
+      "cardType": "",
+      "currency": "",
+      "iban": ""
+    },
+    "company": {
+      "department": "",
+      "name": "",
+      "title": "",
+      "address": {
+        "address": "",
+        "city": "",
+        "state": "",
+        "stateCode": "",
+        "postalCode": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "country": ""
+      }
+    },
+    "ein": "",
+    "ssn": "",
+    "userAgent": "",
+    "crypto": {
+      "coin": "",
+      "wallet": "",
+      "network": ""
+    },
+    "role": "user"
+  },
+  "elapsed_ms": 89.41499999999999
+}

@@ -1,0 +1,34 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:20 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"4e-crxlnGWF25b4t6egs7BWzfsesJc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "48",
+    "x-ratelimit-reset": "1792789345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zfMuJzzW5YBK%2BXFupVKzufkRnQlQKAWw64jMUynE8FVNZL4%2FfRKWhtCDalV8Gj9TP3SUKACX8KCuPcNQh9WMRBajVYw%2FbaJYWpU%2Fc4eUewCXna95wp8Y%2FskyEOgDMj45\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3aea20936df82-SJC"
+  },
+  "body": {
+    "id": 193,
+    "todo": "Attend a meditation retreat",
+    "completed": false,
+    "userId": 189
+  },
+  "elapsed_ms": 93.329
+}

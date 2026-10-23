@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"87-Vq9JHeJoF5Y7ydT6CFGFAqffrHo\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "97",
+    "x-ratelimit-reset": "1792789316",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yX9LbbktmsDKEOGhgJHkuj1AdKjC4HbWXUTWDX7rxVI6Sifc7ZYFC60xdPlva5JBkuLZNj5vaPBCCIZWeTAqTo7nqDY3Hm77iuDw5IWBalxa3qFrLEJeEoNcdp%2Fb%2F%2BAw\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3adc7be9b67d0-SJC"
+  },
+  "body": {
+    "id": 300,
+    "quote": "Life'S Most Persistent And Urgent Question Is, 'What Are You Doing For Others?'",
+    "author": "Martin Luther King  Jr."
+  },
+  "elapsed_ms": 184.98899999999998
+}

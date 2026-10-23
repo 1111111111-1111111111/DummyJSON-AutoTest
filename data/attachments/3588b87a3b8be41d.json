@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:18 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"60-0PmwqKYa7ETm1bWg4S++8/iSuos\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1792789345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dIb8xP6cwXoXOF2YXKbTAKzSYeeNk0W6LleUHZFzZKiDlWb5ufj49LoVurKPVz9JEfgB80g8k3CaN1jCb9NTPaHk0mpFEe1UsxTxTlzZ9uVJFV6kzEGNL26zzGvgpQJ7\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae95084adf82-SJC"
+  },
+  "body": {
+    "id": 331,
+    "quote": "Champions Keep Playing Until They Get It Right.",
+    "author": "Billie Jean King"
+  },
+  "elapsed_ms": 111.25999999999999
+}

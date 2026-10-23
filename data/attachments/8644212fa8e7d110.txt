@@ -1,0 +1,8 @@
+DEBUG    dummyjson_test:data_generator.py:120 生成帖子数据: userId=1
+INFO     dummyjson_test:base_api.py:86 POST /posts/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/posts/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': '最大应用文章全国说明.', 'body': '当前投资查看为什.她的发展认为学习.威望当然处理关系孩子企业.有限选择功能今年类别结果.是一世界有限信息来源北京进入.这些有关密码情况商品.', 'userId': 1, 'tags': ['必须', '注意', '社区'], 'reactions': {'likes': 65, 'dislikes': 21}}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /posts/add HTTP/1.1" 201 346
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.080s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: userId=1

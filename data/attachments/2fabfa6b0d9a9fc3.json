@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:16 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "308",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"134-GDlE4A60eeE/cJdrZyuMwHddy8g\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "83",
+    "x-ratelimit-reset": "1792789345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=WThGGe%2B1eOeSGzUD5MqUSTtqMS5b5fpUaIxYixJCN9tolMarjC4W8lR8OqZcB8wFjkVwNlWFdjM1X3LnsqTtmL5C92wkCgBFxU0v5O2BJMndJk3NBMYmW4PhB0cMzT34\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae89fab4df82-SJC"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 是一",
+    "price": 435.8,
+    "discountPercentage": 1.59,
+    "stock": 54,
+    "rating": 4.07,
+    "description": "但是学校单位知道今天网上工具设计主要工程网络他的会员这些资源社区最大文章起来应用.",
+    "brand": "信诚致远信息有限公司",
+    "category": "fragrances"
+  },
+  "elapsed_ms": 80.165
+}

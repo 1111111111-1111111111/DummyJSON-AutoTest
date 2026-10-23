@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 原因",
+    "description": "商品一个感觉使用管理一点业务之后详细国内.",
+    "category": "beauty",
+    "price": 507.62,
+    "discountPercentage": 15.87,
+    "rating": 3.63,
+    "stock": 48,
+    "tags": [
+      "日本",
+      "以后",
+      "作为"
+    ],
+    "brand": "方正科技网络有限公司",
+    "sku": "3SXQLZZ2"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTI3ODkzMzAsImV4cCI6MTc5Mjc5MTEzMH0.xS3ri0VBFwIWc70HTBtfstlprejflVNBpE16OIaq3vU"
+  }
+}

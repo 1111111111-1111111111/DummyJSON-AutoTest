@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:17 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"67-7bp9IcyHnpkO7R5wPJTaAJUKQOk\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "78",
+    "x-ratelimit-reset": "1792789345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=i0fIeVu3ksQX%2BgiIMBWNyzg6EV%2F07TmhScZmOWMFH2NB3DKksGTNVbyz1kS24zrhdlQPDm11AOunqZhoUk8F2nt2ie5ys4QLlZocXXAvsJ%2FcrH2zun%2BoKlacUiezuCZM\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae8f4db3df82-SJC"
+  },
+  "body": {
+    "id": 744,
+    "quote": "If you want to shine like the sun, first burn like the sun.",
+    "author": "Abdul Kalam"
+  },
+  "elapsed_ms": 84.398
+}

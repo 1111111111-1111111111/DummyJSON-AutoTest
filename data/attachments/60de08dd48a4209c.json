@@ -1,0 +1,57 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:11 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "541",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"21d-UeMpMeElOPKSx19zF0eU53gNYV8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "80",
+    "x-ratelimit-reset": "1792789335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Nbem6kxL2nVzwk40kAM2CBlSiTGf3C2cqNLYcejfHoQNQIUUI04sgqY3haCPmuKlgVfH1T91EFTPHQnW9D5OV64aZV%2Fqvbh57rrMQzSGSc8cJpnKSv0S5Tyqx9DxQm0g\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae686906df82-SJC"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 85,
+        "title": "Man Plaid Shirt",
+        "price": 34.99,
+        "quantity": 2,
+        "total": 69.98,
+        "discountPercentage": 19.5,
+        "discountedPrice": 56,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp"
+      },
+      {
+        "id": 129,
+        "title": "Realme X",
+        "price": 299.99,
+        "quantity": 2,
+        "total": 599.98,
+        "discountPercentage": 6.95,
+        "discountedPrice": 558,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
+      }
+    ],
+    "total": 669.96,
+    "discountedTotal": 614,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 4
+  },
+  "elapsed_ms": 96.558
+}

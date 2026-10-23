@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "最大应用文章全国说明.",
+    "body": "当前投资查看为什.她的发展认为学习.威望当然处理关系孩子企业.有限选择功能今年类别结果.是一世界有限信息来源北京进入.这些有关密码情况商品.",
+    "userId": 1,
+    "tags": [
+      "必须",
+      "注意",
+      "社区"
+    ],
+    "reactions": {
+      "likes": 65,
+      "dislikes": 21
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTI3ODkzMzAsImV4cCI6MTc5Mjc5MTEzMH0.xS3ri0VBFwIWc70HTBtfstlprejflVNBpE16OIaq3vU"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:15 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "246",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"f6-vNC5l2VkV22GI+YYUrYqhGWEs9I\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1792789345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=I30t3mgE1DPhWWbiQxHn7D9mU0K4mzbeDz5qBfVj0ZuRzHgYFAwcx5vXb1U9BI%2F6RNZXl0XVTx24ejfuEJRRSV%2FYOIHdzxAwtioqTk%2BVTk%2Bgebkg9Ap%2FKzwOrm%2Big65H\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae840dffdf82-SJC"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 原因",
+    "price": 507.62,
+    "discountPercentage": 15.87,
+    "stock": 48,
+    "rating": 3.63,
+    "description": "商品一个感觉使用管理一点业务之后详细国内.",
+    "brand": "方正科技网络有限公司",
+    "category": "beauty"
+  },
+  "elapsed_ms": 82.895
+}

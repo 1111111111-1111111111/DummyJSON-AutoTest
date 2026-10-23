@@ -1,0 +1,77 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:11 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AJdSfJs9QBXarCZTc0h0Pe9f7uF9cBKObDncpN73c6e%2B986gUJmktByu2g8o3eWeZ1ZETcaznoNgMKfmogBHoJK0nx1iSHoSOL1PrqXiFb%2BXxTmHm5x7PzlJ8orIrxqZ\"}]}",
+    "etag": "W/\"41a-6CL3uHGCgGnaif7SUBfa2wzag5U\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "73",
+    "x-ratelimit-reset": "1792789335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae6c494bdf82-SJC"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 112,
+        "title": "TV Studio Camera Pedestal",
+        "price": 499.99,
+        "quantity": 7,
+        "total": 3499.9300000000003,
+        "discountPercentage": 8.31,
+        "discountedPrice": 3209,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/thumbnail.webp"
+      },
+      {
+        "id": 41,
+        "title": "Tissue Paper Box",
+        "price": 2.49,
+        "quantity": 4,
+        "total": 9.96,
+        "discountPercentage": 13.28,
+        "discountedPrice": 9,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/thumbnail.webp"
+      },
+      {
+        "id": 122,
+        "title": "iPhone 6",
+        "price": 299.99,
+        "quantity": 2,
+        "total": 599.98,
+        "discountPercentage": 6.69,
+        "discountedPrice": 560,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
+      },
+      {
+        "id": 52,
+        "title": "Carbon Steel Wok",
+        "price": 29.99,
+        "quantity": 3,
+        "total": 89.97,
+        "discountPercentage": 6.53,
+        "discountedPrice": 84,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/thumbnail.webp"
+      }
+    ],
+    "total": 4199.840000000001,
+    "discountedTotal": 3862,
+    "userId": 1,
+    "totalProducts": 4,
+    "totalQuantity": 16
+  },
+  "elapsed_ms": 83.15
+}

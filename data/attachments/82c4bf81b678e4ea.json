@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 是一",
+    "description": "但是学校单位知道今天网上工具设计主要工程网络他的会员这些资源社区最大文章起来应用.",
+    "category": "fragrances",
+    "price": 435.8,
+    "discountPercentage": 1.59,
+    "rating": 4.07,
+    "stock": 54,
+    "tags": [
+      "工作",
+      "这个",
+      "在线"
+    ],
+    "brand": "信诚致远信息有限公司",
+    "sku": "OH15UY8H"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTI3ODkzMzAsImV4cCI6MTc5Mjc5MTEzMH0.xS3ri0VBFwIWc70HTBtfstlprejflVNBpE16OIaq3vU"
+  }
+}

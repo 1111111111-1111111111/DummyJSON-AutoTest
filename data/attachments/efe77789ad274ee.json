@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:14 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "346",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"15a-2WzdkmByxtdZ9AFlJqy2S+9HKQw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1792789335",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=OLjzbMpysr7FJvDOmgo7XuAjn5g7dUy6awg0OaYiT1W%2F0OXbzDiQbuPaQwqGeFq%2Bm1irTUYp9rENrwY%2BN3Ij3YhnN%2BHf2TOpUo5rVhvrIEOtet5g02HywfOH33sFO7lx\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae794e1cdf82-SJC"
+  },
+  "body": {
+    "id": 252,
+    "title": "最大应用文章全国说明.",
+    "body": "当前投资查看为什.她的发展认为学习.威望当然处理关系孩子企业.有限选择功能今年类别结果.是一世界有限信息来源北京进入.这些有关密码情况商品.",
+    "userId": 1,
+    "tags": [
+      "必须",
+      "注意",
+      "社区"
+    ],
+    "reactions": {
+      "likes": 65,
+      "dislikes": 21
+    }
+  },
+  "elapsed_ms": 80.499
+}

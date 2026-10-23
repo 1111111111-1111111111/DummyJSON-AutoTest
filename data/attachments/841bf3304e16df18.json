@@ -1,0 +1,63 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 21:02:19 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "583",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"247-D+0MAODI6eQmwmiZD44/UgvDS0k\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "61",
+    "x-ratelimit-reset": "1792789345",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=e9PjtnN61t7sREO0bUQJsBg5q7vv%2BDqj4TW8ULhwt2FvvkOUYV2AY9iSlBuLZqt8rABErqM2Dm8RoEHapxMu0l90FQ7QKavrV7xywQjyCwm8czNbyhjaOds64NHesPKB\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f3ae99b95adf82-SJC"
+  },
+  "body": {
+    "id": 51,
+    "name": "音乐 Special Recipe",
+    "ingredients": [
+      "数据",
+      "说明",
+      "还有",
+      "成为",
+      "进入",
+      "地址",
+      "能够"
+    ],
+    "instructions": [
+      "发表或者信息通过开发生产这里.",
+      "地区点击可是积分业务支持决定.",
+      "组织为了解决女人希望不断.",
+      "大小非常报告看到个人作为分析.",
+      "记者新闻本站世界方法行业之后.",
+      "开始发表操作研究情况."
+    ],
+    "prepTimeMinutes": 9,
+    "cookTimeMinutes": 60,
+    "servings": 5,
+    "difficulty": "Medium",
+    "cuisine": "Asian",
+    "caloriesPerServing": 322,
+    "tags": [
+      "有关",
+      "位置",
+      "中国"
+    ],
+    "userId": 137,
+    "mealType": [
+      "Lunch"
+    ]
+  },
+  "elapsed_ms": 81.95700000000001
+}
