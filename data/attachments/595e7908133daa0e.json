@@ -1,0 +1,33 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:48 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "79",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"4f-DKtxtBDgMCya5Bbdhygyv7Ak9sM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "33",
+    "x-ratelimit-reset": "1793397469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FXc6Ps9%2BN3ashsvRg60KClbVm9S4VqlCazVHPBfLSncGKWqB%2But%2FUxpnkfrvUbCVApSoGS48YbXZn0qnGy7E0EXg%2BLfqWTUxjbF087DNkCjf%2BHvjtkzxZuDJjyA80squ\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad818ad37fae-IAD"
+  },
+  "body": {
+    "id": 255,
+    "todo": "联系使用对于公司日期.",
+    "completed": true,
+    "userId": 5
+  },
+  "elapsed_ms": 120.776
+}

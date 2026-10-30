@@ -1,0 +1,97 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:51 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "833",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"341-Iyo2s5ovDXtb6Gx4/DipYY97A0s\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "75",
+    "x-ratelimit-reset": "1793397479",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JtVMxi3uznGUbzFGGKxMG0m4lTMEx2086tvT5S9HtJRc0%2BPZ8EsfUqPqpkCPzkJ7%2B6DYHIYKbfN5ZuAutNEKeDkYCkqr8APiIsE3afX5O37pOw3Tn3b5jhOmHHvGebpx\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad9678997fae-IAD"
+  },
+  "body": {
+    "id": 209,
+    "firstName": "欣",
+    "lastName": "李",
+    "maidenName": "",
+    "age": 19,
+    "gender": "male",
+    "email": "elong@example.net",
+    "phone": "15173208927",
+    "username": "yanguo",
+    "password": "+ko)r6Qy!%NN",
+    "birthDate": "1971-12-11",
+    "image": "",
+    "bloodGroup": "A-",
+    "height": 189.62,
+    "weight": 91.45,
+    "eyeColor": "Green",
+    "hair": {
+      "color": "",
+      "type": ""
+    },
+    "ip": "",
+    "address": {
+      "address": "",
+      "city": "",
+      "state": "",
+      "stateCode": "",
+      "postalCode": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "country": ""
+    },
+    "macAddress": "",
+    "university": "",
+    "bank": {
+      "cardExpire": "",
+      "cardNumber": "",
+      "cardType": "",
+      "currency": "",
+      "iban": ""
+    },
+    "company": {
+      "department": "",
+      "name": "",
+      "title": "",
+      "address": {
+        "address": "",
+        "city": "",
+        "state": "",
+        "stateCode": "",
+        "postalCode": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "country": ""
+      }
+    },
+    "ein": "",
+    "ssn": "",
+    "userAgent": "",
+    "crypto": {
+      "coin": "",
+      "wallet": "",
+      "network": ""
+    },
+    "role": "user"
+  },
+  "elapsed_ms": 150.204
+}

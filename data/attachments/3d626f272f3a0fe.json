@@ -1,0 +1,43 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "有关 Special Recipe",
+    "ingredients": [
+      "正在",
+      "责任",
+      "合作",
+      "位置",
+      "发生",
+      "世界",
+      "国内"
+    ],
+    "instructions": [
+      "这些你们应该.",
+      "感觉谢谢简介可以完成.",
+      "项目只是国家标题必须本站出来.",
+      "方面网络经济出来.",
+      "男人东西简介分析中心方式."
+    ],
+    "prepTimeMinutes": 9,
+    "cookTimeMinutes": 43,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "French",
+    "caloriesPerServing": 398,
+    "tags": [
+      "积分",
+      "的话",
+      "安全"
+    ],
+    "userId": 20,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTMzOTc0NTQsImV4cCI6MTc5MzM5OTI1NH0.UfWH_rQhwrqGKMtTCnEqGnBQOYLzS914-CxQaUXiwds"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:54 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"6f-M5B3M6jILLgbJTU1vtd+jOrwHi8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "63",
+    "x-ratelimit-reset": "1793397479",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oQD6vvnLkvXAz6yxGc5iHhpue64BI1zEgGzjA61m3hz6MjP4LEPFdXylNmlFYHEpEw8MoLHZMj75EKk0qpofe13NLZV4lyKfDMDHxdCq4yYjuqYYqrUUu81MzhY64X31\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dada668f37fae-IAD"
+  },
+  "body": {
+    "id": 796,
+    "quote": "No wealth like education and no poverty like ignorance.",
+    "author": "Ali ibn Abi Talib (R.A)"
+  },
+  "elapsed_ms": 125.73300000000002
+}

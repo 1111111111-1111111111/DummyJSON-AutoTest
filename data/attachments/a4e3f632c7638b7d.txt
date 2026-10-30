@@ -1,0 +1,21 @@
+DEBUG    dummyjson_test:data_generator.py:99 生成用户数据: 欣 李
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/users/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'firstName': '欣', 'lastName': '李', 'age': 19, 'gender': 'male', 'email': 'elong@example.net', 'phone': '15173208927', 'username': 'yanguo', 'password': '+ko)r6Qy!%NN', 'birthDate': '1971-12-11', 'bloodGroup': 'A-', 'height': 189.62, 'weight': 91.45, 'eyeColor': 'Green'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /users/add HTTP/1.1" 201 833
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.150s
+INFO     dummyjson_test:keyword_actions.py:154 提取字段: id=209
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: firstName=欣
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/users/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "GET /users/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.121s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: id=1
+INFO     dummyjson_test:keyword_actions.py:103 字段非空验证通过: firstName
+INFO     dummyjson_test:http_client.py:108 [PUT] https://dummyjson.com/users/1 | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'firstName': 'UpdatedName'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "PUT /users/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.126s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: firstName=UpdatedName
+INFO     dummyjson_test:http_client.py:108 [DELETE] https://dummyjson.com/users/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "DELETE /users/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.120s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: isDeleted=True

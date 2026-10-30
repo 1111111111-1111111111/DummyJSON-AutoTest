@@ -1,0 +1,33 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:49 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "73",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"49-p+1cLg2ian96SoejWZe4A317q+c\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "94",
+    "x-ratelimit-reset": "1793397479",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SW4HmaWzOe1HYsRV25pM0joqbilTjPE6asO34xdqwHjwMuGO7ndqWAueiRZd7lY4r9yeKTdEmWbpv7CmJcBpROdGqH2ZUQAtJDASFkVsRD1S1oNBAfS1xje%2FbhANWb%2B7\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad8708957fae-IAD"
+  },
+  "body": {
+    "id": 255,
+    "todo": "客户教育作品进入.",
+    "completed": true,
+    "userId": 1
+  },
+  "elapsed_ms": 119.42099999999999
+}

@@ -1,0 +1,62 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:46 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "494",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1ee-qkFhHiUuVtl0zFTtIQ5GK3ancQI\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "48",
+    "x-ratelimit-reset": "1793397469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=O8Dthb4pQtaRTsmrXhnJAVapd4vYusEEBIt%2FVTgiP668jPYoWUALZK4Duf0iJDz%2BnlWo48dNeR%2FPv6rgD4nn8QhrbPoGOS6EyKMghhedQ%2FhqIC1snYYFhhxn2nuWGcTm\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad74bda07fae-IAD"
+  },
+  "body": {
+    "id": 51,
+    "name": "有关 Special Recipe",
+    "ingredients": [
+      "正在",
+      "责任",
+      "合作",
+      "位置",
+      "发生",
+      "世界",
+      "国内"
+    ],
+    "instructions": [
+      "这些你们应该.",
+      "感觉谢谢简介可以完成.",
+      "项目只是国家标题必须本站出来.",
+      "方面网络经济出来.",
+      "男人东西简介分析中心方式."
+    ],
+    "prepTimeMinutes": 9,
+    "cookTimeMinutes": 43,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "French",
+    "caloriesPerServing": 398,
+    "tags": [
+      "积分",
+      "的话",
+      "安全"
+    ],
+    "userId": 20,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  "elapsed_ms": 120.945
+}

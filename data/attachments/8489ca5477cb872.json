@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:40 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "289",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"121-qQsSnaSBanHJFdittDRmK2fCaYs\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "85",
+    "x-ratelimit-reset": "1793397469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=e4uJeK2WmpzUtf22ZZKqC4ljez9w5swxSJhAaSU3So08uPTNkvJKc4R%2BqBr%2Buo2dHVl3uleD7medd%2FB0zTsfsQrNQiLFwdaqurAcuDdDJhk%2BwbP8O%2BvhQdb30zU%2FKm%2FD\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad4f8a4c7fae-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "产品通过朋友男人说明商品注意生活发表中国.",
+    "body": "相关工作学校以上选择一种.一个软件学习比较名称.客户推荐生产本站都是支持内容.",
+    "userId": 1,
+    "tags": [
+      "怎么",
+      "大小",
+      "显示"
+    ],
+    "reactions": {
+      "likes": 189,
+      "dislikes": 0
+    }
+  },
+  "elapsed_ms": 123.079
+}

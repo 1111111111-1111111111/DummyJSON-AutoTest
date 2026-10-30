@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:37 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "182",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"b6-/O4H1ly2F7n+wXQKUNU2iV+4opU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1793397459",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VPXVnEiOrLMJmcz7fpD4GfqyQlRrpwghBQsLrm%2F9LNzvJmjGZhRdLtNB7%2FzGc5Q94PpvCCJt2ESUimLJ76wuJHK73Sgy%2F%2F8dP7j8ZZzQ9Gkyz10Kwlx2UImRLBZBYPdC\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad3a58817fae-IAD"
+  },
+  "body": {
+    "id": 341,
+    "body": "然后能力不是开发基本情况必须在线其中不同学习作品原因管理分析.",
+    "postId": 3,
+    "user": {
+      "id": 5,
+      "username": "emmaj",
+      "fullName": "Emma Miller"
+    }
+  },
+  "elapsed_ms": 151.93400000000003
+}

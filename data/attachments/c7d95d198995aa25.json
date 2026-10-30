@@ -1,0 +1,65 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:49 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1d3-q1NuS613sdXqjuEFnE79cig8Ne0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "97",
+    "x-ratelimit-reset": "1793397479",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tfqY6sd7WoHyuX%2BUhEXaTulDz1XjIKIFqqn%2FGEoVh4rlAp%2FGEjxSBuBc8SO1tRI94JhAYP9fxQQhl301DkcpeRXIHzuAmaXEpftvo38PG%2BTexF%2BGPAB2jxAJVFpbeTmi\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad84ae137fae-IAD"
+  },
+  "body": {
+    "todos": [
+      {
+        "id": 11,
+        "todo": "Invite some friends over for a game night",
+        "completed": false,
+        "userId": 104
+      },
+      {
+        "id": 12,
+        "todo": "Have a football scrimmage with some friends",
+        "completed": false,
+        "userId": 32
+      },
+      {
+        "id": 13,
+        "todo": "Text a friend you haven't talked to in a long time",
+        "completed": true,
+        "userId": 2
+      },
+      {
+        "id": 14,
+        "todo": "Organize pantry",
+        "completed": false,
+        "userId": 46
+      },
+      {
+        "id": 15,
+        "todo": "Buy a new house decoration",
+        "completed": true,
+        "userId": 105
+      }
+    ],
+    "total": 254,
+    "skip": 10,
+    "limit": 5
+  },
+  "elapsed_ms": 124.715
+}

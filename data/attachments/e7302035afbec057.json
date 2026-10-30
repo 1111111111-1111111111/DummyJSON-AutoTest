@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "产品通过朋友男人说明商品注意生活发表中国.",
+    "body": "相关工作学校以上选择一种.一个软件学习比较名称.客户推荐生产本站都是支持内容.",
+    "userId": 1,
+    "tags": [
+      "怎么",
+      "大小",
+      "显示"
+    ],
+    "reactions": {
+      "likes": 189,
+      "dislikes": 0
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTMzOTc0NTQsImV4cCI6MTc5MzM5OTI1NH0.UfWH_rQhwrqGKMtTCnEqGnBQOYLzS914-CxQaUXiwds"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 法律",
+    "description": "这个这是销售主要是一通过很多类型之后日期查看由于下载都是这样活动但是方法显示.",
+    "category": "furniture",
+    "price": 431.66,
+    "discountPercentage": 5.15,
+    "rating": 3.24,
+    "stock": 12,
+    "tags": [
+      "政府",
+      "等级",
+      "这种"
+    ],
+    "brand": "华泰通安传媒有限公司",
+    "sku": "42OI49HZ"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTMzOTc0NTQsImV4cCI6MTc5MzM5OTI1NH0.UfWH_rQhwrqGKMtTCnEqGnBQOYLzS914-CxQaUXiwds"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:42 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "302",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"12e-otbubg7QD/ikxBsUcrluLwNkidE\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "74",
+    "x-ratelimit-reset": "1793397469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qAL%2FyDc1LKnVdHuDI%2F6eWZx44Mc1Ipsn02aPW6qDsNfwyAwf83Embwwx0vHdEOdakvGWO6BZycc%2FjoxlvcId9lx5n7BP3ktIi5pK%2Fb4YONSn%2FQIEU3xqhG4wOWuzjL3j\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad592d1f7fae-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 法律",
+    "price": 431.66,
+    "discountPercentage": 5.15,
+    "stock": 12,
+    "rating": 3.24,
+    "description": "这个这是销售主要是一通过很多类型之后日期查看由于下载都是这样活动但是方法显示.",
+    "brand": "华泰通安传媒有限公司",
+    "category": "furniture"
+  },
+  "elapsed_ms": 117.842
+}

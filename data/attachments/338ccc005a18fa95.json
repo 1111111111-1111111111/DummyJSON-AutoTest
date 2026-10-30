@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 网站",
+    "description": "一定工具联系可是软件提高她的朋友规定如果.",
+    "category": "furniture",
+    "price": 424.43,
+    "discountPercentage": 29.39,
+    "rating": 4.3,
+    "stock": 28,
+    "tags": [
+      "浏览",
+      "要求",
+      "认为"
+    ],
+    "brand": "新格林耐特传媒有限公司",
+    "sku": "4SEM7W86"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTMzOTc0NTQsImV4cCI6MTc5MzM5OTI1NH0.UfWH_rQhwrqGKMtTCnEqGnBQOYLzS914-CxQaUXiwds"
+  }
+}

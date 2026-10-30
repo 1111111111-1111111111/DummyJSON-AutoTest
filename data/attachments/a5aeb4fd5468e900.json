@@ -1,0 +1,47 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:36 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "347",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"15b-Rp2JYvy1Ajar/oyCRxxubnY+nTI\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "75",
+    "x-ratelimit-reset": "1793397459",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=K37dDeyLAUAAZoAASpRi%2BCRRow2fxq8%2FK0Et%2BSsqCNSQaY5zYAcfCzw6gWT0cGftyqDF2GOFPvLzFvQYn%2FEwOFVUUueFKtlhT7yeD%2F%2BJYdbnHCOt0VgFEIzHA7R7j9Zc\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad363c767fae-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 45,
+        "title": "House Showpiece Plant",
+        "price": 39.99,
+        "quantity": 8,
+        "total": 319.92,
+        "discountPercentage": 7.46,
+        "discountedPrice": 296,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/thumbnail.webp"
+      }
+    ],
+    "total": 319.92,
+    "discountedTotal": 296,
+    "userId": 1,
+    "totalProducts": 1,
+    "totalQuantity": 8
+  },
+  "elapsed_ms": 120.05499999999999
+}

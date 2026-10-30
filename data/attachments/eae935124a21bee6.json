@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 30 Oct 2026 21:57:43 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "251",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"fb-/yDJ0+Uyklk2ZuAXFxngmoFlt10\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "67",
+    "x-ratelimit-reset": "1793397469",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RhyHpJQDa2CO7cwb9mZ7aAZPj0zfaEmMAK4F7%2FtVvMhNG14D9FesAxY0XxqCA3Ydr2Y4UOknFKY7r%2FjzzDlYysOuDP4fpKTfabzLUKYokbEel7PT%2Fa%2F2nWFF%2F%2F%2BPYkCH\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a52dad61cea87fae-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 网站",
+    "price": 424.43,
+    "discountPercentage": 29.39,
+    "stock": 28,
+    "rating": 4.3,
+    "description": "一定工具联系可是软件提高她的朋友规定如果.",
+    "brand": "新格林耐特传媒有限公司",
+    "category": "furniture"
+  },
+  "elapsed_ms": 119.39099999999999
+}
