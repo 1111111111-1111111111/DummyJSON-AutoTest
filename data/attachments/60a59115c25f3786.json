@@ -1,0 +1,47 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:24 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "374",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"176-ElD8G/EFdl/DkRLRiFbp7qCSxwI\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "95",
+    "x-ratelimit-reset": "1794005074",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X23P8nvkZhLmTogr1xSpznMyddz%2FaAdGXbDuRMLBzZnjmIv7VPjZ%2BeG1bZ%2FxQgNX6FUNll4kvxbfzul5Tilb2JVZgpiHuNtwQxwB4%2Fb46WhnCJt8APH6TgqQHOlKTOIu\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f631fd71158-ORD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 93,
+        "title": "Brown Leather Belt Watch",
+        "price": 89.99,
+        "quantity": 3,
+        "total": 269.96999999999997,
+        "discountPercentage": 5.99,
+        "discountedPrice": 254,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
+      }
+    ],
+    "total": 269.96999999999997,
+    "discountedTotal": 254,
+    "userId": 1,
+    "totalProducts": 1,
+    "totalQuantity": 3
+  },
+  "elapsed_ms": 45.579
+}

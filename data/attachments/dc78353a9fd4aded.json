@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 虽然",
+    "description": "介绍工作新闻准备制作选择无法一切女人系列有些只要经验.",
+    "category": "laptops",
+    "price": 663.81,
+    "discountPercentage": 0.3,
+    "rating": 4.58,
+    "stock": 37,
+    "tags": [
+      "但是",
+      "首页",
+      "资源"
+    ],
+    "brand": "四通科技有限公司",
+    "sku": "Q52ECIV4"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQwMDUwNjMsImV4cCI6MTc5NDAwNjg2M30.4qwB4FPtludODTYKsUwljXCq_6VVNOJ3_Qd5sQZBDsI"
+  }
+}

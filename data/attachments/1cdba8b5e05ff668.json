@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:02 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"7f-wm0LIR1HOzb5IqNQgP6Q793RlcM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "88",
+    "x-ratelimit-reset": "1794005044",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vgz4oez%2Feq7CraKY1esuxSCyOYis90YH79%2FbXUH2pz2jS%2Fasa9O1z7A%2FR8RX8U92Wjk3kP%2BRDdwyCEU%2FBUN60rXt9OuCaBW2eNZfKnDQf8vQqKqjjRiS5X5KF66O5s3s\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679edd18e7e06f-ORD"
+  },
+  "body": {
+    "id": 1187,
+    "quote": "There Are Several Good Protections Against Temptation, But The Surest Is Cowardice.",
+    "author": "Mark Twain"
+  },
+  "elapsed_ms": 43.246
+}

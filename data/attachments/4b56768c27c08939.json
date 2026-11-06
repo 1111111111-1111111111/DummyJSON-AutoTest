@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 管理",
+    "description": "浏览合作很多其他发展大小很多介绍成功运行一些科技威望管理注册.",
+    "category": "furniture",
+    "price": 724.75,
+    "discountPercentage": 9.34,
+    "rating": 4.54,
+    "stock": 38,
+    "tags": [
+      "一些",
+      "一些",
+      "系统"
+    ],
+    "brand": "恩悌网络有限公司",
+    "sku": "9B4F5Y4C"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQwMDUwNjMsImV4cCI6MTc5NDAwNjg2M30.4qwB4FPtludODTYKsUwljXCq_6VVNOJ3_Qd5sQZBDsI"
+  }
+}

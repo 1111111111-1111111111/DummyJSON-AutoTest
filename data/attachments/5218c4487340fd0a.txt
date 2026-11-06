@@ -1,0 +1,7 @@
+2026-11-07 06:44:31 | INFO     | dummyjson_test | http_client.py:108 | [GET] https://dummyjson.com/ip | attempt=1/3
+2026-11-07 06:44:31 | INFO     | dummyjson_test | http_client.py:125 | 响应状态码: 429 | 耗时: 0.047s
+2026-11-07 06:44:31 | ERROR    | dummyjson_test | screenshot.py:114 | [截图工具] 断言失败证据已留存:
+  HTML: /app/screenshots/20261107_064431_test_get_ip.html
+  JSON: /app/screenshots/20261107_064431_test_get_ip.json
+  PNG:  /app/screenshots/20261107_064431_test_get_ip.png
+2026-11-07 06:44:31 | INFO     | dummyjson_test | http_client.py:203 | HTTP Session 已关闭

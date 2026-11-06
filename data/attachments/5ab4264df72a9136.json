@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:25 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "316",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"13c-u6RJduAQKFl3GD2TEk3s0vohe2I\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "64",
+    "x-ratelimit-reset": "1794005074",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=p1IQzeyyGdlZPAGjNkztJwhFRJxqNa%2Fy5CFpxMk%2FkUr7Ym7hkvo76MYZA6DoQzx6rDcRXJ2fikSYvSCrUtsTuBe2RuGSDe7dRAz9pcAwYoicJsS0%2FRE7u%2FoYoyqifmzv\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f6dbb401158-ORD"
+  },
+  "body": {
+    "id": 252,
+    "title": "目前目前今天其中行业各种的是资料.",
+    "body": "设备经营地方.经验工作只是电脑质量一个类别.正在开发今天客户应用内容.大家完成完成工程.大小所有情况提高.",
+    "userId": 1,
+    "tags": [
+      "部门",
+      "有关",
+      "电影"
+    ],
+    "reactions": {
+      "likes": 218,
+      "dislikes": 49
+    }
+  },
+  "elapsed_ms": 46.704
+}

@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "日本中心计划这样作者.",
+    "body": "最新中国使用.一种行业之后显示一下.产品是否是否如此.标准还有人民我的.不同企业汽车首页主题以后.",
+    "userId": 1,
+    "tags": [
+      "部门",
+      "选择",
+      "工程"
+    ],
+    "reactions": {
+      "likes": 377,
+      "dislikes": 39
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQwMDUwNjMsImV4cCI6MTc5NDAwNjg2M30.4qwB4FPtludODTYKsUwljXCq_6VVNOJ3_Qd5sQZBDsI"
+  }
+}

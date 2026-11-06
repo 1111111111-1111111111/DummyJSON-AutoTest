@@ -1,0 +1,56 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:28 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "421",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1a5-LN5mselE5yhNgUNENex2DHgUpLE\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "27",
+    "x-ratelimit-reset": "1794005074",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7cq2V5M%2BhceoQu%2FQKupeud5zKzllA%2FJuGxEJ6OJS%2FCRtJKzRDp5uzm%2BWwQLPYhlcIFd%2F%2F3Nb2fbhNn9EyJQ8%2FC%2BB6Vs8keAa7gdYYvWySFXhHL9j2jm1fvpB1xwoO%2Fyj\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f7d1b431158-ORD"
+  },
+  "body": {
+    "id": 51,
+    "name": "朋友 Special Recipe",
+    "ingredients": [
+      "有些",
+      "解决",
+      "社区"
+    ],
+    "instructions": [
+      "出来看到不过这么用户.",
+      "大学以下免费文章增加以下通过.",
+      "内容使用注册支持具有设计选择."
+    ],
+    "prepTimeMinutes": 33,
+    "cookTimeMinutes": 19,
+    "servings": 7,
+    "difficulty": "Hard",
+    "cuisine": "American",
+    "caloriesPerServing": 130,
+    "tags": [
+      "地方",
+      "为了",
+      "管理"
+    ],
+    "userId": 102,
+    "mealType": [
+      "Breakfast"
+    ]
+  },
+  "elapsed_ms": 43.344
+}

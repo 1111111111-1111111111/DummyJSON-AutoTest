@@ -1,0 +1,23 @@
+{
+  "status_code": 429,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:30 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "63",
+    "Connection": "keep-alive",
+    "etag": "W/\"3f-B2nsbEAffcnicdDhQteNVaOxHik\"",
+    "retry-after": "10",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1794005074",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Kpo%2FYwhDbDbw2SlBwSVBrm7VNh%2FuqNR4V18JBS9tQRkfimAOYAiO2AExwcaeYzPJDsPcsPCBdQkmkrViw%2BziREAnJi1a3pVsBXLY9cSKF0YFKYAupZknAdAwieS%2FsSLb\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f878e541158-ORD"
+  },
+  "body": {
+    "message": "request limit exceeded, please wait a few seconds"
+  },
+  "elapsed_ms": 48.08
+}

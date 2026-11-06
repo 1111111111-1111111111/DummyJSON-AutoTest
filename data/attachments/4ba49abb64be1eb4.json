@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:27 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "272",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"110-C2Jk6OPk5JRq3NViWO5lDsoplX8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "46",
+    "x-ratelimit-reset": "1794005074",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Dj6yTzOTqNh2rZY%2FJ2ecvoVTXJ8RDA1LWC244RkeCDDWNIGh3dy87C0B3NFHsMcp6IEmsQ3R706x2EQCKQz6132HMIQH6Q1wKVEzBVFs5tI1dv7mJQlu1%2Fdkm9npawWS\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f758b891158-ORD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 管理",
+    "price": 724.75,
+    "discountPercentage": 9.34,
+    "stock": 38,
+    "rating": 4.54,
+    "description": "浏览合作很多其他发展大小很多介绍成功运行一些科技威望管理注册.",
+    "brand": "恩悌网络有限公司",
+    "category": "furniture"
+  },
+  "elapsed_ms": 47.160000000000004
+}

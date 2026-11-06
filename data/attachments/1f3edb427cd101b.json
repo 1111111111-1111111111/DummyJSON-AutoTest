@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "俊",
+    "lastName": "杨",
+    "age": 53,
+    "gender": "female",
+    "email": "yangfan@example.net",
+    "phone": "14739819059",
+    "username": "junmeng",
+    "password": "9s#OWJa^Z^1E",
+    "birthDate": "2018-11-19",
+    "bloodGroup": "A+",
+    "height": 159.72,
+    "weight": 104.46,
+    "eyeColor": "Blue"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQwMDUwNjMsImV4cCI6MTc5NDAwNjg2M30.4qwB4FPtludODTYKsUwljXCq_6VVNOJ3_Qd5sQZBDsI"
+  }
+}

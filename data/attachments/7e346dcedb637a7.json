@@ -1,0 +1,67 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:23 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "824",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"338-Q8aj5NsX/q4fAbf2ISjfu9ifdqY\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "78",
+    "x-ratelimit-reset": "1794005064",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LV5YyaL1U4TsER1gBdXQ6K0wR0i6OhWnfP3%2B%2FfZfVInFHM7EyclWJUCahPnqQlrrtGy7T7hu4%2FDkqo68sxnuWU5F12y6NNeDpWryqGSNTpXK0vLbRB%2BiQDuZc8WWQm6Z\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f60cd701158-ORD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 11,
+        "title": "Annibale Colombo Bed",
+        "price": 1899.99,
+        "quantity": 6,
+        "total": 11399.94,
+        "discountPercentage": 8.57,
+        "discountedPrice": 10423,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"
+      },
+      {
+        "id": 28,
+        "title": "Ice Cream",
+        "price": 5.49,
+        "quantity": 8,
+        "total": 43.92,
+        "discountPercentage": 8.69,
+        "discountedPrice": 40,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp"
+      },
+      {
+        "id": 79,
+        "title": "Asus Zenbook Pro Dual Screen Laptop",
+        "price": 1799.99,
+        "quantity": 8,
+        "total": 14399.92,
+        "discountPercentage": 11.14,
+        "discountedPrice": 12796,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
+      }
+    ],
+    "total": 25843.78,
+    "discountedTotal": 23259,
+    "userId": 1,
+    "totalProducts": 3,
+    "totalQuantity": 22
+  },
+  "elapsed_ms": 46.457
+}

@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:27 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"142-fBHAPXFSelbMn2uJg5Pp1fcTTk8\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "41",
+    "x-ratelimit-reset": "1794005074",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RSfoSPBq75r57tRNKd9vHrgOMf6HyyhZEVDdUIr%2F1r79qC7WWRZpKJ1%2F3aTgC0jD6Alzz7SUxrS41uN3NuJItykWV9Gx1EOFStfsD%2B%2FAmmIk1j5arPrc2FQerrw8oT%2Bh\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f782e2b1158-ORD"
+  },
+  "body": {
+    "id": 217,
+    "quote": "I'll tell you how I'd like to be remembered: As a black man who won the heavyweight title - Who has humorous and who never looked down on those who looked up to him - A man who stood for freedom, justice and equality - And I wouldn't even mind if folks forgot how pretty I was.",
+    "author": "Muhammad Ali"
+  },
+  "elapsed_ms": 46.482
+}

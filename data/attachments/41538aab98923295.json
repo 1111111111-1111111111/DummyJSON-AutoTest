@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:26 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "257",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"101-tw1QF7BBEA4B05KYOnXqhVJOgus\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "53",
+    "x-ratelimit-reset": "1794005074",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KvhbTd6AurOwEly9HX99dcaHgtSwNtZF4DH8HxWzIgeviGv%2F9Hgva2enbDDoq%2BYyKN4PVNJu38dtA1g8kQfcjspSZWS%2BvZSWjZ6zkeS8JHl%2FwTJerU7%2BhWqJgaDhYD0a\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f7258271158-ORD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 虽然",
+    "price": 663.81,
+    "discountPercentage": 0.3,
+    "stock": 37,
+    "rating": 4.58,
+    "description": "介绍工作新闻准备制作选择无法一切女人系列有些只要经验.",
+    "brand": "四通科技有限公司",
+    "category": "laptops"
+  },
+  "elapsed_ms": 43.147
+}

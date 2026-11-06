@@ -1,0 +1,37 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "朋友 Special Recipe",
+    "ingredients": [
+      "有些",
+      "解决",
+      "社区"
+    ],
+    "instructions": [
+      "出来看到不过这么用户.",
+      "大学以下免费文章增加以下通过.",
+      "内容使用注册支持具有设计选择."
+    ],
+    "prepTimeMinutes": 33,
+    "cookTimeMinutes": 19,
+    "servings": 7,
+    "difficulty": "Hard",
+    "cuisine": "American",
+    "caloriesPerServing": 130,
+    "tags": [
+      "地方",
+      "为了",
+      "管理"
+    ],
+    "userId": 102,
+    "mealType": [
+      "Breakfast"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQwMDUwNjMsImV4cCI6MTc5NDAwNjg2M30.4qwB4FPtludODTYKsUwljXCq_6VVNOJ3_Qd5sQZBDsI"
+  }
+}

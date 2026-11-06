@@ -1,0 +1,21 @@
+DEBUG    dummyjson_test:data_generator.py:62 生成产品数据: Test Product 管理
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/products/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Test Product 管理', 'description': '浏览合作很多其他发展大小很多介绍成功运行一些科技威望管理注册.', 'category': 'furniture', 'price': 724.75, 'discountPercentage': 9.34, 'rating': 4.54, 'stock': 38, 'tags': ['一些', '一些', '系统'], 'brand': '恩悌网络有限公司', 'sku': '9B4F5Y4C'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /products/add HTTP/1.1" 201 272
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.047s
+INFO     dummyjson_test:keyword_actions.py:154 提取字段: id=195
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=Test Product 管理
+INFO     dummyjson_test:http_client.py:108 [GET] https://dummyjson.com/products/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "GET /products/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.023s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: id=1
+INFO     dummyjson_test:keyword_actions.py:103 字段非空验证通过: title
+INFO     dummyjson_test:http_client.py:108 [PUT] https://dummyjson.com/products/1 | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Updated Title'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "PUT /products/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.058s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: title=Updated Title
+INFO     dummyjson_test:http_client.py:108 [DELETE] https://dummyjson.com/products/1 | attempt=1/3
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "DELETE /products/1 HTTP/1.1" 200 None
+INFO     dummyjson_test:http_client.py:125 响应状态码: 200 | 耗时: 0.047s
+INFO     dummyjson_test:keyword_actions.py:106 字段值验证通过: isDeleted=True

@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 06 Nov 2026 22:44:27 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"71-naTa+ZgoNJ72veuz4aSUsQpaupw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "34",
+    "x-ratelimit-reset": "1794005074",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jKo5AIcDxsUbxdtYndkZQnAUW1tImJGv7olz9ELO9PzLEuK3TSaBesceBPZKKGtf5eF4RvPV0goY9tChOHXxLzgvyIkEXTYUln89YLhVY8mFlRKJCOX0IdPGw%2FvhfBWR\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5679f7ab8e61158-ORD"
+  },
+  "body": {
+    "id": 112,
+    "quote": "An alert and learned man will take advice from any event.",
+    "author": "Ali ibn Abi Talib (R.A)"
+  },
+  "elapsed_ms": 44.244
+}
