@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 觉得",
+    "description": "之后表示社会您的不过通过报告时间深圳电影必须所有个人留言只有关于质量比较一点.",
+    "category": "fragrances",
+    "price": 637.2,
+    "discountPercentage": 22.46,
+    "rating": 4.35,
+    "stock": 63,
+    "tags": [
+      "必须",
+      "出现",
+      "品牌"
+    ],
+    "brand": "天开传媒有限公司",
+    "sku": "AGBJTOP2"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQ2MTE4MDIsImV4cCI6MTc5NDYxMzYwMn0.NjlnQ6aGcu5BgULKB-Y7EqPy91zZ7u1mncnRpnVkwqg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 13 Nov 2026 23:17:02 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"7e-tEElmqW9+5i2U8P/8jqBxeCfWVc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "91",
+    "x-ratelimit-reset": "1794611832",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=49z7DoSZQ8xEGP%2BXBGMQ86qGRzt5euyL60CzUoGhx3b6%2BSsn8r0FnkVVtEw3Kd%2FkFZbXaBMHxhfqZ9YVUan1m8jC8SzLcfngP9PZvFgvZ6beXNL8%2BJV5e7OiYMi0qtk%2B\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5a17cd3bdfec346-EWR"
+  },
+  "body": {
+    "id": 401,
+    "quote": "Pride In The Case Of A Rich Man Is Bad, But Pride In The Case Of A Poor Man Is Worse.",
+    "author": "Abu Bakr"
+  },
+  "elapsed_ms": 129.958
+}

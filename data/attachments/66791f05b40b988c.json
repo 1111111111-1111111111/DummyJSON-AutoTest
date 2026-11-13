@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 13 Nov 2026 23:16:49 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "297",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"129-+tfXIJLxt72fHh+/1YwIXTWjwks\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "40",
+    "x-ratelimit-reset": "1794611812",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ih1HoaLq6h79SwMMDtl2%2FT9iWfEtKl9LVcD4KDxZvj%2FGosg%2BYEkVNS8PDXGnhfjonuBGVs3grUN%2BwgjZTnAo8eyaP9cXytxPxnNE%2F4tI8NhpAC0slghX%2B%2Be8HleKdloT\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5a17c831b1bc346-EWR"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 觉得",
+    "price": 637.2,
+    "discountPercentage": 22.46,
+    "stock": 63,
+    "rating": 4.35,
+    "description": "之后表示社会您的不过通过报告时间深圳电影必须所有个人留言只有关于质量比较一点.",
+    "brand": "天开传媒有限公司",
+    "category": "fragrances"
+  },
+  "elapsed_ms": 133.107
+}

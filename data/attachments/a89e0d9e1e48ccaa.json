@@ -1,0 +1,33 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 13 Nov 2026 23:16:56 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "79",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"4f-vLnpzhvnf1g6EKpx4DJmkhn5pTM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "64",
+    "x-ratelimit-reset": "1794611822",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jyroHLj178%2FXJEZ%2BxXsAAltuWDkf4ZzfrMoc6mgsYGDafdxfnTwNBkqPXROF5mtWIyUMZIiLnpj0oy0%2BlVqvpd94HUvKONIJvRRTiJpnPzOP%2FUHHdk2T9wP73Yhb0qyE\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5a17cae9d17c346-EWR"
+  },
+  "body": {
+    "id": 255,
+    "todo": "中国市场制作世界控制.",
+    "completed": true,
+    "userId": 5
+  },
+  "elapsed_ms": 140.11399999999998
+}

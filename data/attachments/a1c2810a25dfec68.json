@@ -1,0 +1,58 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 13 Nov 2026 23:16:54 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "398",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"18e-1adcvUcDEY4aC/LfawcpNgFzDwU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "80",
+    "x-ratelimit-reset": "1794611822",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0EfDNID7koYYi0hG4PfampPqet%2BirEvIdroWssktELxcZDxAIgSrq0GOfysxjwJco54WxV%2BNNOQPav5m204B52Ex9r%2B%2BI8ZYkTW%2B48ZWexI2d4X%2F6%2BwACmlvCNFGNSIS\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5a17ca1deccc346-EWR"
+  },
+  "body": {
+    "id": 51,
+    "name": "基本 Special Recipe",
+    "ingredients": [
+      "一样",
+      "可是",
+      "要求",
+      "工作",
+      "全国"
+    ],
+    "instructions": [
+      "增加本站发生最后.",
+      "日期用户计划文件.",
+      "一次人员这种浏览直接."
+    ],
+    "prepTimeMinutes": 9,
+    "cookTimeMinutes": 73,
+    "servings": 5,
+    "difficulty": "Medium",
+    "cuisine": "French",
+    "caloriesPerServing": 195,
+    "tags": [
+      "朋友",
+      "解决",
+      "个人"
+    ],
+    "userId": 116,
+    "mealType": [
+      "Snack"
+    ]
+  },
+  "elapsed_ms": 127.718
+}

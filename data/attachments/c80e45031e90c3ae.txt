@@ -1,0 +1,9 @@
+DEBUG    dummyjson_test:data_generator.py:62 生成产品数据: Test Product 觉得
+INFO     dummyjson_test:base_api.py:86 POST /products/add
+INFO     dummyjson_test:http_client.py:108 [POST] https://dummyjson.com/products/add | attempt=1/3
+DEBUG    dummyjson_test:http_client.py:112 请求体: {'title': 'Test Product 觉得', 'description': '之后表示社会您的不过通过报告时间深圳电影必须所有个人留言只有关于质量比较一点.', 'category': 'fragrances', 'price': 637.2, 'discountPercentage': 22.46, 'rating': 4.35, 'stock': 63, 'tags': ['必须', '出现', '品牌'], 'brand': '天开传媒有限公司', 'sku': 'AGBJTOP2'}
+DEBUG    urllib3.connectionpool:connectionpool.py:550 https://dummyjson.com:443 "POST /products/add HTTP/1.1" 201 297
+INFO     dummyjson_test:http_client.py:125 响应状态码: 201 | 耗时: 0.133s
+INFO     dummyjson_test:assertions.py:24 断言通过: id 非空
+INFO     dummyjson_test:assertions.py:18 断言通过: title=Test Product 觉得
+INFO     dummyjson_test:assertions.py:18 断言通过: price=637.2

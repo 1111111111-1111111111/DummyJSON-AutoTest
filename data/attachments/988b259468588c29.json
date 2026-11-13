@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "品牌最新设计使用地址内容更新看到评论国家进行.",
+    "body": "全部朋友世界提高上海.运行你的论坛您的正在.国家国际网站当然责任怎么.",
+    "userId": 1,
+    "tags": [
+      "操作",
+      "准备",
+      "全国"
+    ],
+    "reactions": {
+      "likes": 350,
+      "dislikes": 37
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQ2MTE4MDIsImV4cCI6MTc5NDYxMzYwMn0.NjlnQ6aGcu5BgULKB-Y7EqPy91zZ7u1mncnRpnVkwqg"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 13 Nov 2026 23:16:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "173",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"ad-dkVF5xJzu3IOqOUqpEX+NrXrIMo\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "70",
+    "x-ratelimit-reset": "1794611812",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XKIZQpoLyeetMCqsfnlgNG3vrUwv%2FSJkTkX2LAeWhMar0LDyesHEppwLWdNGi12PG5gRZz%2BVSOfIujcXMToJVXFZB0lkfhWAClK65E0JhBQo6uR3iMWs8VRfY21ARsCs\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5a17c68fa13c346-EWR"
+  },
+  "body": {
+    "id": 341,
+    "body": "世界这些标准具有完成大家一次社会出现企业教育不会活动.",
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "username": "emilys",
+      "fullName": "Emily Johnson"
+    }
+  },
+  "elapsed_ms": 126.19500000000001
+}

@@ -1,0 +1,39 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "基本 Special Recipe",
+    "ingredients": [
+      "一样",
+      "可是",
+      "要求",
+      "工作",
+      "全国"
+    ],
+    "instructions": [
+      "增加本站发生最后.",
+      "日期用户计划文件.",
+      "一次人员这种浏览直接."
+    ],
+    "prepTimeMinutes": 9,
+    "cookTimeMinutes": 73,
+    "servings": 5,
+    "difficulty": "Medium",
+    "cuisine": "French",
+    "caloriesPerServing": 195,
+    "tags": [
+      "朋友",
+      "解决",
+      "个人"
+    ],
+    "userId": 116,
+    "mealType": [
+      "Snack"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQ2MTE4MDIsImV4cCI6MTc5NDYxMzYwMn0.NjlnQ6aGcu5BgULKB-Y7EqPy91zZ7u1mncnRpnVkwqg"
+  }
+}

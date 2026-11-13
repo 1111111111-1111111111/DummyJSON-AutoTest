@@ -1,0 +1,60 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 13 Nov 2026 23:16:55 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"210-+2cTmhR2EuSGpcRAKgsfFUK166o\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "73",
+    "x-ratelimit-reset": "1794611822",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=iHr88mk1unpfXHp%2BSx6Nh2fQvLlzQpHFb77hVo4jxqCNwdEvOm8BQF7qkmjaTDv6yPs%2B%2BCESwbjxIYlV3ukPGF4a5Xso4EwmulawSUTA%2BrLBnO41dRRYeNjTA1MvjUfa\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5a17ca6df39c346-EWR"
+  },
+  "body": {
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Classic Margherita Pizza",
+        "image": "https://cdn.dummyjson.com/recipe-images/1.webp"
+      },
+      {
+        "id": 2,
+        "name": "Vegetarian Stir-Fry",
+        "image": "https://cdn.dummyjson.com/recipe-images/2.webp"
+      },
+      {
+        "id": 3,
+        "name": "Chocolate Chip Cookies",
+        "image": "https://cdn.dummyjson.com/recipe-images/3.webp"
+      },
+      {
+        "id": 4,
+        "name": "Chicken Alfredo Pasta",
+        "image": "https://cdn.dummyjson.com/recipe-images/4.webp"
+      },
+      {
+        "id": 5,
+        "name": "Mango Salsa Chicken",
+        "image": "https://cdn.dummyjson.com/recipe-images/5.webp"
+      }
+    ],
+    "total": 50,
+    "skip": 0,
+    "limit": 5
+  },
+  "elapsed_ms": 127.20100000000001
+}

@@ -1,0 +1,47 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 13 Nov 2026 23:16:44 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "347",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"15b-1PBWUPzNQk8XJ5n2tGezPtDRdhU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "83",
+    "x-ratelimit-reset": "1794611812",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RvEtHk8PEUosfWyEVu%2B1PUF5Kai1XzdgAx6Nbpjj4D8Q4kNCPN7YVsdmQmZKSXHljYNeBO5CchqZkNHGEWRLWIWe22xJ7QEyT%2Fruvd%2BKzE4kuzN5iF%2FgyKYNb9PvxbDK\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5a17c5ec98fc346-EWR"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 156,
+        "title": "Green and Black Glasses",
+        "price": 34.99,
+        "quantity": 9,
+        "total": 314.91,
+        "discountPercentage": 1.01,
+        "discountedPrice": 312,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/thumbnail.webp"
+      }
+    ],
+    "total": 314.91,
+    "discountedTotal": 312,
+    "userId": 1,
+    "totalProducts": 1,
+    "totalQuantity": 9
+  },
+  "elapsed_ms": 127.244
+}

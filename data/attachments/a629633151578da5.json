@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "强",
+    "lastName": "赵",
+    "age": 61,
+    "gender": "male",
+    "email": "jietao@example.net",
+    "phone": "15161011268",
+    "username": "lzhong",
+    "password": "+5pAhKSmwS65",
+    "birthDate": "2016-09-10",
+    "bloodGroup": "AB+",
+    "height": 165.68,
+    "weight": 63.41,
+    "eyeColor": "Blue"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTQ2MTE4MDIsImV4cCI6MTc5NDYxMzYwMn0.NjlnQ6aGcu5BgULKB-Y7EqPy91zZ7u1mncnRpnVkwqg"
+  }
+}
