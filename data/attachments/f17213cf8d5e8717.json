@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:22 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"96-2llsKHWvstUBHxU8eY+Qa1TKIqg\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "93",
+    "x-ratelimit-reset": "1795218152",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JKm2K3D61xvSpdqDKAlyUWoZ9V0OLwz4L6CykXxvb61ZwLRbu%2BzH13sb%2BGlFGiYQ8i%2FDLOkggSaFl1Gs0WCyDEke5aq6uuF73pNdDQ6UJHJ9xbmy%2F6q%2B%2F6bPBsDSrFgh\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4f904ea91345-MSP"
+  },
+  "body": {
+    "id": 403,
+    "quote": "Why Is It That We Rejoice At A Birth And Grieve At A Funeral? It Is Because We Are Not The Person Involved.",
+    "author": "Mark Twain"
+  },
+  "elapsed_ms": 155.632
+}

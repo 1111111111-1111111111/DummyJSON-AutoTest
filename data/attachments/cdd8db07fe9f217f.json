@@ -1,0 +1,63 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:25 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "544",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"220-2x7xgodJ8poRihKBNePrvtYyMiA\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "79",
+    "x-ratelimit-reset": "1795218152",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2Fx006sUSBCXCHJk2ljHzzESNr%2Bn7ldKMRC0PlNSDCKcGNjBFlhXhsgr3SzMRovKTXcrGR7RMOrx3tvOeek3y44WusbpTcw3f%2BftpWRmIzFadVcvXRhNUNc0F5gHaO3Dx\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4f9fdcb71345-MSP"
+  },
+  "body": {
+    "id": 51,
+    "name": "介绍 Special Recipe",
+    "ingredients": [
+      "设计",
+      "还是",
+      "出现",
+      "孩子",
+      "一些",
+      "活动",
+      "教育"
+    ],
+    "instructions": [
+      "社区选择教育出现只是无法欢迎.",
+      "谢谢运行一些.",
+      "以上进入两个专业.",
+      "查看教育系统主题主要没有.",
+      "一起东西的人我们是否系列留言电脑.",
+      "处理通过一个能够."
+    ],
+    "prepTimeMinutes": 27,
+    "cookTimeMinutes": 44,
+    "servings": 3,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 386,
+    "tags": [
+      "之间",
+      "不断",
+      "当然"
+    ],
+    "userId": 141,
+    "mealType": [
+      "Dessert"
+    ]
+  },
+  "elapsed_ms": 149.89
+}

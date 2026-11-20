@@ -1,0 +1,57 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "617",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"269-QppaESU88OlnI8tNSXePE4v6P30\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "91",
+    "x-ratelimit-reset": "1795218142",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qrGwYtLRIG%2Fqr9N2YQNBX3ALkiooPvYtt7ndNLpJS9IVX7OcJ9aYmCqZ4Y4nhETem6xMPkmfDPUmcL2yVw8Gw55WE5BF7hbWyrEQ9fIGzZZxvTeDmwFyM6AFpsAoI3ZC\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4f4ffa7f1345-MSP"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 78,
+        "title": "Apple MacBook Pro 14 Inch Space Grey",
+        "price": 1999.99,
+        "quantity": 2,
+        "total": 3999.98,
+        "discountPercentage": 4.69,
+        "discountedPrice": 3812,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
+      },
+      {
+        "id": 159,
+        "title": "iPad Mini 2021 Starlight",
+        "price": 499.99,
+        "quantity": 5,
+        "total": 2499.95,
+        "discountPercentage": 3.64,
+        "discountedPrice": 2409,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp"
+      }
+    ],
+    "total": 6499.93,
+    "discountedTotal": 6221,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 7
+  },
+  "elapsed_ms": 157.386
+}

@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "分析对于其他继续.",
+    "body": "他们提高法律简介一起喜欢.可以在线之后.谢谢起来处理行业国内完全所以上海.日期点击文章免费.广告不能没有更多而且以及能够得到.",
+    "userId": 1,
+    "tags": [
+      "法律",
+      "东西",
+      "社区"
+    ],
+    "reactions": {
+      "likes": 200,
+      "dislikes": 20
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUyMTgxMzAsImV4cCI6MTc5NTIxOTkzMH0.spLbgWThbPaUgzl_I_6Wdy4F9Ok44XJ4yLizE7_iS2w"
+  }
+}

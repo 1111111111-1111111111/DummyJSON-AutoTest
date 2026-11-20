@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 深圳",
+    "description": "操作文章影响软件任何学生还有合作评论.",
+    "category": "furniture",
+    "price": 610.75,
+    "discountPercentage": 24.84,
+    "rating": 4.78,
+    "stock": 59,
+    "tags": [
+      "资料",
+      "选择",
+      "发表"
+    ],
+    "brand": "双敏电子网络有限公司",
+    "sku": "5A86TGWT"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUyMTgxMzAsImV4cCI6MTc5NTIxOTkzMH0.spLbgWThbPaUgzl_I_6Wdy4F9Ok44XJ4yLizE7_iS2w"
+  }
+}

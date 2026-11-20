@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 开发",
+    "description": "企业一起不能孩子知道有关不断销售相关最大.",
+    "category": "fragrances",
+    "price": 637.51,
+    "discountPercentage": 3.21,
+    "rating": 4.19,
+    "stock": 45,
+    "tags": [
+      "都是",
+      "城市",
+      "提供"
+    ],
+    "brand": "商软冠联信息有限公司",
+    "sku": "3S3RFA8L"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUyMTgxMzAsImV4cCI6MTc5NTIxOTkzMH0.spLbgWThbPaUgzl_I_6Wdy4F9Ok44XJ4yLizE7_iS2w"
+  }
+}

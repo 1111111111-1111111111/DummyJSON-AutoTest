@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:21 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "243",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"f3-YV4a4MAOGpPmBBEOM9sq/x1LruM\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "98",
+    "x-ratelimit-reset": "1795218152",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1eN0sMkkiylH0eo022%2F%2F52Z%2BXuNTpXwZRCJkFJDT5EN1zEVUFEjxTFJztewDA%2Fjjyhdp4%2B%2FnbZjFDIeNS8fQKMHJ8NJLUS0Nvfag33pSDbGVnByZGrZdb%2FT931WHoTF1\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4f887fca1345-MSP"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 深圳",
+    "price": 610.75,
+    "discountPercentage": 24.84,
+    "stock": 59,
+    "rating": 4.78,
+    "description": "操作文章影响软件任何学生还有合作评论.",
+    "brand": "双敏电子网络有限公司",
+    "category": "furniture"
+  },
+  "elapsed_ms": 142.96900000000002
+}

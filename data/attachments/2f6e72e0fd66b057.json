@@ -1,0 +1,60 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:28 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"15c-FzLmxc/MKyojd091ohMJRVG4Yq0\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "59",
+    "x-ratelimit-reset": "1795218152",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4O4jBkF8Bv1U5PkFjtESYqPqm%2BYaqhYp1da21%2FGeMC3OwbAR4Kpx%2FEwaBNclhoV7G4rkyDiwbxR%2F%2B9TjdcQzvL%2Bhd%2F00AQbYl6ovKmhTNcIIw1yPPUoUf9SAgkIwu5sx\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4fb3bde01345-MSP"
+  },
+  "body": {
+    "todos": [
+      {
+        "id": 1,
+        "todo": "Do something nice for someone you care about",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "todo": "Memorize a poem",
+        "completed": true
+      },
+      {
+        "id": 3,
+        "todo": "Watch a classic movie",
+        "completed": true
+      },
+      {
+        "id": 4,
+        "todo": "Watch a documentary",
+        "completed": false
+      },
+      {
+        "id": 5,
+        "todo": "Invest in cryptocurrency",
+        "completed": false
+      }
+    ],
+    "total": 254,
+    "skip": 0,
+    "limit": 5
+  },
+  "elapsed_ms": 161.475
+}

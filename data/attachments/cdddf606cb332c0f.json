@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:16 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "322",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"142-buAnhbeQivOkp+GfeMb7vTFq5xg\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "68",
+    "x-ratelimit-reset": "1795218142",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=etVYmtafttnxrH1KytI%2BJDIknoaYArfuW6SkuHIw7G31HFimbwNZ2KpY5iJRYOiHOI%2FvaqdkiF87J3GUNFq3w1EzmY4eGu%2FSan%2B5h7cmfB73qhZ81UYkvRXBnAxYd7wk\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4f6b08711345-MSP"
+  },
+  "body": {
+    "id": 252,
+    "title": "分析对于其他继续.",
+    "body": "他们提高法律简介一起喜欢.可以在线之后.谢谢起来处理行业国内完全所以上海.日期点击文章免费.广告不能没有更多而且以及能够得到.",
+    "userId": 1,
+    "tags": [
+      "法律",
+      "东西",
+      "社区"
+    ],
+    "reactions": {
+      "likes": 200,
+      "dislikes": 20
+    }
+  },
+  "elapsed_ms": 142.80200000000002
+}

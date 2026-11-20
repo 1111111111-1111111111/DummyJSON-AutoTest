@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:20 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "249",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"f9-Bvq7b9gwMqbsUXdrAaA9jNi4/dk\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "49",
+    "x-ratelimit-reset": "1795218142",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=UzV33N%2BvvYvG8oKvU8OhywglDmLTBUNGV5yfL78rRAEO9iA1VwBnr3V0fEqVznU7673sf8DIaiv0RWNVpa6n%2FqVI1lx%2FC5OE9TSPXt21oPbo2c7wslqdJisK7kGVN%2BSH\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4f7e598f1345-MSP"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 开发",
+    "price": 637.51,
+    "discountPercentage": 3.21,
+    "stock": 45,
+    "rating": 4.19,
+    "description": "企业一起不能孩子知道有关不断销售相关最大.",
+    "brand": "商软冠联信息有限公司",
+    "category": "fragrances"
+  },
+  "elapsed_ms": 154.137
+}

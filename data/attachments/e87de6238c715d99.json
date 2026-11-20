@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:42:33 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"79-C0Zzs9R1Ip25bfI0HGdVrmqBFKo\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "84",
+    "x-ratelimit-reset": "1795218162",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=w2LmtIUKMoGZoVwmg8JgRFDMYCrgsaOubnWJ2y3M3IN9yiNRIFOqT3CXVVCoRH8qrQAAbvOQM97EI6TPBtvPXmKbPksIS1AYPxJMpX7W47bdXzJ4TLBxR4eu8LD4nPNY\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4fd52ccf1345-MSP"
+  },
+  "body": {
+    "id": 1201,
+    "quote": "An Appeaser Is One Who Feeds A Crocodile, Hoping It Will Eat Him Last.",
+    "author": "Winston Churchill"
+  },
+  "elapsed_ms": 147.808
+}

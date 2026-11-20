@@ -1,0 +1,44 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "介绍 Special Recipe",
+    "ingredients": [
+      "设计",
+      "还是",
+      "出现",
+      "孩子",
+      "一些",
+      "活动",
+      "教育"
+    ],
+    "instructions": [
+      "社区选择教育出现只是无法欢迎.",
+      "谢谢运行一些.",
+      "以上进入两个专业.",
+      "查看教育系统主题主要没有.",
+      "一起东西的人我们是否系列留言电脑.",
+      "处理通过一个能够."
+    ],
+    "prepTimeMinutes": 27,
+    "cookTimeMinutes": 44,
+    "servings": 3,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 386,
+    "tags": [
+      "之间",
+      "不断",
+      "当然"
+    ],
+    "userId": 141,
+    "mealType": [
+      "Dessert"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUyMTgxMzAsImV4cCI6MTc5NTIxOTkzMH0.spLbgWThbPaUgzl_I_6Wdy4F9Ok44XJ4yLizE7_iS2w"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "params": null,
+  "body": {
+    "firstName": "倩",
+    "lastName": "叶",
+    "age": 24,
+    "gender": "female",
+    "email": "pinghan@example.org",
+    "phone": "15231947084",
+    "username": "maogang",
+    "password": "bgmBg5n8&k8M",
+    "birthDate": "1942-07-29",
+    "bloodGroup": "B+",
+    "height": 185.32,
+    "weight": 76.35,
+    "eyeColor": "Brown"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUyMTgxMzAsImV4cCI6MTc5NTIxOTkzMH0.spLbgWThbPaUgzl_I_6Wdy4F9Ok44XJ4yLizE7_iS2w"
+  }
+}

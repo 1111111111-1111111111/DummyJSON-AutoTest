@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Fri, 20 Nov 2026 23:41:50 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"bc-8Iyg6jCOfKWA/Gn4fc/lozwZ70E\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1795218114",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NvCLyzcYD6aOQIH25TctgM%2BQpMrPryJVicWQzylUSVG1o2sbvE7PPq3kpKtPiVWp4Syi4OVU4xuQJcSiNa3tWq%2Bp33fJe9Mu%2Br0zQStMDH64%2BGXC%2BplYOXVU1AiEmitS\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a5db4ec5ad67e762-IAD"
+  },
+  "body": {
+    "id": 1110,
+    "quote": "There is no capital more useful than intellect and wisdom, and there is no indigence more injurious than ignorance and unawareness.",
+    "author": "Ali ibn Abi Talib (R.A)"
+  },
+  "elapsed_ms": 25.712
+}
