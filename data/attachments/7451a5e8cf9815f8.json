@@ -1,0 +1,43 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/recipes/add",
+  "params": null,
+  "body": {
+    "name": "一直 Special Recipe",
+    "ingredients": [
+      "知道",
+      "帖子",
+      "还是",
+      "关于",
+      "音乐",
+      "选择",
+      "文章",
+      "现在"
+    ],
+    "instructions": [
+      "发布然后社会关系.",
+      "发布她的新闻一下.",
+      "中国提高您的不能.",
+      "上海具有学习然后一种文件."
+    ],
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 83,
+    "servings": 6,
+    "difficulty": "Hard",
+    "cuisine": "Asian",
+    "caloriesPerServing": 402,
+    "tags": [
+      "来源",
+      "电影",
+      "本站"
+    ],
+    "userId": 75,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTU4MjgwMjAsImV4cCI6MTc5NTgyOTgyMH0.bjrX00KVwaL0U8lK8azQ9uVkq469IcDi2crpp6e9dns"
+  }
+}

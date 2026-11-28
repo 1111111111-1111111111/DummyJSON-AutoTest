@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:08 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "283",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"11b-BBULBxdFa8JFz87FooJlyD4A528\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "57",
+    "x-ratelimit-reset": "1795828032",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BA1u16zV85bmlmZ1O5LE6RLUEVm0UzNYVUlLWYjBFj%2FUWoQDDtFeFR2kLC%2BrFF1B7ZFc3YD4omp%2BbQhtfgQHW%2Bh0hzakeikrjMW1HL1KYzUZjXejguDeJESJL3diXR4j\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a6157959df1d0dda-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 准备",
+    "price": 932.46,
+    "discountPercentage": 16.58,
+    "stock": 88,
+    "rating": 4.22,
+    "description": "问题一下非常虽然看到网站问题然后企业同时状态状态为了加入网上使用.",
+    "brand": "浦华众城网络有限公司",
+    "category": "laptops"
+  },
+  "elapsed_ms": 118.491
+}

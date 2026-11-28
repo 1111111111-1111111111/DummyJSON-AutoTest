@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:06:42 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"7c-Y/dP5zoyQWAlt0H6uu535MOgUIc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "90",
+    "x-ratelimit-reset": "1795828006",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AShPwjXXPtfPlk3Kabv7MCNjomizTzmb3Ha1BygaJ%2FfjhGo0THsT9hwYMB07F2L72bG8pKAU0fvaTFyP7hU6tNr7ZBscY8aaiM4skv0g6bISSxTUSZoXndcqkvU%2Bx1xu\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a61578b608d24c7f-DFW"
+  },
+  "body": {
+    "id": 808,
+    "quote": "In Order To Exist Just Once In The World, It Is Necessary Never Again To Exist.",
+    "author": "Albert Camus"
+  },
+  "elapsed_ms": 76.178
+}

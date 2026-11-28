@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:19 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"87-uREmlDj2FfQYqTZvJ0NazFjtKKQ\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "39",
+    "x-ratelimit-reset": "1795828042",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1FSe16fJXBzepIuTcBwqEYEAoJG5vx0kVyM9T6jJsg5DWLsc9E39n%2BK%2FvoaAV%2ByEcPDXUwSxmIv5G5nc3%2BtPMPwe35B%2FVNhag65j72V8fN%2FzAvOIBCRvIAiAc5vUuv6u\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a61579a00d960dda-IAD"
+  },
+  "body": {
+    "id": 1407,
+    "quote": "To be a great champion you must believe you are the best. If you're not, pretend you are.",
+    "author": "Muhammad Ali"
+  },
+  "elapsed_ms": 120.507
+}

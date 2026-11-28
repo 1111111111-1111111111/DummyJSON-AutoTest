@@ -1,0 +1,30 @@
+{
+  "status_code": 404,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:13 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "46",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"2e-dZGzgEq6Vx4Un/cdgkPQd3kjxgc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "85",
+    "x-ratelimit-reset": "1795828042",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VGFvrB9UKpujItTXvO%2FddthjPvQZrk48hNSfa0ELL5RUfdGmsoYpn5K%2FOHiL5tEVWWMl3WBOMtv%2FAyzPLIJS2x2ZV7%2FZLtQCw92BBQeUCAEoxmXt84XsWg15XiVUXfSv\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a615797acfc00dda-IAD"
+  },
+  "body": {
+    "message": "Recipe with id '99999' not found"
+  },
+  "elapsed_ms": 117.59100000000001
+}

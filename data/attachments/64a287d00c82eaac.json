@@ -1,0 +1,67 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:02 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "817",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"331-8bTo6nZ22yEOHJOEkOJyj1deG7k\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1795828032",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7KN8JZM4CFW%2BUS%2Bi9SvlirJqJDE%2BK3iNedBkvJqUwqsRZXwyOZs4DZzXeiF9T%2BpKW%2BOflikVCNIVhJ6PvmdX2Rec1wf9Sy8VwcHGIfT5FM0qcU3bPD2Ch%2FGzAJef29eg\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a61579315e550dda-IAD"
+  },
+  "body": {
+    "id": 209,
+    "products": [
+      {
+        "id": 139,
+        "title": "Baseball Glove",
+        "price": 24.99,
+        "quantity": 6,
+        "total": 149.94,
+        "discountPercentage": 2.9,
+        "discountedPrice": 146,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/thumbnail.webp"
+      },
+      {
+        "id": 79,
+        "title": "Asus Zenbook Pro Dual Screen Laptop",
+        "price": 1799.99,
+        "quantity": 10,
+        "total": 17999.9,
+        "discountPercentage": 11.14,
+        "discountedPrice": 15995,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
+      },
+      {
+        "id": 20,
+        "title": "Cooking Oil",
+        "price": 4.99,
+        "quantity": 1,
+        "total": 4.99,
+        "discountPercentage": 9.33,
+        "discountedPrice": 5,
+        "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp"
+      }
+    ],
+    "total": 18154.83,
+    "discountedTotal": 16146,
+    "userId": 1,
+    "totalProducts": 3,
+    "totalQuantity": 17
+  },
+  "elapsed_ms": 134.763
+}

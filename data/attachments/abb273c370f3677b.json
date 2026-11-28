@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 准备",
+    "description": "问题一下非常虽然看到网站问题然后企业同时状态状态为了加入网上使用.",
+    "category": "laptops",
+    "price": 932.46,
+    "discountPercentage": 16.58,
+    "rating": 4.22,
+    "stock": 88,
+    "tags": [
+      "空间",
+      "深圳",
+      "人民"
+    ],
+    "brand": "浦华众城网络有限公司",
+    "sku": "9K9EXDEA"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTU4MjgwMjAsImV4cCI6MTc5NTgyOTgyMH0.bjrX00KVwaL0U8lK8azQ9uVkq469IcDi2crpp6e9dns"
+  }
+}

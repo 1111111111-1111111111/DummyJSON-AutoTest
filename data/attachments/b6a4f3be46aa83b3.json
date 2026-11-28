@@ -1,0 +1,42 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:06 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "329",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"149-AYEFR7V0jY3wMYBtTH8zd8sYc2g\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "76",
+    "x-ratelimit-reset": "1795828032",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cQNKpJEZLNHcMRmESapk9rpE%2B2CEYOD2QC59rQsJ0SYv%2FGMl285yxhDjR0IK2cVhSGZfDIApZfprTCOgIP9cVc5kJcrSilM8ay9cQZtDHQRUwkjf62ZdyscP5fzo0EAK\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a615794a4d8b0dda-IAD"
+  },
+  "body": {
+    "id": 252,
+    "title": "文件搜索以上实现价格精华政府.",
+    "body": "这样国际分析时候.主要认为价格.公司经验两个.设计历史登录以后时候法律一切.电话这里对于人民城市.很多开始你的生活部分.",
+    "userId": 1,
+    "tags": [
+      "等级",
+      "关于",
+      "生活"
+    ],
+    "reactions": {
+      "likes": 470,
+      "dislikes": 16
+    }
+  },
+  "elapsed_ms": 120.38600000000001
+}

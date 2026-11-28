@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:03 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "179",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"b3-hYnzSBCVhE7q3x0jdNAcAo/8WGo\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "87",
+    "x-ratelimit-reset": "1795828032",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gAASh%2Bx0UWKrSA7iVFLt5%2Fal0RyYMA2xL1Dy%2FkXD2EujCL20l6QAL5lB5TqK%2BzhX3iLU47A%2BaPs%2F8V0KmmRYg3bu4B8XrmG0ijl9absyaoDThm80oBdbyoA2QSIvHYWv\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a615793b6c3f0dda-IAD"
+  },
+  "body": {
+    "id": 341,
+    "body": "深圳成功支持上海开发单位应用工程电脑那些设备管理学校北京.",
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "username": "emilys",
+      "fullName": "Emily Johnson"
+    }
+  },
+  "elapsed_ms": 118.42099999999999
+}

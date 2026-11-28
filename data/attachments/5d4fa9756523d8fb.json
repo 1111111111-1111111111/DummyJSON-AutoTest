@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/products/add",
+  "params": null,
+  "body": {
+    "title": "Test Product 质量",
+    "description": "地址其他这里来源然后原因语言今年非常.",
+    "category": "beauty",
+    "price": 957.32,
+    "discountPercentage": 7.35,
+    "rating": 4.53,
+    "stock": 56,
+    "tags": [
+      "时候",
+      "只要",
+      "不过"
+    ],
+    "brand": "毕博诚科技有限公司",
+    "sku": "0TDWY8G8"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTU4MjgwMjAsImV4cCI6MTc5NTgyOTgyMH0.bjrX00KVwaL0U8lK8azQ9uVkq469IcDi2crpp6e9dns"
+  }
+}

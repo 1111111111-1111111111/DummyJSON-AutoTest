@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"90-LVgD7MpCeUOh/dChojyEOa8+nNw\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1795828042",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FQ2sT0dAqQ%2BaK5zg0lrs%2BhVa8V2zGqMjM%2FeKIEB0qzohWqkY2CQu1JmezvnAUh5%2FzXidoAxRj5DIP1oTw3TIDR1po05xV0VS8UH84%2BFezfYFftCjZn1UXCKUWxctY1sL\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a615796f68f10dda-IAD"
+  },
+  "body": {
+    "id": 1203,
+    "quote": "When It Is Obvious That The Goals Cannot Be Reached, Don'T Adjust The Goals, Adjust The Action Steps.",
+    "author": "Confucius"
+  },
+  "elapsed_ms": 118.014
+}

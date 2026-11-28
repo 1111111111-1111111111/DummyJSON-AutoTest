@@ -1,0 +1,23 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/posts/add",
+  "params": null,
+  "body": {
+    "title": "只是认为网络一直具有.",
+    "body": "作者说明主题文化科技.影响完全生产那些阅读报告运行.公司生产显示一点.表示最新发布为了汽车业务论坛.类型什么活动同时以下价格.一起浏览虽然这种留言这里.",
+    "userId": 1,
+    "tags": [
+      "精华",
+      "更多",
+      "威望"
+    ],
+    "reactions": {
+      "likes": 266,
+      "dislikes": 17
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTU4MjgwMjAsImV4cCI6MTc5NTgyOTgyMH0.bjrX00KVwaL0U8lK8azQ9uVkq469IcDi2crpp6e9dns"
+  }
+}

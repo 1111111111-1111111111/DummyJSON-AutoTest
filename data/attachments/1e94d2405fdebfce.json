@@ -1,0 +1,38 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:09 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "236",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"ec-shtyPnJny+7Fc4+9GQYI0wz2VAU\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1795828032",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=W%2ByxPV%2BXO2s55I6RnwWXSOfmQk9o%2FxyiF3ZLbfPzgtUcJg1ktX79q2lEQAZyTPNvGqzfOpHQwx2srkSfZ5h6LUXl1yf4vOC1GKiRJgXKKm%2FmPub0QJu5dtYce9kmOIP3\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a61579624ca30dda-IAD"
+  },
+  "body": {
+    "id": 195,
+    "title": "Test Product 质量",
+    "price": 957.32,
+    "discountPercentage": 7.35,
+    "stock": 56,
+    "rating": 4.53,
+    "description": "地址其他这里来源然后原因语言今年非常.",
+    "brand": "毕博诚科技有限公司",
+    "category": "beauty"
+  },
+  "elapsed_ms": 118.227
+}

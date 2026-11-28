@@ -1,0 +1,62 @@
+{
+  "status_code": 201,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "457",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1c9-6qHYRRSEzBr0+fNBzgL3BcN4YLc\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "92",
+    "x-ratelimit-reset": "1795828042",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TCSd6w2YD%2FAo9CZwlv95v%2BRCrZ%2FVwSsEZibTX9GrC79%2BETIvjHCzw4gzb%2FZklbok8oktFrTe%2F0mWlx9BUCa9%2FCKUNVz04xrCWemSbMX%2BM%2F1ja3zEMHvF0fEm7sXlb6wD\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server": "cloudflare",
+    "CF-RAY": "a61579752c660dda-IAD"
+  },
+  "body": {
+    "id": 51,
+    "name": "一直 Special Recipe",
+    "ingredients": [
+      "知道",
+      "帖子",
+      "还是",
+      "关于",
+      "音乐",
+      "选择",
+      "文章",
+      "现在"
+    ],
+    "instructions": [
+      "发布然后社会关系.",
+      "发布她的新闻一下.",
+      "中国提高您的不能.",
+      "上海具有学习然后一种文件."
+    ],
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 83,
+    "servings": 6,
+    "difficulty": "Hard",
+    "cuisine": "Asian",
+    "caloriesPerServing": 402,
+    "tags": [
+      "来源",
+      "电影",
+      "本站"
+    ],
+    "userId": 75,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  "elapsed_ms": 120.34100000000001
+}

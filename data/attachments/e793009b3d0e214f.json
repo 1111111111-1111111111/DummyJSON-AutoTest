@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sat, 28 Nov 2026 01:07:10 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"76-4GztM4mWBnqCT9U1In+LGx6jfpI\"",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "45",
+    "x-ratelimit-reset": "1795828032",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cKZu0IdRbA5AukUJM42anpASKHChrtr8jJBq4Bj%2BByY5NovVnTx9VM%2B2QvGI3wfQV10Gsj008NnqUkuVDyHcOJsKhZr8n%2BjzmYUeKiQIsz2q03JeYDCySZ9Rify5t9ra\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a6157968daab0dda-IAD"
+  },
+  "body": {
+    "id": 1104,
+    "quote": "Indignation Is A Submission Of Our Thoughts, But Not Of Our Desires.",
+    "author": "Bertrand Russell"
+  },
+  "elapsed_ms": 120.316
+}
